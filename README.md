@@ -3,27 +3,23 @@
 
 # What's up! 👋
 
-I have been building different kinds of softwares for various industries including finance, e-commerce and blockchain for many years.
+I have been building different kinds of softwares for various industries including Finance, E-commerce, Blockchain and Cryptocurrency for many years.
 
-On top of that is my mission to solve real life and business problems.
+On top of that, However, I make it my mission to solve real life and business problems.
 
-Want to know more about me? [Check out my portfolio.](https://braydoncoyer.dev/)
+Want to know more about me? [Check out my Portfolio.](https://reamonsumapig.dev/)
 
 <br>
 
-## 💼 Skills
+## 💼 Technical Skills
 
 ![](https://img.shields.io/badge/Code-JavaScript-informational?style=flat&logo=JavaScript&logoColor=white&color=4AB197)
 ![](https://img.shields.io/badge/Code-MySQL-informational?style=flat&logo=MySQL&logoColor=white&color=4AB197)
 
-<details>
-<summary>More Skills</summary>
-<br>
 
 ![](https://img.shields.io/badge/Style-CSS-informational?style=flat&logo=css3&logoColor=white&color=4AB197)
 ![](https://img.shields.io/badge/Style-Sass-informational?style=flat&logo=Sass&logoColor=white&color=4AB197)
 
-<br>
 
 ![](https://img.shields.io/badge/Tools-Docker-informational?style=flat&logo=docker&logoColor=white&color=4AB197)
 ![](https://img.shields.io/badge/Tools-NGINX-informational?style=flat&logo=nginx&logoColor=white&color=4AB197)
@@ -37,4 +33,7 @@ Want to know more about me? [Check out my portfolio.](https://braydoncoyer.dev/)
 ![](https://img.shields.io/badge/Tools-GitLab-informational?style=flat&logo=GitLab&logoColor=white&color=4AB197)
 ![](https://img.shields.io/badge/Tools-Bitbucket-informational?style=flat&logo=Bitbucket&logoColor=white&color=4AB197)
 
+<details>
+<summary>Educational Background</summary>
+<br>
 </details>
