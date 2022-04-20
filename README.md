@@ -13,8 +13,9 @@ On top of using and exploring technologies tools, However, I make it my mission 
 
 ## 💼 Technical Skills
 
-![](https://img.shields.io/badge/Code-JavaScript-informational?style=flat&logo=JavaScript&logoColor=yellow&color=4AB197)
-![](https://img.shields.io/badge/Code-MySQL-informational?style=flat&logo=MySQL&logoColor=blue&color=4AB197)
+![](https://img.shields.io/badge/JavaScript-Fronted-informational?style=flat&logo=JavaScript&logoColor=yellow&color=yellow)
+
+<!-- ![](https://img.shields.io/badge/Code-MySQL-informational?style=flat&logo=MySQL&logoColor=blue&color=4AB197)
 
 
 ![](https://img.shields.io/badge/Style-CSS-informational?style=flat&logo=css3&logoColor=green&color=4AB197)
@@ -29,9 +30,9 @@ On top of using and exploring technologies tools, However, I make it my mission 
 ![](https://img.shields.io/badge/Tools-Photoshop-informational?style=flat&logo=Adobe-Photoshop&logoColor=blue&color=4AB197)
 
 
-![](https://img.shields.io/badge/Tools-GitHub-informational?style=flat&logo=GitHub&logoColor=white&color=4AB197)
+![](https://img.shields.io/badge/Tools-GitHub-informational?style=flat&logo=GitHub&logoColor=white&color=4AB197) -->
 <!-- ![](https://img.shields.io/badge/Tools-GitLab-informational?style=flat&logo=GitLab&logoColor=orange&color=4AB197) -->
-![](https://img.shields.io/badge/Tools-Bitbucket-informational?style=flat&logo=Bitbucket&logoColor=blue&color=4AB197)
+<!-- ![](https://img.shields.io/badge/Tools-Bitbucket-informational?style=flat&logo=Bitbucket&logoColor=blue&color=4AB197) -->
 
 <!-- <details>
 <summary>Educational Background</summary>
