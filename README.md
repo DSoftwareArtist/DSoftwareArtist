@@ -3,9 +3,9 @@
 
 # What's up! 👋
 
-I am earger to learn new technologies.
+I have been building different kinds of softwares for various industries including finance, e-commerce and blockchain for many years.
 
-Moreover, I make it my mission to use these technologies to solve real life and business problems.
+On top of that is my mission to solve real life and business problems.
 
 Want to know more about me? [Check out my portfolio.](https://braydoncoyer.dev/)
 
