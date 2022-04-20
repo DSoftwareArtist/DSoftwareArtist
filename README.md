@@ -35,5 +35,15 @@ Want to know more about me? [Check out my Portfolio.](https://reamonsumapig.dev/
 
 <details>
 <summary>Educational Background</summary>
+
+Cavite State University
+
+Carmona, Cavite
+
 <br>
+
+Binan Secondary School of Applied Academics
+
+Binan, Laguna
+
 </details>
