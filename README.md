@@ -7,9 +7,9 @@ I am earger to learn new technologies.
 
 Moreover, I make it my mission to use these technologies to solve real life and business problems.
 
-
 Want to know more about me? [Check out my portfolio.](https://braydoncoyer.dev/)
 
+<br>
 
 ## 💼 Skills
 
