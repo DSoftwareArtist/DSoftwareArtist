@@ -1,6 +1,6 @@
 # 👋 What's up!
 
-Having solid experience in building different kinds of softwares, **_I make it my mission to solve real life and business problems_**.
+Having solid experience building softwares, **_I make it my mission to solve real life and business problems_**.
 <br>Please make yourself comfortable checking my github account.
 
 Want to know more about me? [Check out my website.](https://reamonsumapig.dev/)
@@ -46,6 +46,7 @@ Want to know more about me? [Check out my website.](https://reamonsumapig.dev/)
   <li><a target="_blank" href="http://supervisord.org/">Supervisor</a></li>
   <li><a target="_blank" href="https://www.fabfile.org/installing.html">Fabric</a></li>
   <li><a target="_blank" href="https://kubernetes.io/">Kubernetes</a></li>
+  <li><a target="_blank" href="https://circleci.com/">Circleci</a></li>
 </ul>
 </details>
 
@@ -67,10 +68,11 @@ Want to know more about me? [Check out my website.](https://reamonsumapig.dev/)
 </details>
 
 <details>
-<summary>Remote Server</summary>
+<summary>Deployment Server</summary>
 <ul>
   <li><a target="_blank" href="https://cloud.google.com/">Google Cloud</a></li>
   <li><a target="_blank" href="https://www.digitalocean.com/">Digital Ocean</a></li>
   <li><a target="_blank" href="https://aws.amazon.com/">Amazon Web Services</a></li>
+  <li><a target="_blank" href="https://www.heroku.com/">Heroku</a></li>
 </ul>
 </details>
