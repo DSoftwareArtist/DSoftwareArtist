@@ -11,7 +11,7 @@ Want to know more about me? [Check out my website.](https://reamonsumapig.dev/)
 
 ## 💼 Technical Skills
 <details>
-<summary>Backend</summary>
+<summary><strong>Backend</strong> - Processing highly sophisticated data becomes possible using these tools.</summary>
 <ul>
   <li><a href="https://www.python.org/">Python</a></li>
   <li><a href="https://www.djangoproject.com/">Django</a></li>
@@ -19,11 +19,12 @@ Want to know more about me? [Check out my website.](https://reamonsumapig.dev/)
   <li><a href="https://www.postgresql.org/">Postgres</a></li>
   <li><a href="https://docs.celeryq.dev/en/stable/django/first-steps-with-django.html">Celery</a></li>
   <li><a href="https://redis.io/">Redis</a></li>
+  <li><a href="https://pandas.pydata.org//">Pandas</a></li>
 </ul> 
 </details>
 
 <details>
-<summary>Frontend</summary>
+<summary><strong>Frontend</strong> - Tools that helps me present the data and improve the user experience.</summary>
 <ul>
   <li><a target="_blank" href="https://quasar.dev/">Quasar</a></li>
   <li><a target="_blank" href="https://vuejs.org/">VueJS</a></li>
@@ -38,12 +39,12 @@ Want to know more about me? [Check out my website.](https://reamonsumapig.dev/)
 </details>
 
 <details>
-<summary>DevOps</summary>
+<summary><strong>DevOps</strong> - Escalate the building and deployment processing</summary>
 <ul>
   <li><a target="_blank" href="https://www.docker.com/">Docker</a></li>
   <li><a target="_blank" href="https://docs.docker.com/compose/">Docker-Compose</a></li>
   <li><a target="_blank" href="https://www.nginx.com/">Nginx</a></li>
-  <li><a target="_blank" href="http://supervisord.org/">Supervisor</a></li>
+  <li><a target="_blank" href="http://supervisord.org/">Supervisord</a></li>
   <li><a target="_blank" href="https://www.fabfile.org/installing.html">Fabric</a></li>
   <li><a target="_blank" href="https://kubernetes.io/">Kubernetes</a></li>
   <li><a target="_blank" href="https://circleci.com/">Circleci</a></li>
