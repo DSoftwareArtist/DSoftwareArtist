@@ -1,4 +1,4 @@
-# 👋 What's up!
+# 👋 Hey, What's up!
 
 Having solid experience building softwares, **_I make it my mission to solve real life and business problems_**.
 <br>Please make yourself comfortable checking my github account.
