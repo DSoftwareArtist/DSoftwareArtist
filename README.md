@@ -9,9 +9,9 @@ Want to know more about me? [Check out my website.](https://reamonsumapig.dev/)
 [![StackOverflow Badge](https://img.shields.io/badge/StackOverflow-Profile-informational?style=flat&logo=stackOverflow&logoColor=orange&color=orange)](https://stackoverflow.com/users/5531941/reamon-c-sumapig)
 <br>
 
-## 💼 Technical Skills
+## ☝️ Frequently Asked Questions
 <details>
-<summary><strong>Backend</strong> - Processing highly sophisticated data becomes possible using these tools.</summary>
+<summary><strong>What technology do I use to process highly sophisticated data?</strong></summary>
 <ul>
   <li><a href="https://www.python.org/">Python</a></li>
   <li><a href="https://www.djangoproject.com/">Django</a></li>
@@ -24,7 +24,7 @@ Want to know more about me? [Check out my website.](https://reamonsumapig.dev/)
 </details>
 
 <details>
-<summary><strong>Frontend</strong> - Tools that helps me present the data and improve the user experience.</summary>
+<summary><strong>What helps me present data professionally without compromising user experience?</strong></summary>
 <ul>
   <li><a target="_blank" href="https://quasar.dev/">Quasar</a></li>
   <li><a target="_blank" href="https://vuejs.org/">VueJS</a></li>
@@ -39,7 +39,7 @@ Want to know more about me? [Check out my website.](https://reamonsumapig.dev/)
 </details>
 
 <details>
-<summary><strong>DevOps</strong> - Escalate the building and deployment processing</summary>
+<summary><strong>What tools do I you use to escalate and organize the building and deployment process? </strong></summary>
 <ul>
   <li><a target="_blank" href="https://www.docker.com/">Docker</a></li>
   <li><a target="_blank" href="https://docs.docker.com/compose/">Docker-Compose</a></li>
@@ -52,7 +52,7 @@ Want to know more about me? [Check out my website.](https://reamonsumapig.dev/)
 </details>
 
 <details>
-<summary>Version Control</summary>
+<summary><strong>What do I use to monitor code changes and app versions?</strong></summary>
 <ul>
   <li><a target="_blank" href="https://github.com/">Github</a></li>
   <li><a target="_blank" href="https://bitbucket.org/product/">Bitbucket</a></li>
@@ -60,7 +60,7 @@ Want to know more about me? [Check out my website.](https://reamonsumapig.dev/)
 </details>
 
 <details>
-<summary>Code Editor</summary>
+<summary><strong>Where do I write codes?</strong></summary>
 <ul>
   <li><a target="_blank" href="https://visualstudio.microsoft.com/">Visual Studio</a></li>
   <li><a target="_blank" href="https://www.vim.org/">Vim</a></li>
@@ -69,7 +69,7 @@ Want to know more about me? [Check out my website.](https://reamonsumapig.dev/)
 </details>
 
 <details>
-<summary>Deployment Server</summary>
+<summary><strong>What cloud servers I am capable to use?</strong></summary>
 <ul>
   <li><a target="_blank" href="https://cloud.google.com/">Google Cloud</a></li>
   <li><a target="_blank" href="https://www.digitalocean.com/">Digital Ocean</a></li>
