@@ -3,9 +3,7 @@
 
 # What's up! 👋
 
-I have been building different kinds of softwares for various industries including Finance, E-commerce, Blockchain and Cryptocurrency for many years.
-
-On top of using and exploring technologies tools, However, I make it my mission to solve real life and business problems.
+With my solid experience in building different kinds of softwares for various industries including Finance, E-commerce, Blockchain and Cryptocurrency for many years, **_I make it my mission to solve real life and business problems_**.
 
 <!-- Want to know more about me? [Check out my Portfolio.](https://reamonsumapig.dev/) -->
 
