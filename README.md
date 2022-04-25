@@ -23,7 +23,7 @@ Want to know more about me? [Check out my website.](https://reamonsumapig.dev/)
 </details>
 
 <details>
-<summary>FrontEnd</summary>
+<summary>Frontend</summary>
 <ul>
   <li><a target="_blank" href="https://quasar.dev/">Quasar</a></li>
   <li><a target="_blank" href="https://vuejs.org/">VueJS</a></li>
