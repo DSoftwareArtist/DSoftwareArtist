@@ -13,64 +13,64 @@ Want to know more about me? [Check out my website.](https://reamonsumapig.dev/)
 <details>
 <summary>Backend</summary>
 <ul>
-  <li><a href="">Python</a></li>
-  <li><a href="">Django</a></li>
-  <li><a href="">Django Rest Framework</a></li>
-  <li><a href="">Postgres</a></li>
-  <li><a href="">Celery</a></li>
-  <li><a href="">Redis</a></li>
+  <li><a href="https://www.python.org/">Python</a></li>
+  <li><a href="https://www.djangoproject.com/">Django</a></li>
+  <li><a href="https://www.django-rest-framework.org/">Django Rest Framework</a></li>
+  <li><a href="https://www.postgresql.org/">Postgres</a></li>
+  <li><a href="https://docs.celeryq.dev/en/stable/django/first-steps-with-django.html">Celery</a></li>
+  <li><a href="https://redis.io/">Redis</a></li>
 </ul> 
 </details>
 
 <details>
-<summary>Front-End</summary>
+<summary>FrontEnd</summary>
 <ul>
-  <li><a target="_blank" href="">Quasar</a></li>
-  <li><a target="_blank" href="">VueJS</a></li>
-  <li><a target="_blank" href="">NuxtJS</a></li>
-  <li><a target="_blank" href="">NPM</a></li>
-  <li><a target="_blank" href="">NodeJS</a></li>
-  <li><a target="_blank" href="">AngularJs</a></li>
-  <li><a target="_blank" href="">Javascript</a></li>
-  <li><a target="_blank" href="">Bootstrap4</a></li>
-  <li><a target="_blank" href="">CSS</a></li>
+  <li><a target="_blank" href="https://quasar.dev/">Quasar</a></li>
+  <li><a target="_blank" href="https://vuejs.org/">VueJS</a></li>
+  <li><a target="_blank" href="https://nuxtjs.org/">NuxtJS</a></li>
+  <li><a target="_blank" href="https://www.npmjs.com/">NPM</a></li>
+  <li><a target="_blank" href="https://nodejs.org/en/">NodeJS</a></li>
+  <li><a target="_blank" href="https://angularjs.org/">AngularJs</a></li>
+  <li><a target="_blank" href="https://www.javascript.com/">Javascript</a></li>
+  <li><a target="_blank" href="https://getbootstrap.com/">Bootstrap4</a></li>
+  <li><a target="_blank" href="https://en.wikipedia.org/wiki/CSS">CSS</a></li>
 </ul> 
 </details>
 
 <details>
 <summary>DevOps</summary>
 <ul>
-  <li><a target="_blank" href="">Docker</a></li>
-  <li><a target="_blank" href="">Docker-Compose</a></li>
-  <li><a target="_blank" href="">Nginx</a></li>
-  <li><a target="_blank" href="">Supervisor</a></li>
-  <li><a target="_blank" href="">Fabric</a></li>
-  <li><a target="_blank" href="">Kubernetes</a></li>
+  <li><a target="_blank" href="https://www.docker.com/">Docker</a></li>
+  <li><a target="_blank" href="https://docs.docker.com/compose/">Docker-Compose</a></li>
+  <li><a target="_blank" href="https://www.nginx.com/">Nginx</a></li>
+  <li><a target="_blank" href="http://supervisord.org/">Supervisor</a></li>
+  <li><a target="_blank" href="https://www.fabfile.org/installing.html">Fabric</a></li>
+  <li><a target="_blank" href="https://kubernetes.io/">Kubernetes</a></li>
 </ul>
 </details>
 
 <details>
 <summary>Version Control</summary>
 <ul>
-  <li><a target="_blank" href="">Github</a></li>
-  <li><a target="_blank" href="">Bitbucket</a></li>
+  <li><a target="_blank" href="https://github.com/">Github</a></li>
+  <li><a target="_blank" href="https://bitbucket.org/product/">Bitbucket</a></li>
 </ul>
 </details>
 
 <details>
 <summary>Code Editor</summary>
 <ul>
-  <li><a target="_blank" href="">Visual Studio</a></li>
-  <li><a target="_blank" href="">Vim</a></li>
-  <li><a target="_blank" href="">Gedit</a></li>
+  <li><a target="_blank" href="https://visualstudio.microsoft.com/">Visual Studio</a></li>
+  <li><a target="_blank" href="https://www.vim.org/">Vim</a></li>
+  <li><a target="_blank" href="https://help.gnome.org/users/gedit/stable/">Gedit</a></li>
 </ul>
 </details>
 
 <details>
 <summary>Remote Server</summary>
 <ul>
-  <li><a target="_blank" href="">Google Cloud</a></li>
-  <li><a target="_blank" href="">Digital Ocean</a></li>
-  <li><a target="_blank" href="">Amazon Web Services</a></li>
+  <li><a target="_blank" href="https://cloud.google.com/">Google Cloud</a></li>
+  <li><a target="_blank" href="https://www.digitalocean.com/">Digital Ocean</a></li>
+  <li><a target="_blank" href="https://aws.amazon.com/">Amazon Web Services</a></li>
 </ul>
 </details>
