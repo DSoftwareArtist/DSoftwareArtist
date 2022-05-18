@@ -1,6 +1,6 @@
 # 👋 Hey, What's up!
 
-With solid experience building softwares, **_I make it my mission to solve real life and business problems_**.
+With solid experience in programming, **_I make it my mission to solve real life and business problems_**.
 <br>Please make yourself comfortable checking my github account.
 
 <!-- Want to know more about me? [Check out my website.](https://reamonsumapig.dev/) -->
