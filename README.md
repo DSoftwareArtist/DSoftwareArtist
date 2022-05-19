@@ -24,7 +24,7 @@ With solid experience in programming, **_I make it my mission to solve real life
 </details>
 
 <details>
-<summary><strong>What helps me present data professionally without compromising user experience?</strong></summary>
+<summary><strong>What helps me present data professionally?</strong></summary>
 <ul>
   <li><a target="_blank" href="https://quasar.dev/">Quasar</a></li>
   <li><a target="_blank" href="https://vuejs.org/">VueJS</a></li>
