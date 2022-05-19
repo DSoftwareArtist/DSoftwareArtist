@@ -39,7 +39,7 @@ With solid experience in programming, **_I make it my mission to solve real life
 </details>
 
 <details>
-<summary><strong>What tools do I you use to escalate and organize the building and deployment process? </strong></summary>
+<summary><strong>What tools do I use to escalate and organize the building and deployment process? </strong></summary>
 <ul>
   <li><a target="_blank" href="https://www.docker.com/">Docker</a></li>
   <li><a target="_blank" href="https://docs.docker.com/compose/">Docker-Compose</a></li>
