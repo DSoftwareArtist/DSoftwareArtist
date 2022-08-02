@@ -9,7 +9,7 @@ With solid experience in programming, **_I make it my mission to solve real life
 [![StackOverflow Badge](https://img.shields.io/badge/StackOverflow-Profile-informational?style=flat&logo=stackOverflow&logoColor=orange&color=orange)](https://stackoverflow.com/users/5531941/reamon-c-sumapig)
 <br>
 ## ☝️ Frequently Asked Questions
-<img src="/assets/codes.png" align="right" width=200/>
+<img src="https://github-stats.liuli.lol/api?username=DSoftwareArtist&theme=vue&show_icons=true&include_all_commits=true&count_private=true" align="right">
 <details>
 <summary><strong>What technology do I use to process highly sophisticated data?</strong></summary>
 <ul>
