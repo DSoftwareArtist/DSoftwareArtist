@@ -1,15 +1,17 @@
-## 👋 Hey, Your curiosity brings you here.
-
-<br><small>I believe it is not an accident. Because of that I prepare some of the most frequently ask questions on me.</small>
-<br>You can also send message to: 29reamonsumapig@gmail.com. Let's rock together!
+## 👋 Your curiosity brings you here...
+<img src="https://github-stats.liuli.lol/api?username=DSoftwareArtist&theme=vue&show_icons=true&include_all_commits=true&count_private=true" align="right">
+<br>I believe it is not an accident. Because of that I prepare some of the most frequently ask questions on me.
+<br><br>You can also send message to: <bold>29reamonsumapig@gmail.com</bold>
+<br>Let's rock together!
 
 <!-- Want to know more about me? [Check out my website.](https://reamonsumapig.dev/) -->
 <br><br>
+
 [![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-Profile-informational?style=flat&logo=linkedin&logoColor=0D76A8&color=0D76A8)](https://www.linkedin.com/in/reamonsumapig/)
 [![StackOverflow Badge](https://img.shields.io/badge/StackOverflow-Profile-informational?style=flat&logo=stackOverflow&logoColor=orange&color=orange)](https://stackoverflow.com/users/5531941/reamon-c-sumapig)
 <br>
+
 ## ☝️ Frequently Asked Questions
-<img src="https://github-stats.liuli.lol/api?username=DSoftwareArtist&theme=vue&show_icons=true&include_all_commits=true&count_private=true" align="right">
 <details>
 <summary><strong>What technology do I use to process highly sophisticated data?</strong></summary>
 <ul>
