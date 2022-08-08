@@ -13,7 +13,7 @@
 
 ## ☝️ Frequently Asked Questions
 <details>
-<summary><strong>What technology do I use to process highly sophisticated data?</strong></summary>
+<summary><strong>What frameworks can I use to process highly sophisticated data?</strong></summary>
 <ul>
   <li><a href="https://www.python.org/">Python</a></li>
   <li><a href="https://www.djangoproject.com/">Django</a></li>
