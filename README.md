@@ -2,7 +2,7 @@
 <img src="https://github-stats.liuli.lol/api?username=DSoftwareArtist&theme=vue&show_icons=true&include_all_commits=true&count_private=true" align="right">
 <br>I believe it is not an accident. Because of that I prepare some of the most frequently ask questions on me.
 <br><br>You can also send message to: <bold>29reamonsumapig@gmail.com</bold>
-<br><br>Let's rock together!
+<br><br>Let's rock!
 
 <!-- Want to know more about me? [Check out my website.](https://reamonsumapig.dev/) -->
 <br><br>
