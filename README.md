@@ -1,7 +1,7 @@
-# 👋 Hey, What's up!
+## 👋 Hey, Your curiosity brings you here.
 
-With solid experience in programming, **_I make it my mission to solve real life and business problems_**.
-<br>Please make yourself comfortable checking my github account.
+<br><small>I believe it is not an accident. Because of that I prepare some of the most frequently ask questions on me.</small>
+<br>You can also send message to: 29reamonsumapig@gmail.com. Let's get it on!
 
 <!-- Want to know more about me? [Check out my website.](https://reamonsumapig.dev/) -->
 <br><br>
