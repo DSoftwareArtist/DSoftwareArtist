@@ -1,12 +1,13 @@
 ## 🧠💭 Curiosity brings you here...
-<img src="https://github-stats.liuli.lol/api?username=DSoftwareArtist&theme=tokyonight&show_icons=true&include_all_commits=true&count_private=true" align="right">
+<img src="https://github-stats.liuli.lol/api?username=DSoftwareArtist&theme=algolia&show_icons=true&include_all_commits=true&count_private=true" align="right"/>
+
 <br>I believe you visit for a reason. Because of that I prepare some of the most frequently ask questions on me.
 <br><br>You can also send message to: <bold>29reamonsumapig@gmail.com</bold>
 <br><br>Let's rock!
 
 <!-- Want to know more about me? [Check out my website.](https://reamonsumapig.dev/) -->
 <br><br>
-
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DSoftwareArtist&layout=compact&theme=algolia" align="right"/>
 [![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-Profile-informational?style=flat&logo=linkedin&logoColor=0D76A8&color=0D76A8)](https://www.linkedin.com/in/reamonsumapig/)
 [![StackOverflow Badge](https://img.shields.io/badge/StackOverflow-Profile-informational?style=flat&logo=stackOverflow&logoColor=orange&color=orange)](https://stackoverflow.com/users/5531941/reamon-c-sumapig)
 <br>
