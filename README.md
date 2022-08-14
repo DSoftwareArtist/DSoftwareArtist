@@ -1,5 +1,5 @@
 ## 🧠💭 Curiosity brings you here...
-<img src="https://github-stats.liuli.lol/api?username=DSoftwareArtist&theme=nord&show_icons=true&include_all_commits=true&count_private=true" align="left"/>
+<img src="https://github-stats.liuli.lol/api?username=DSoftwareArtist&theme=default&show_icons=true&include_all_commits=true&count_private=true" align="left"/>
 
 [![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-Profile-informational?style=flat&logo=linkedin&logoColor=0D76A8&color=0D76A8)](https://www.linkedin.com/in/reamonsumapig/)
 [![StackOverflow Badge](https://img.shields.io/badge/StackOverflow-Profile-informational?style=flat&logo=stackOverflow&logoColor=orange&color=orange)](https://stackoverflow.com/users/5531941/reamon-c-sumapig)
@@ -11,7 +11,7 @@ I believe you visit for a reason! Because of that I prepare some of the most fre
 <br>
 
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DSoftwareArtist&layout=compact&theme=nord" align="right"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DSoftwareArtist&layout=compact&theme=default" align="right"/>
 
 ## ☝️ Frequently Asked Questions
 <details>
