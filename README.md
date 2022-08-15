@@ -13,7 +13,7 @@ I believe you visit for a reason! Because of that I prepare some of the most fre
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DSoftwareArtist&layout=compact&theme=default" align="right"/>
 
-## ☝️ Frequently Asked Questions
+## ☝️ FAQs
 <details>
 <summary><strong>What frameworks can I use to process highly sophisticated data?</strong></summary>
 <ul>
