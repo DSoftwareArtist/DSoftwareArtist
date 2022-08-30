@@ -28,7 +28,7 @@ I believe you visit for a reason! Because of that I prepare some of the most fre
 </details>
 
 <details>
-<summary><strong>What helps me present data professionally?</strong></summary>
+<summary><strong>What tools I used to present data?</strong></summary>
 <ul>
   <li><a target="_blank" href="https://quasar.dev/">Quasar</a></li>
   <li><a target="_blank" href="https://vuejs.org/">VueJS</a></li>
