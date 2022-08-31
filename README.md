@@ -28,7 +28,7 @@ I believe you visit my profile for some reason! Because of that I prepare few of
 </details>
 
 <details>
-<summary><strong>What tools I used to present data?</strong></summary>
+<summary><strong>What tools can I use to present data?</strong></summary>
 <ul>
   <li><a target="_blank" href="https://quasar.dev/">Quasar</a></li>
   <li><a target="_blank" href="https://vuejs.org/">VueJS</a></li>
@@ -43,7 +43,7 @@ I believe you visit my profile for some reason! Because of that I prepare few of
 </details>
 
 <details>
-<summary><strong>What tools do I use to escalate the software building process? </strong></summary>
+<summary><strong>What tools can I use to escalate the software building process? </strong></summary>
 <ul>
   <li><a target="_blank" href="https://www.docker.com/">Docker</a></li>
   <li><a target="_blank" href="https://docs.docker.com/compose/">Docker-Compose</a></li>
