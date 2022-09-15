@@ -6,7 +6,7 @@
 
 I believe you visit my profile for some reason! Because of that I prepare few of the most frequently asked questions on me.
 <br><br>Want more? Send email to: <strong>29reamonsumapig@gmail.com</strong>
-<br><br>Let's rock!
+<br><br><strong>Let's rock!</strong>
 
 <br>
 
