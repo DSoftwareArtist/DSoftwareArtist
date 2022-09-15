@@ -5,7 +5,7 @@
 [![StackOverflow Badge](https://img.shields.io/badge/StackOverflow-Profile-informational?style=flat&logo=stackOverflow&logoColor=orange&color=orange)](https://stackoverflow.com/users/5531941/reamon-c-sumapig)
 
 I believe you visit my profile for some reason! Because of that I prepare few of the most frequently asked questions on me.
-<br><br>You can also send email to: <strong>29reamonsumapig@gmail.com</strong>
+<br><br>Still curious? Send email to: <strong>29reamonsumapig@gmail.com</strong>
 <br><br>Let's rock!
 
 <br>
