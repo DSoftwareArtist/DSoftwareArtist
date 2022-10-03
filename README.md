@@ -53,13 +53,14 @@ I believe you visit my profile for some reasons! Because of that I prepare few o
   <li><a target="_blank" href="https://kubernetes.io/">Kubernetes</a></li>
 </ul>
 </details>
+
 <hr>
+
 [![trophy](https://github-profile-trophy.vercel.app/?username=DSoftwareArtist&margin-w=8)](https://github.com/DSoftwareArtist/github-profile-trophy)
-<br>
 
-Please click the red button below to nominate me for the Github Stars programme. <br>
+Finally, Don't forget to nominate me in Github Stars programme. <br>
 
-<a href='https://stars.github.com/nominate/' target="_blank"><img alt='github' src='https://img.shields.io/badge/Nominate_me --> @DSoftwareArist-100000?style=for-the-badge&logo=github&logoColor=000000&labelColor=ffffff&color=ffbb22'/></a>
+<a href='https://stars.github.com/nominate/' target="_blank"><img alt='github' src='https://img.shields.io/badge/Nominate_me --> @DSoftwareArist-100000?style=for-the-badge&logo=github&logoColor=000000&labelColor=ffffff&color=ff9031'/></a>
 
 
 <br>
