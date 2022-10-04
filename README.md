@@ -13,7 +13,7 @@ I believe you visit my profile for some reasons! Because of that I prepare few o
 <br>
 
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DSoftwareArtist&layout=compact&theme=default" align="right"/>
+<!-- img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DSoftwareArtist&layout=compact&theme=default" align="right"/ -->
 
 ## ☝️ FAQs
 <details>
