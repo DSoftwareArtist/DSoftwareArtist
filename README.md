@@ -13,7 +13,7 @@ I believe you visit my profile for some reasons! Because of that I prepare few o
 <br>
 
 
-<img src="https://images.ctfassets.net/16nm6vz43ids/6pWuK6OPMX6sJvX0EByrJG/dd3a7a50f9c8c4214c30baf9abe9cb50/What-is-ZoomBombing-and-how-to-prevent-zoom-hacking.gif" width="350" align="right"/>
+<img src="https://media.tenor.com/CeDk6XdCgOUAAAAi/develop-web.gif" width="350" align="right"/>
 
 ## ☝️ FAQs
 <details>
