@@ -8,7 +8,6 @@
 
 I believe you visit my profile for some reasons! Because of that I prepare few of the most frequently asked questions on me.
 <br><br>Want to know more? Send email to: <strong>29reamonsumapig@gmail.com</strong>
-<br><br><strong>Let's rock the world!</strong>
 
 <br>
 
