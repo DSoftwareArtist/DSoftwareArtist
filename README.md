@@ -3,7 +3,7 @@
 
 [![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-Profile-informational?style=flat&logo=linkedin&logoColor=0D76A8&color=0D76A8)](https://www.linkedin.com/in/reamonsumapig/)
 [![StackOverflow Badge](https://img.shields.io/badge/StackOverflow-Profile-informational?style=flat&logo=stackOverflow&logoColor=orange&color=orange)](https://stackoverflow.com/users/5531941/reamon-c-sumapig)
-![](https://komarev.com/ghpvc/?username=DSoftwareArtist&style=flat)
+![](https://komarev.com/ghpvc/?username=DSoftwareArtist&style=flat&color=lightgrey)
 
 
 I believe you visit my profile for some reasons! Because of that I prepare few of the most frequently asked questions on me.
