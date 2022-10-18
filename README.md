@@ -3,7 +3,7 @@
 
 [![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-Profile-informational?style=flat&logo=linkedin&logoColor=0D76A8&color=0D76A8)](https://www.linkedin.com/in/reamonsumapig/)
 [![StackOverflow Badge](https://img.shields.io/badge/StackOverflow-Profile-informational?style=flat&logo=stackOverflow&logoColor=orange&color=orange)](https://stackoverflow.com/users/5531941/reamon-c-sumapig)
-
+![](https://komarev.com/ghpvc/?username=DSoftwareArtist&style=flat)
 
 
 I believe you visit my profile for some reasons! Because of that I prepare few of the most frequently asked questions on me.
@@ -59,5 +59,4 @@ I believe you visit my profile for some reasons! Because of that I prepare few o
 ##### If you want, You may nominate me for Github Stars Program.
 <a href='https://stars.github.com/nominate/' target="_blank"><img alt='github' src='https://img.shields.io/badge/⭐ Nominate me : @DSoftwareArtist-10000?style=for-the-badge&logo=github&logoColor=000000&labelColor=ffffff&color=10852e'/></a>
 
-###### Profile views:
-<img src="https://profile-counter.glitch.me/DSoftwareArtist/count.svg"/>
+
