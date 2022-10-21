@@ -1,4 +1,4 @@
-## 🧠💭 Never lose a holy curiosity...
+<h3 align="center">Never Lose a Holy Curiosity!</h3>
 <img src="https://github-stats.liuli.lol/api?username=DSoftwareArtist&theme=default&show_icons=true&include_all_commits=true&count_private=true&show_icons=true" align="left"/>
 
 [![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-Profile-informational?style=flat&logo=linkedin&logoColor=0D76A8&color=0D76A8)](https://www.linkedin.com/in/reamonsumapig/)
