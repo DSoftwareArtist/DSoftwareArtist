@@ -8,18 +8,6 @@
       "author": "Dan Salomon"
     },
     {
-      "quote": "Perfection is achieved not when there is nothing more to add, but rather when there is nothing more to take away.",
-      "author": " Antoine de Saint-Exupery"
-    },
-    {
-      "quote": "Optimism is an occupational hazard of programming: feedback is the treatment.",
-      "author": "Kent Beck"
-    },
-    {
-      "quote": "When to use iterative development? You should use iterative development only on projects that you want to succeed.",
-      "author": "Martin Fowler"
-    },
-    {
       "quote": "Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live",
       "author": "John Woods"
     },
@@ -50,14 +38,6 @@
     {
       "quote": "The most important property of a program is whether it accomplishes the intention of its user.",
       "author": "C.A.R. Hoare"
-    },
-    {
-      "quote": "Object-oriented programming offers a sustainable way to write spaghetti code. It lets you accrete programs as a series of patches.",
-      "author": "Paul Graham"
-    },
-    {
-      "quote": "Programming isn't about what you know; it's about what you can figure out.",
-      "author": "Chris Pine"
     },
     {
       "quote": "If you think good architecture is expensive, try bad architecture.",
