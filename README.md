@@ -1,4 +1,3 @@
-<div align="center"> <img src="https://github-readme-quotes.herokuapp.com/quote?font=Gabrielle&layout=samuel&quoteCategory=programming"> </div>
 <img src="https://github-stats.liuli.lol/api?username=DSoftwareArtist&theme=default&show_icons=true&include_all_commits=true&count_private=true&show_icons=true" align="left"/>
 
 [![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-Profile-informational?style=flat&logo=linkedin&logoColor=0D76A8&color=0D76A8)](https://www.linkedin.com/in/reamonsumapig/)
@@ -59,4 +58,4 @@ I believe you visit my profile for some reasons! Because of that I prepare few o
 ##### If you want, You may nominate me for Github Stars Program.
 <a href='https://stars.github.com/nominate/' target="_blank"><img alt='github' src='https://img.shields.io/badge/⭐ Nominate me : @DSoftwareArtist-10000?style=for-the-badge&logo=github&logoColor=000000&labelColor=ffffff&color=10852e'/></a>
 
-
+<div align="center"> <img src="https://github-readme-quotes.herokuapp.com/quote?font=Gabrielle&layout=samuel&quoteCategory=programming"> </div>
