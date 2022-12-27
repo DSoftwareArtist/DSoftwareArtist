@@ -6,9 +6,6 @@
 
 I believe you visit my profile for some reasons! Because of that I prepare few of the most frequently asked questions on me.
 <br><br>Want to know more? Send email to: <strong>29reamonsumapig@gmail.com</strong>
-<br>
-
-![DSoftwareArtist's GitHub stats](https://github-readme-stats.vercel.app/api?username=DSoftwareArtist&show_icons=true&theme=transparent)
 ## ☝️ FAQs
 <details>
 <summary><strong>What frameworks can I use to process highly sophisticated data?</strong></summary>
@@ -51,6 +48,7 @@ I believe you visit my profile for some reasons! Because of that I prepare few o
 </details>
 <br>
 
+![DSoftwareArtist's GitHub stats](https://github-readme-stats.vercel.app/api?username=DSoftwareArtist&show_icons=true&theme=transparent)
 ##### If you want, You may nominate me for Github Stars Program.
 <a href='https://stars.github.com/nominate/' target="_blank"><img alt='github' src='https://img.shields.io/badge/⭐ Nominate me : @DSoftwareArtist-10000?style=for-the-badge&logo=github&logoColor=000000&labelColor=ffffff&color=10852e'/></a>
 
