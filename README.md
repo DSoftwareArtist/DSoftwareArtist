@@ -2,6 +2,7 @@
 [![StackOverflow Badge](https://img.shields.io/badge/StackOverflow-Profile-informational?style=flat&logo=stackOverflow&logoColor=orange&color=orange)](https://stackoverflow.com/users/5531941/reamon-c-sumapig)
 ![](https://komarev.com/ghpvc/?username=DSoftwareArtist&style=flat&color=lightgrey)
 
+![DSoftwareArtist's GitHub stats](https://github-readme-stats.vercel.app/api?username=DSoftwareArtist&show_icons=true&theme=transparent)
 
 I believe you visit my profile for some reasons! Because of that I prepare few of the most frequently asked questions on me.
 <br><br>Want to know more? Send email to: <strong>29reamonsumapig@gmail.com</strong>
