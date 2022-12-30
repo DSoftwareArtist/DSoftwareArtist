@@ -3,9 +3,13 @@
 ![](https://komarev.com/ghpvc/?username=DSoftwareArtist&style=flat&color=lightgrey)
 
 
-
-I believe you visit my profile for some reasons! Because of that I prepare few of the most frequently asked questions on me.
-<br><br>Want to know more? Send email to: <strong>29reamonsumapig@gmail.com</strong>
+## Hi there! I'm Reamon Sumapig
+... and I consider myself not just a software developer, but **DSoftwareArtist**. 
+<br><br>
+In other words, that I can work on a variety of projects, such as mobile apps, websites, and business software solutions.
+<br>
+On my GitHub profile, you will find a collection of my projects and contributions to open source software. I am excited to be part of the vibrant and collaborative community of developers on GitHub, and I am always open to new opportunities to work on interesting projects. Thank you for visiting my profile!
+<br><br>Here's more about me:
 ## ☝️ FAQs
 <details>
 <summary><strong>What frameworks can I use to process highly sophisticated data?</strong></summary>
@@ -49,6 +53,5 @@ I believe you visit my profile for some reasons! Because of that I prepare few o
 <br>
 
 ![DSoftwareArtist's GitHub stats](https://github-readme-stats.vercel.app/api?username=DSoftwareArtist&show_icons=true&theme=transparent)
-##### If you want, You may nominate me for Github Stars Program.
-<a href='https://stars.github.com/nominate/' target="_blank"><img alt='github' src='https://img.shields.io/badge/⭐ Nominate me : @DSoftwareArtist-10000?style=for-the-badge&logo=github&logoColor=000000&labelColor=ffffff&color=10852e'/></a>
 
+##### Let's talk! Send email to: <strong>29reamonsumapig@gmail.com
