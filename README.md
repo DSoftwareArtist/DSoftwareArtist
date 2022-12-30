@@ -3,8 +3,8 @@
 ![](https://komarev.com/ghpvc/?username=DSoftwareArtist&style=flat&color=lightgrey)
 
 
-## Hi there! I'm Reamon Sumapig
-... and I here's a fun fact:  I consider myself not just a software developer, but **DSoftwareArtist**. 
+## I'm so glad you're here!
+... because of that here's a fun fact:  I consider myself not just a software developer, but **DSoftwareArtist**. 
 <br><br>
 &nbsp;&nbsp;&nbsp;In other words, I can work on a variety of projects, such as mobile apps, websites, and advanced business software solutions using state-of-the-art tools and technologies.
 <br><br>
