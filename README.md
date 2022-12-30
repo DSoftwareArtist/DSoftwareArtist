@@ -4,11 +4,11 @@
 
 
 ## Hi there! I'm Reamon Sumapig
-... and I consider myself not just a software developer, but **DSoftwareArtist**. 
+... and I here's a fun fact:  I consider myself not just a software developer, but **DSoftwareArtist**. 
 <br><br>
-In other words, I can work on a variety of projects, such as mobile apps, websites, and advanced business software solutions.
-<br>
-On my GitHub profile, you will find a collection of my projects and contributions to open source software. I am excited to be part of the vibrant and collaborative community of developers on GitHub, and I am always open to new opportunities to work on interesting projects. Thank you for visiting my profile!
+&nbsp;&nbsp;&nbsp;In other words, I can work on a variety of projects, such as mobile apps, websites, and advanced business software solutions using state-of-the-art tools and technologies.
+<br><br>
+&nbsp;&nbsp;&nbsp;On my GitHub profile, you will find a collection of my projects and contributions to open source software. I am excited to be part of the vibrant and collaborative community of developers on GitHub, and I am always open to new opportunities to work on interesting projects. Thank you for visiting my profile!
 <br><br>Here's more about me:
 ## ☝️ FAQs
 <details>
