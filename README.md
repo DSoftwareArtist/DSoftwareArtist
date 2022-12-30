@@ -9,7 +9,7 @@
 &nbsp;&nbsp;&nbsp;In other words, I can work on a variety of projects, such as mobile apps, websites, and advanced business software solutions using state-of-the-art tools and technologies.
 <br><br>
 &nbsp;&nbsp;&nbsp;On my GitHub profile, you will find a collection of my projects and contributions to open source software. I am excited to be part of the vibrant and collaborative community of developers on GitHub, and I am always open to new opportunities to work on interesting projects. Thank you for visiting my profile!
-<br><br>Here's more about me:
+<br><br>More about me:
 ## ☝️ FAQs
 <details>
 <summary><strong>What frameworks can I use to process highly sophisticated data?</strong></summary>
