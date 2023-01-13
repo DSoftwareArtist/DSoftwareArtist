@@ -52,6 +52,6 @@
 </details>
 <br>
 
-![DSoftwareArtist's GitHub stats](https://github-readme-stats.vercel.app/api?username=DSoftwareArtist&show_icons=true&theme=transparent)
+<!-- ![DSoftwareArtist's GitHub stats](https://github-readme-stats.vercel.app/api?username=DSoftwareArtist&show_icons=true&theme=transparent) -->
 
 ##### Let's talk! Send email to: <strong>29reamonsumapig@gmail.com
