@@ -6,10 +6,17 @@
 ## I'm so glad you're here!
 ... because of that here's a fun fact:  I consider myself not just a software developer, but **DSoftwareArtist**. 
 <br><br>
+
+<a href="https://app.daily.dev/monmon29"><img align="right" src="https://api.daily.dev/devcards/032b936b69234d07806377572866b015.png?r=mag" width="400" alt="Reamon Sumapig's Dev Card"/></a>
+
 &nbsp;&nbsp;&nbsp;In other words, I can work on a variety of projects such as mobile apps, websites, and advanced business software solutions using state-of-the-art tools and technologies.
 <br><br>
 &nbsp;&nbsp;&nbsp;On my GitHub profile, you will find a collection of my projects and contributions to open source software. I am excited to be part of the vibrant and collaborative community of developers on GitHub, and I am always open to new opportunities to work on interesting projects. Thank you for visiting my profile!
+
+
+
 <br><br>More about me:
+
 ## ☝️ FAQs
 <details>
 <summary><strong>What frameworks can I use to process highly sophisticated data?</strong></summary>
@@ -53,5 +60,6 @@
 <br>
 
 <!-- ![DSoftwareArtist's GitHub stats](https://github-readme-stats.vercel.app/api?username=DSoftwareArtist&show_icons=true&theme=transparent) -->
+
 
 ##### Let's talk! Send email to: <strong>29reamonsumapig@gmail.com
