@@ -7,7 +7,7 @@
 ... because of that here's a fun fact:  I consider myself not just a software developer, but **DSoftwareArtist**. 
 <br><br>
 
-<a href="https://app.daily.dev/monmon29"><img align="right" src="https://api.daily.dev/devcards/032b936b69234d07806377572866b015.png?r=mag" width="400" alt="Reamon Sumapig's Dev Card"/></a>
+<a href="https://app.daily.dev/monmon29"><img align="right" width="300" src="https://api.daily.dev/devcards/032b936b69234d07806377572866b015.png?r=mag" width="400" alt="Reamon Sumapig's Dev Card"/></a>
 
 &nbsp;&nbsp;&nbsp;In other words, I can work on a variety of projects such as mobile apps, websites, and advanced business software solutions using state-of-the-art tools and technologies.
 <br><br>
