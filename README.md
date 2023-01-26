@@ -8,7 +8,7 @@
 <br><br>
 
 
-<a href="https://app.daily.dev/monmon29"><img align="right" width="300" src="https://api.daily.dev/devcards/032b936b69234d07806377572866b015.png?r=16v" width="400" alt="Reamon Sumapig's Dev Card"/></a>
+<a href="https://app.daily.dev/monmon29"><img align="right" width="200" src="https://api.daily.dev/devcards/032b936b69234d07806377572866b015.png?r=16v" width="400" alt="Reamon Sumapig's Dev Card"/></a>
 
 &nbsp;&nbsp;&nbsp;In other words, I can work on a variety of projects such as mobile apps, websites, and advanced business software solutions using state-of-the-art tools and technologies.
 <br><br>
