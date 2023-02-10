@@ -4,7 +4,7 @@
 
 
 ## I'm so glad you're here!
-... because of that here's a fun fact:  I consider myself not just a software developer, but **DSoftwareArtist**. 
+... because of that here's a fun fact: I love softwares and arts that is why, I prefer to be known as **DSoftwareArtist**. 
 <br><br>
 
 
