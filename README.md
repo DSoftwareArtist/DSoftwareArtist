@@ -7,8 +7,6 @@
 ... because of that here's a fun fact: I love softwares and arts that is why, I prefer to be known as **DSoftwareArtist**. 
 <br><br>
 &nbsp;&nbsp;&nbsp;In other words, I can work on a variety of projects such as mobile apps, websites, and advanced business software solutions using state-of-the-art tools and technologies.
-<br><br>
-
 <br><br>More about me:
 
 ## ☝️ FAQs
