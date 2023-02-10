@@ -7,8 +7,6 @@
 ... because of that here's a fun fact: I love softwares and arts that is why, I prefer to be known as **DSoftwareArtist**. 
 <br><br>
 
-
-
 &nbsp;&nbsp;&nbsp;In other words, I can work on a variety of projects such as mobile apps, websites, and advanced business software solutions using state-of-the-art tools and technologies.
 <br><br>
 &nbsp;&nbsp;&nbsp;I am excited to be part of the vibrant and collaborative community of developers on GitHub, and I am always open to new opportunities to work on interesting projects. Thank you for visiting my profile!
