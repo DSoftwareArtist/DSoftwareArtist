@@ -4,7 +4,7 @@
 
 
 ## I'm so glad you're here!
-... because of that here's a fun fact: I love softwares and arts that is why, I prefer to be known as **DSoftwareArtist**. 
+... because of that here's a fun fact: I passionate in building softwares and I love arts that is why, I prefer to be known as **DSoftwareArtist**. 
 <br><br>
 &nbsp;&nbsp;&nbsp;In other words, I can work on a variety of projects such as mobile apps, websites, and advanced business software solutions using state-of-the-art tools and technologies.
 <br><br>But wait! Here's more about me:
