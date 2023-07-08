@@ -3,12 +3,9 @@
 ![](https://komarev.com/ghpvc/?username=DSoftwareArtist&style=flat&color=lightgrey)
 
 
-## I'm so glad you're here!
-... because of that here's a fun fact: I'm passionate in building softwares and by heart, I'm an artist. That is why, I prefer to be known as **DSoftwareArtist**. 
-<br><br>
-&nbsp;&nbsp;&nbsp;In other words, I can work on a variety of projects such as mobile apps, websites, and advanced business software solutions using state-of-the-art tools and technologies.
-<br><br>But wait! Here's more about me:
-
+## Feel the vibe!
+Join me on this captivating journey where technology and art converge, and let's create something truly extraordinary together.. 
+&nbsp;&nbsp;&nbsp;
 ## ☝️ FAQs
 <details>
 <summary><strong>What frameworks can I use to process highly sophisticated data?</strong></summary>
