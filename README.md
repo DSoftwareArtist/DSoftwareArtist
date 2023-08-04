@@ -7,8 +7,6 @@
 Join me on this captivating journey where technology and art converge, and let's create something truly extraordinary together.. 
 &nbsp;&nbsp;&nbsp;
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=DSoftwareArtist&layout=pie&theme=tokyonight)](https://github.com/DSoftwareArtist.DSoftwareArtist)
-
 ## ☝️ FAQs
 <details>
 <summary><strong>What frameworks can I use to process highly sophisticated data?</strong></summary>
@@ -53,5 +51,6 @@ Join me on this captivating journey where technology and art converge, and let's
 
 <!-- ![DSoftwareArtist's GitHub stats](https://github-readme-stats.vercel.app/api?username=DSoftwareArtist&show_icons=true&theme=transparent) -->
 
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=DSoftwareArtist&layout=pie&theme=tokyonight)](https://github.com/DSoftwareArtist.DSoftwareArtist)
 
 ##### To learn more, send email to: <strong>29reamonsumapig@gmail.com
