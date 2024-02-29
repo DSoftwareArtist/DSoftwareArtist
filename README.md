@@ -8,4 +8,4 @@ Come along with me on an exciting adventure where **Design** and **Engineering**
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=DSoftwareArtist&layout=pie&theme=tokyonight)](https://github.com/DSoftwareArtist.DSoftwareArtist)
 
-##### To learn more, send email me: <strong>29reamonsumapig@gmail.com
+##### To learn more, send me an email: <strong>29reamonsumapig@gmail.com
