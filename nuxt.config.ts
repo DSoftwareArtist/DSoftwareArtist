@@ -8,5 +8,8 @@ export default defineNuxtConfig({
     '~/assets/css/global.scss'
   ],
   devtools: { enabled: true },
-  base: '/dsoftwareartist/'
+  app: {
+    baseURL: process.env.NODE_ENV === "production" ? "/DSoftwareArtist/" : "/",
+    buildAssetsDir: "assets",
+  },
 })
