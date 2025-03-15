@@ -1,15 +1,13 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  compatibilityDate: '2024-04-03',
-  modules: ['@nuxtjs/tailwindcss'],
-  css: [
-    '~/assets/css/themes/default.scss',
-    '~/assets/css/fontStyles.scss',
-    '~/assets/css/global.scss'
-  ],
+  compatibilityDate: '2024-11-01',
   devtools: { enabled: true },
-  app: {
-    baseURL: process.env.NODE_ENV === "production" ? "/DSoftwareArtist/" : "/",
-    buildAssetsDir: "assets",
-  },
+
+  modules: [
+    '@nuxt/content',
+    '@nuxt/fonts',
+    '@nuxt/ui',
+    '@nuxt/scripts',
+    '@nuxt/test-utils'
+  ]
 })
