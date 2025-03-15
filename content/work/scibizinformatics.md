@@ -1,3 +1,16 @@
+---
+title: Scibiz Informatics
+description: Projects worked in Scibiz Informatics
+link: https://scibizinformatics.com/#/
+role: full-stack developer
+img: scibizinformatics.png
+alt: project
+description: Projects worked in Scibiz Informatics
+code: scibizinformatics
+---
+
+# Scibiz Informatics
+
 Scibiz Informatics | Tacloban, Philippines
 Developed web solutions and worked with a wide range of languages,
 including HTML, JavaScript, Python and CSS coding.

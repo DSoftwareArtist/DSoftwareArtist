@@ -1,0 +1,28 @@
+---
+title: Poseidon
+description: Point of Sale and Inventory System
+link: 
+role: full-stack
+img: poseidon.png
+alt: project
+description: Point of Sale and Inventory System
+tools: 
+  - javascript
+  - python
+  - django
+  - highcharts
+  - jquery
+  - html
+  - css
+  - postgresql
+  - celery
+  - redis
+  - pandas
+  - supervisord
+  - heroku
+  - bootstrap
+  - angularjs
+company: scibizinformatics
+---
+
+# Poseidon
