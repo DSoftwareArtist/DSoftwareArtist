@@ -5,7 +5,6 @@ link: https://scibizinformatics.com/#/
 role: full-stack developer
 img: scibizinformatics.png
 alt: project
-description: Projects worked in Scibiz Informatics
 code: scibizinformatics
 ---
 

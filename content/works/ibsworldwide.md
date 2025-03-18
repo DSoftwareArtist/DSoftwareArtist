@@ -5,7 +5,6 @@ link: https://www.facebook.com/ibsworldwidecorp/
 role: Software Specialist
 img: ibsworldwide.png
 alt: project
-description: Projects worked in IBS Worldwide Corp
 code: ibsworldwide
 ---
 

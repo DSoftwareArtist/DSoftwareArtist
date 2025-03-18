@@ -1,6 +1,5 @@
 ---
 title: Poseidon
-description: Point of Sale and Inventory System
 link: 
 role: full-stack
 img: poseidon.png
