@@ -28,7 +28,10 @@ useSeoMeta({
     <h1>Tools</h1>
     <ul>
       <li v-for="tool in tools" :key="tool.path">
-        <NuxtLink :to="tool.path">{{ tool.title }}</NuxtLink>
+        <div style="display:flex;">
+          <Render style="width:30px;" :name="tool.meta.svg"/>
+          <NuxtLink :to="tool.path">{{ tool.title }}</NuxtLink>
+        </div>
       </li>
     </ul>
   </div>
