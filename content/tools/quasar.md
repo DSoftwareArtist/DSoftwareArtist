@@ -1,7 +1,7 @@
 ---
 title: Quasar Framework
 link: https://quasar.dev/
-img: quasar.png
+svg: quasar
 alt: category
 description: Quasar Experience
 category: 

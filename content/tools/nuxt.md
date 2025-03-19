@@ -1,7 +1,7 @@
 ---
 title: Nuxt
 link: https://nuxt.com/
-img: nuxt.png
+svg: nuxt
 alt: category
 description: Nuxt Experience
 category: 

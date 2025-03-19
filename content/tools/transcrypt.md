@@ -1,7 +1,7 @@
 ---
 title: Transcrypt
 link: https://github.com/elasticdog/transcrypt
-img: transcrypt.png
+svg: transcrypt
 alt: category
 description: Transcrypt Experience
 category: 

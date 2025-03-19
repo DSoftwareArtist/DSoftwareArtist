@@ -1,7 +1,7 @@
 ---
 title: Nginx
 link: https://nginx.org/en/
-img: nginx.png
+svg: nginx
 alt: category
 description: Nginx Experience
 category: 

@@ -3,7 +3,7 @@ title: IBS Worldwide Corp
 description: Projects worked in IBS Worldwide Corp
 link: https://www.facebook.com/ibsworldwidecorp/
 role: Software Specialist
-img: ibsworldwide.png
+svg: ibsworldwide
 alt: project
 code: ibsworldwide
 ---

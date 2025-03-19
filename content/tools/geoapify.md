@@ -1,7 +1,7 @@
 ---
 title: Geoapify
 link: https://www.geoapify.com/
-img: geoapify.png
+svg: geoapify
 alt: category
 description: Geoapify Experience
 category: 

@@ -1,7 +1,7 @@
 ---
 title: Pandas
 link: https://pandas.pydata.org/
-img: pandas.png
+svg: pandas
 alt: category
 description: Pandas Experience
 category: 

@@ -3,7 +3,7 @@ title: Upwork
 description: Projects worked in Upwork
 link: https://upwork.com/
 role: Full-Stack Developer
-img: upwork.png
+svg: upwork
 alt: project
 code: upwork
 ---

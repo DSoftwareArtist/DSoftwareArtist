@@ -1,7 +1,7 @@
 ---
 title: ReactJS
 link: https://react.dev/
-img: reactjs.png
+svg: reactjs
 alt: category
 description: ReactJS Experience
 category: 

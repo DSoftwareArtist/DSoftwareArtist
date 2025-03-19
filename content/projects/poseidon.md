@@ -2,7 +2,7 @@
 title: Poseidon
 link: 
 role: full-stack
-img: poseidon.png
+svg: poseidon
 alt: project
 description: Point of Sale and Inventory System
 tools: 

@@ -1,7 +1,7 @@
 ---
 title: MJML
 link: https://mjml.io/
-img: mjml.png
+svg: mjml
 alt: category
 description: mjml Experience
 category: 

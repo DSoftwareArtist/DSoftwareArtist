@@ -1,7 +1,7 @@
 ---
 title: Selenium
 link: https://www.selenium.dev/
-img: selenium.png
+svg: selenium
 alt: category
 description: Selenium Experience
 category: 

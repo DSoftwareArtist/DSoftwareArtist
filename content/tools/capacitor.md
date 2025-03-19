@@ -1,7 +1,7 @@
 ---
 title: Capacitor
 link: https://capacitorjs.com/
-img: capacitor.png
+svg: capacitor
 alt: category
 description: Capacitor Experience
 category: 

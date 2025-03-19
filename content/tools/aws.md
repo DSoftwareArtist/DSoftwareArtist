@@ -1,7 +1,7 @@
 ---
 title: AWS 
 link: https://aws.amazon.com/
-img: aws.png
+svg: aws
 alt: category
 description: AWS Experience
 category: 

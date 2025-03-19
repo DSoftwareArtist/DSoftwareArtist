@@ -2,7 +2,7 @@
 title: Paytaca
 link: https://paytaca.com
 role: developer
-img: paytaca.png
+svg: paytaca
 alt: project
 description: Non-custodial mobile wallet that can store, send and receive electronic cash using Bitconcash technology.
 tools: 

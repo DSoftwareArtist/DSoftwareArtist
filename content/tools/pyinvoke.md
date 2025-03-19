@@ -1,7 +1,7 @@
 ---
 title: PyInvoke
 link: https://www.pyinvoke.org/
-img: pyinvoke.png
+svg: pyinvoke
 alt: category
 description: PyInvoke Experience
 category: 

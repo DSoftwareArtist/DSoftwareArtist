@@ -1,7 +1,7 @@
 ---
 title: AWS SES Email Service
 link: https://aws.amazon.com/ses/
-img: aws-ses.png
+svg: aws-ses
 alt: category
 description: AWS SES Email Service Experience
 category: 

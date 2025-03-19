@@ -1,7 +1,7 @@
 ---
 title: Store
 link: https://www.npmjs.com/package/storejs
-img: store.png
+svg: store
 alt: category
 description: Store Experience
 category: 

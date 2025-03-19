@@ -1,7 +1,7 @@
 ---
 title: Bootstrap
 link: https://getbootstrap.com/
-img: bootstrap.png
+svg: bootstrap
 alt: category
 description: Bootstrap Experience
 category: 

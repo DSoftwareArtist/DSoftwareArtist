@@ -1,7 +1,7 @@
 ---
 title: ElasticSearch
 link: https://www.elastic.co/elasticsearch
-img: elasticsearch.png
+svg: elasticsearch
 alt: category
 description: ElasticSearch Experience
 category: 

@@ -1,7 +1,7 @@
 ---
 title: Heroku
 link: https://www.heroku.com/
-img: heroku.png
+svg: heroku
 alt: category
 description: Heroku Experience
 category: 

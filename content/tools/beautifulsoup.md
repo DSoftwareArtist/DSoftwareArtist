@@ -1,7 +1,7 @@
 ---
 title: BeautifulSoup
 link: https://pypi.org/project/beautifulsoup4/
-img: beautiful-soup.png
+svg: beautiful-soup
 alt: category
 description: BeautifulSoup Experience
 category: 

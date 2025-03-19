@@ -1,7 +1,7 @@
 ---
 title: Python
 link: https://www.python.org/
-img: python.png
+svg: python
 alt: category
 description: Python Experience
 category: 

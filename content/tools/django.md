@@ -1,7 +1,7 @@
 ---
 title: Django
 link: https://www.djangoproject.com/
-img: django.png
+svg: django
 alt: category
 description: Django Experience
 category: 

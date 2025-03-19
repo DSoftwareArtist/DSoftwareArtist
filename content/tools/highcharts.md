@@ -1,7 +1,7 @@
 ---
 title: Highcharts
 link: https://www.highcharts.com/
-img: highcharts.png
+svg: highcharts
 alt: category
 description: Highcharts Experience
 category: 

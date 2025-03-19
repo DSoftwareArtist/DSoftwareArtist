@@ -1,7 +1,7 @@
 ---
 title: AngularJS
 link: https://angularjs.org/
-img: angularjs.png
+svg: angularjs
 alt: category
 description: AngularJS Experience
 category: 

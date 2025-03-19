@@ -1,7 +1,7 @@
 ---
 title: Fabric
 link: https://www.fabfile.org/
-img: fabric.png
+svg: fabric
 alt: category
 description: Fabric Experience
 category: 

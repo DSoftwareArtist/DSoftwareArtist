@@ -6,7 +6,7 @@ link:
     - https://www.amazon.com/Best-Sellers/zgbs
     -
 role: scraper
-img: scraping.png
+svg: scraping
 alt: project
 description: These are on the side-projects that involves scraping.
 tools: 

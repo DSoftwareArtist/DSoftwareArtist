@@ -1,7 +1,7 @@
 ---
 title: Supervisord
 link: https://supervisord.org/
-img: supervisord.png
+svg: supervisord
 alt: category
 description: Supervisord Experience
 category: 

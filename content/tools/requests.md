@@ -1,7 +1,7 @@
 ---
 title: Requests
 link: https://pypi.org/project/requests/
-img: requests.png
+svg: requests
 alt: category
 description: Requests Experience
 category: 

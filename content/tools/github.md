@@ -1,7 +1,7 @@
 ---
 title: Github
 link: https://github.com/
-img: github.png
+svg: github
 alt: category
 description: Github Experience
 category: 

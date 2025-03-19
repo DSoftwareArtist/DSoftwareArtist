@@ -3,7 +3,7 @@ title: Scibiz Informatics
 description: Projects worked in Scibiz Informatics
 link: https://scibizinformatics.com/#/
 role: full-stack developer
-img: scibizinformatics.png
+svg: scibizinformatics
 alt: project
 code: scibizinformatics
 ---

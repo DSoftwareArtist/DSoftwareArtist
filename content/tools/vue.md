@@ -1,7 +1,7 @@
 ---
 title: Vue
 link: https://vuejs.org/
-img: vue.png
+svg: vue
 alt: category
 description: Vue Experience
 category: 

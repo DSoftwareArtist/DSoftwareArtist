@@ -1,7 +1,7 @@
 ---
 title: Javascript
 link: https://www.w3schools.com/js/
-img: javascript.png
+svg: javascript
 alt: category
 description: Javascript Experience
 category: 

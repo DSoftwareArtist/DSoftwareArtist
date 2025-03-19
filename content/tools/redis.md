@@ -1,7 +1,7 @@
 ---
 title: Redis
 link: https://github.com/redis/redis
-img: redis.png
+svg: redis
 alt: category
 description: Redis Experience
 category: 

@@ -1,7 +1,7 @@
 ---
 title: Java
 link: https://www.java.com/en/
-img: java.png
+svg: java
 alt: category
 description: Java Experience
 category: 

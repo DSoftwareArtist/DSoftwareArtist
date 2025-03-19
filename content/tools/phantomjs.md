@@ -1,7 +1,7 @@
 ---
 title: PhamtomJS
 link: https://phantomjs.org/
-img: phantomjs.png
+svg: phantomjs
 alt: category
 description: PhamtomJS Experience
 category: 

@@ -1,7 +1,7 @@
 ---
 title: Celery
 link: https://docs.celeryproject.org/en/stable/getting-started/first-steps-with-celery.html
-img: celery.png
+svg: celery
 alt: category
 description: Celery Experience
 category: 

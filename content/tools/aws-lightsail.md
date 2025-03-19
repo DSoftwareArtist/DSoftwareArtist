@@ -1,7 +1,7 @@
 ---
 title: AWS Lightsail
 link: https://angularjs.org/
-img: aws-lightsail.png
+svg: aws-lightsail
 alt: category
 description: AngularJS Experience
 category: 

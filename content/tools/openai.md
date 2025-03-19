@@ -1,7 +1,7 @@
 ---
 title: OpenAI
 link: https://platform.openai.com/docs/assistants/overview
-img: openai.png
+svg: openai
 alt: category
 description: OpenAI Experience
 category: 

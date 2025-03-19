@@ -1,7 +1,7 @@
 ---
 title: Pillow
 link: https://pypi.org/project/pillow/
-img: pillow.png
+svg: pillow
 alt: category
 description: Pillow Experience
 category: 

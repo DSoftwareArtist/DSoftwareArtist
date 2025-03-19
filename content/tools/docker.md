@@ -1,7 +1,7 @@
 ---
 title: Docker
 link: https://www.docker.com/
-img: docker.png
+svg: docker
 alt: category
 description: docker Experience
 category: 

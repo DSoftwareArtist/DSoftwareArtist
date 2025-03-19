@@ -1,7 +1,7 @@
 ---
 title: Bitbucket
 link: https://bitbucket.org/product/
-img: bitbucket.png
+svg: bitbucket
 alt: category
 description: Bitbucket Experience
 category: 

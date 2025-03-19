@@ -1,7 +1,7 @@
 ---
 title: Map Box
 link: https://www.mapbox.com/
-img: mapbox.png
+svg: mapbox
 alt: category
 description: Mapbox Experience
 category: 

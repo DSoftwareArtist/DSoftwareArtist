@@ -1,7 +1,7 @@
 ---
 title: Cashtokens
 link: https://cashtokens.org/
-img: cashtokens.png
+svg: cashtokens
 alt: category
 description: Cashtokens Experience
 category: 

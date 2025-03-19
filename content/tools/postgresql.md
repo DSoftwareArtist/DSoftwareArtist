@@ -1,7 +1,7 @@
 ---
 title: Postresql
 link: https://www.postgresql.org/
-img: postresql.png
+svg: postresql
 alt: category
 description: Postgresql Experience
 category: 

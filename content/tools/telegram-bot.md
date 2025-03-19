@@ -1,7 +1,7 @@
 ---
 title: Telegram Bot
 link: https://core.telegram.org/api
-img: telegram-bot.png
+svg: telegram-bot
 alt: category
 description: Telegram Bot Experience
 category: 

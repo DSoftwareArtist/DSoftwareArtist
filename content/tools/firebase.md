@@ -1,7 +1,7 @@
 ---
 title: Firebase
 link: https://firebase.google.com/
-img: firebase.png
+svg: firebase
 alt: category
 description: Firebase Experience
 category: 

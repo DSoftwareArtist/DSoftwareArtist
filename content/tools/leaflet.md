@@ -1,7 +1,7 @@
 ---
 title: Leaflet
 link: https://leafletjs.com/
-img: leaflet.png
+svg: leaflet
 alt: category
 description: Leaflet Experience
 category: 

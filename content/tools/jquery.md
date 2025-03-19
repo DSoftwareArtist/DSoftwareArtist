@@ -1,7 +1,7 @@
 ---
 title: Jquery
 link: https://jquery.com/
-img: jquery.png
+svg: jquery
 alt: category
 description: JQuery Experience
 category: 

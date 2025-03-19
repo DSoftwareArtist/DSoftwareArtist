@@ -2,7 +2,7 @@
 title: 202Works
 link: https://202works.com/
 role: full-stack
-img: 202works.png
+svg: 202works
 alt: project
 description: 202works is a talent marketplace where any company can quickly find the right policy advisor, advocate or lawyer for any government issue.
 tools: 

@@ -1,7 +1,7 @@
 ---
 title: Twillio
 link: https://www.twilio.com/en-us
-img: twillio.png
+svg: twillio
 alt: category
 description: Twillio Experience
 category: 

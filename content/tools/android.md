@@ -1,7 +1,7 @@
 ---
 title: Android
 link: https://www.android.com/intl/en_ph/
-img: android.png
+svg: android
 alt: category
 description: Android Experience
 category: 

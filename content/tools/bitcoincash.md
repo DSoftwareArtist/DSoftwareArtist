@@ -1,7 +1,7 @@
 ---
 title: Bitcoincash
 link: https://bitcoincash.org/
-img: bitcoincash.png
+svg: bitcoincash
 alt: category
 description: Bitcoincash Experience
 category: 
