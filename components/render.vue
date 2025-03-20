@@ -1,177 +1,73 @@
 <template>
     <div>
-        <SvgAws v-if="props.name == 'aws'"></SvgAws>
-        <SvgHtml v-if="props.name=='html'"></SvgHtml>
+        <SvgAdobeillustrator v-if="props.name=='adobeillustrator'"></SvgAdobeillustrator>
+        <SvgAdobephotoshop v-if="props.name=='adobephotoshop'"></SvgAdobephotoshop>
         <SvgAndroid v-if="props.name == 'android'"></SvgAndroid>
+        <SvgAndroidstudio v-if="props.name == 'androidstudio'"></SvgAndroidstudio>
         <SvgAngularjs v-if="props.name == 'angularjs'"></SvgAngularjs>
-
+        <SvgAws v-if="props.name == 'aws'"></SvgAws>
         <!-- <SvgAwslightsail v-if="props.name=='awslightsail'"></SvgAwslightsail> -->
+        <SvgAwss3 v-if="props.name=='aws-s3'"></SvgAwss3>
+        <SvgAwsses v-if="props.name=='aws-ses'"></SvgAwsses>
+        <!-- SvgBeautifulsoup v-if="props.name==''"></SvgBeautifulsoup -->
+
+        <SvgBitbucket v-if="props.name=='bitbucket'"></SvgBitbucket>
+        <SvgBitcoincash v-if="props.name=='bitcoincash'"></SvgBitcoincash>
+        <SvgBootstrap v-if="props.name=='bootstrap'"></SvgBootstrap>
+        <SvgCapacitor v-if="props.name=='capacitor'"></SvgCapacitor>
+        <!-- SvgCashtokens v-if="props.name==''"></SvgCashtokens -->
+
+        <SvgCelery v-if="props.name=='celery'"></SvgCelery>
+        <!-- SvgCicd v-if="props.name==''"></SvgCicd -->
+        <SvgCss v-if="props.name=='css'"></SvgCss>
+        <!-- SvgDjangochannels v-if="props.name==''"></SvgDjangochannels -->
+        <SvgDjangorest v-if="props.name=='django-rest'"></SvgDjangorest>
+        <!-- SvgDjangorq v-if="props.name==''"></Svgdjangorq -->
+        <SvgDjango v-if="props.name=='django'"></SvgDjango>
+        <SvgDocker v-if="props.name=='docker-compose'"></SvgDocker>
+        <SvgDocker v-if="props.name=='docker'"></SvgDocker>
+        <SvgElasticsearch v-if="props.name=='elasticsearch'"></SvgElasticsearch>
+        <!-- <SvgFabric v-if="props.name=='fabric'"></SvgFabric> -->
+        <SvgFirebase v-if="props.name=='firebase'"></SvgFirebase>
         
-        <!-- <Svgaws-s3 v-if="props.name=='"></Svgaws-s3>
-        <Svgaws-ses v-if="props.name=='"></Svgaws-ses>
-
-
-
-        <Svgbeautiful-soup v-if="props.name=='"></Svgbeautiful-soup>
-
-
-        <Svgbitbucket v-if="props.name=='"></Svgbitbucket>
-
-
-        <Svgbitcoincash v-if="props.name=='"></Svgbitcoincash>
-
-
-        <Svgbootstrap v-if="props.name=='"></Svgbootstrap>
-
-
-        <Svgcapacitor v-if="props.name=='"></Svgcapacitor>
-
-
-        <Svgcashtokens v-if="props.name=='"></Svgcashtokens>
-
-
-        <Svgcelery v-if="props.name=='"></Svgcelery>
-
-
-        <Svgcicd v-if="props.name=='"></Svgcicd>
-
-
-        <Svgcss>
-
-        <Svgdjango-channels v-if="props.name=='"></Svgdjango-channels>
-
-
-        <Svgdjango-rest v-if="props.name=='"></Svgdjango-rest>
-
-
-        <Svgdjango-rq v-if="props.name=='"></Svgdjango-rq>
-
-
-        <Svgdjango v-if="props.name=='"></Svgdjango>
-
-
-        <Svgdocker-compose v-if="props.name=='"></Svgdocker-compose>
-
-
-        <Svgdocker v-if="props.name=='"></Svgdocker>
-
-
-        <Svgelasticsearch v-if="props.name=='"></Svgelasticsearch>
-
-
-        <Svgfabric v-if="props.name=='"></Svgfabric>
-
-
-        <Svgfirebase v-if="props.name=='"></Svgfirebase>
-
-
-        <Svggeoapify v-if="props.name=='"></Svggeoapify>
-
-
-        <SvgGeolocation v-if="props.name=='"></SvgGeolocation>
-
-
-        <Svggithub-actions v-if="props.name=='"></Svggithub-actions>
-
-
-        <Svggithub v-if="props.name=='"></Svggithub>
-
-
-        <Svgheroku v-if="props.name=='"></Svgheroku>
-
-
-        <Svghighcharts v-if="props.name=='"></Svghighcharts>
-
-
-        <Svgjava v-if="props.name=='"></Svgjava>
-
-
-        <Svgjavascript v-if="props.name=='"></Svgjavascript>
-
-
-        <Svgjquery v-if="props.name=='"></Svgjquery>
-
-
-        <Svgleaflet v-if="props.name=='"></Svgleaflet>
-
-
-        <Svglocalstorage v-if="props.name=='"></Svglocalstorage>
-
-
-        <Svgmapbox v-if="props.name=='"></Svgmapbox>
-
-
-        <Svgmjml v-if="props.name=='"></Svgmjml>
-
-
-        <Svgnginx v-if="props.name=='"></Svgnginx>
-
-
-        <Svgnuxt v-if="props.name=='"></Svgnuxt>
-
-
-        <Svgopenai v-if="props.name=='"></Svgopenai>
-
-
-        <Svgpandas v-if="props.name=='"></Svgpandas>
-
-
-        <Svgphantomjs v-if="props.name=='"></Svgphantomjs>
-
-
-        <Svgpillow v-if="props.name=='"></Svgpillow>
-
-
-        <Svgpostresql v-if="props.name=='"></Svgpostresql>
-
-
-        <Svgpyinvoke v-if="props.name=='"></Svgpyinvoke>
-
-
-        <Svgpython v-if="props.name=='"></Svgpython>
-
-
-        <Svgquasar v-if="props.name=='"></Svgquasar>
-
-
-        <Svgreactjs v-if="props.name=='"></Svgreactjs>
-
-
-        <Svgredis v-if="props.name=='"></Svgredis>
-
-
-        <Svgrequests v-if="props.name=='"></Svgrequests>
-
-
-        <Svgscrapy v-if="props.name=='"></Svgscrapy>
-
-
-        <Svgselenium v-if="props.name=='"></Svgselenium>
-
-
-        <Svgsmart-contract v-if="props.name=='"></Svgsmart-contract>
-
-
-        <Svgstore v-if="props.name=='"></Svgstore>
-
-
-        <Svgsupervisord v-if="props.name=='"></Svgsupervisord>
-
-
-        <Svgtailwindcss v-if="props.name=='"></Svgtailwindcss>
-
-
-        <Svgtelegram-bot v-if="props.name=='"></Svgtelegram-bot>
-
-
-        <Svgtranscrypt v-if="props.name=='"></Svgtranscrypt>
-
-
-        <Svgtwillio v-if="props.name=='"></Svgtwillio>
-
-
-        <Svgvue v-if="props.name=='"></Svgvu v-if="props.name=='"e>/ -->
-
+        <!-- SvgGeoapify v-if="props.name=='geoapify'"></SvgGeoapify -->
+        <!-- SvgGeolocation v-if="props.name=='geolocation'"></SvgGeolocation -->
+        
+        <SvgGithubactions v-if="props.name=='github-actions'"></SvgGithubactions>
+        <SvgGithub v-if="props.name=='github'"></SvgGithub>
+        <SvgHeroku v-if="props.name=='heroku'"></SvgHeroku>
+        <!-- SvgHighcharts v-if="props.name=='highcharts'"></SvgHighcharts -->
+        <SvgHtml v-if="props.name=='html'"></SvgHtml>
+        <SvgJava v-if="props.name=='java'"></SvgJava>
+        <SvgJavascript v-if="props.name=='javascript'"></SvgJavascript>
+        <SvgJquery v-if="props.name=='jquery'"></SvgJquery>
+        <!-- SvgLeaflet v-if="props.name=='leaflet'"></SvgLeaflet -->
+        <!-- SvgLocalstorage v-if="props.name=='localstorage'"></SvgLocalstorage -->
+        <!-- SvgMapbox v-if="props.name=='mapbox'"></SvgMapbox -->
+        <!-- SvgMjml v-if="props.name=='mjml'"></SvgMjml -->
+        <SvgNginx v-if="props.name=='nginx'"></SvgNginx>
+        <SvgNuxt v-if="props.name=='nuxt'"></SvgNuxt>
+        <!-- SvgOpenai v-if="props.name=='openai'"></SvgOpenai -->
+        <SvgPandas v-if="props.name=='pandas'"></SvgPandas>
+        <!-- SvgPhantomjs v-if="props.name=='phantomjs'"></SvgPhantomjs -->
+        <!-- SvgPillow v-if="props.name=='pillow'"></SvgPillow -->
+        <SvgPostresql v-if="props.name=='postresql'"></SvgPostresql>
+        <!-- SvgPyinvoke v-if="props.name=='pyinvoke'"></SvgPyinvoke -->
+        <SvgPython v-if="props.name=='python'"></SvgPython>
+        <SvgQuasar v-if="props.name=='quasar'"></SvgQuasar>
+        <SvgReactjs v-if="props.name=='reactjs'"></SvgReactjs>
+        <SvgRedis v-if="props.name=='redis'"></SvgRedis>
+        <!-- SvgRequests v-if="props.name=='requests'"></SvgRequests -->
+        <!-- SvgScrapy v-if="props.name=='scrapy'"></SvgScrapy -->
+        <SvgSelenium v-if="props.name=='selenium'"></SvgSelenium>
+        <!-- SvgSmartcontract v-if="props.name==''"></SvgSmartcontract -->
+        <!-- SvgStore v-if="props.name=='store'"></SvgStore -->
+        <!-- SvgSupervisord v-if="props.name=='supervisord'"></SvgSupervisord -->
+        <SvgTailwindcss v-if="props.name=='tailwindcss'"></SvgTailwindcss>
+        <!-- SvgTelegrambot v-if="props.name=='telegrambot'"></SvgTelegrambot -->
+        <!-- SvgTranscrypt v-if="props.name=='transcrypt'"></SvgTranscrypt -->
+        <!-- SvgTwillio v-if="props.name=='twillio'"></SvgTwillio -->
+        <SvgVue v-if="props.name=='vue'"></SvgVue>
     </div>
 </template>
 <script setup>
