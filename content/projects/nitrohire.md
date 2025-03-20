@@ -20,7 +20,6 @@ tools:
   - pandas
   - docker-compose
   - github-actions
-  - cicd
 company: upwork
 ---
 

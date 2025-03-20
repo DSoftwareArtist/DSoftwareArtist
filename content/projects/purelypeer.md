@@ -24,7 +24,6 @@ tools:
   - java
   - bitcoincash
   - smart-contract
-  - cashtokens
   - transcrypt
 company: scibizinformatics
 ---

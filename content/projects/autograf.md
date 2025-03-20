@@ -30,7 +30,6 @@ tools:
   - pandas
   - docker-compose
   - github actions
-  - cicd
   - openai
   - websocket
   - transcrypt
