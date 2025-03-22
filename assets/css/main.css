@@ -1,3 +1,2 @@
 @import 'tailwindcss' theme(static);
-
-@config '../../tailwind.config.js';
+@import "@nuxt/ui";
