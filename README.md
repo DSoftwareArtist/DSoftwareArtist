@@ -9,6 +9,7 @@ education: Bachelor of Science in Information Technology
 company: Scibiz Informatics | PurelyPeer
 past_experiences:
   - ["Software Developer", "Scibiz Informatics", "Tacloban", "Phil", "2015-present"]
+  - ["Fronted Developer", "PurelyPeer", "Tacloban", "Phil", "2020-present"]
   - ["Software Specialist", "IBS Worldwide", "Makati", "Phil", "2013-2015"]
 
 fields_of_interests: ["Path Planning", "Trajectory Planning", "Path Following",
