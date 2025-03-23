@@ -1,2 +1,31 @@
 @import 'tailwindcss' theme(static);
 @import "@nuxt/ui";
+
+@theme {
+    --font-sans: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+    --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    
+
+    --color-primary-100: #313864;
+    --color-primary-200: #333366;
+    --color-primary-300: #20285b;
+    --color-primary-400: #161e4f;
+    --color-primary-500: #131a45;
+    --color-primary-600: #11173d;
+    --color-primary-700: #0b123b;
+    --color-primary-800: #0b123b;
+    --color-primary-900: #141126;
+
+
+    --color-secondary-100: #112c64;
+    --color-secondary-200: #1bbee3;
+    --color-secondary-300: #0d97b6;
+    --color-secondary-400: #047691;
+    --color-secondary-500: #1b6694;
+    --color-secondary-600: #3057a8;
+    --color-secondary-700: #23468e;
+    --color-secondary-800: #1a3b7f;
+    --color-secondary-900: #112c64;
+
+}
