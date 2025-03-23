@@ -9,9 +9,9 @@ const { data: works } = await useAsyncData('works', () => {
   return queryCollection('works').all()
 })
 
-const { data: projects } = await useAsyncData('projects', () => {
-  return queryCollection('projects').all()
-})
+// const { data: projects } = await useAsyncData('projects', () => {
+//   return queryCollection('projects').all()
+// })
 
 
 useSeoMeta({
@@ -45,14 +45,14 @@ useSeoMeta({
     </ul>
   </div>
 
-  <div>
+  <!-- <div>
     <h1>Projects</h1>
     <ul>
       <li v-for="project in projects" :key="project.path">
         <NuxtLink :to="project.path">{{ project.title }}</NuxtLink>
       </li>
     </ul>
-  </div>
+  </div> -->
   
   
 </template>
