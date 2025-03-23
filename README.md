@@ -7,7 +7,7 @@ located_in: Philippines
 job: Software Developer
 education: Bachelor of Science in Information Technology
 company: Scibiz Informatics | PurelyPeer
-past experiences:
+past_experiences:
   - ["Software Developer", "Scibiz Informatics", "Tacloban City", "Philippines", "2015-present"]
   - ["Software Specialist", "IBS Worldwide", "Makati City", "Philippines", "2013-2015"]
 
