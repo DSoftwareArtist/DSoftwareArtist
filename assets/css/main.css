@@ -28,4 +28,37 @@
     --color-secondary-800: #1a3b7f;
     --color-secondary-900: #112c64;
 
+    --animate-left-scroll: left-scroll 200s infinite;
+    --animate-right-scroll: right-scroll 300s infinite;
+
+    @keyframes left-scroll {
+        0%,
+        100% {
+            transform: translateX(0px);
+        }
+        50% {
+            transform: translateX(-16597px);
+        }
+    }
+
+    @keyframes right-scroll {
+        0%,
+        100% {
+            transform: rotate(-3deg);
+        }
+        50% {
+            transform: rotate(3deg);
+        }
+    }
+
+}
+
+@layer utilities {
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+    .no-scrollbar {
+      -ms-overflow-style: none;  /* IE and Edge */
+      scrollbar-width: none;  /* Firefox */
+    }
 }
