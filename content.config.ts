@@ -15,7 +15,6 @@ export default defineContentConfig({
         svg: z.string(),
         alt: z.string(),
         description: z.string(),
-        tags: z.array(z.string()),
         category: z.array(z.string())
       })
     }),

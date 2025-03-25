@@ -37,17 +37,17 @@
             transform: translateX(0px);
         }
         50% {
-            transform: translateX(-16597px);
+            transform: translateX(-1000px);
         }
     }
 
     @keyframes right-scroll {
         0%,
         100% {
-            transform: rotate(-3deg);
+            transform: translateX(-1000px);
         }
         50% {
-            transform: rotate(3deg);
+            transform: translateX(0px);
         }
     }
 

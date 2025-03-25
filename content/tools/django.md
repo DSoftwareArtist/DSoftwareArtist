@@ -5,7 +5,6 @@ svg: django
 alt: category
 description: Django Experience
 category: 
-  - frontend
   - backend
 ---
 
