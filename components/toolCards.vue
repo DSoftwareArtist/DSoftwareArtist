@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-secondary-200/2 hover:bg-white/8 border-1 border-secondary-100 rounded-xl p-10 cursor-pointer" v-for="tool in props.tools">
+    <div class="bg-secondary-200/2 hover:bg-white/8 border-1 border-secondary-200/30 rounded-xl p-10 cursor-pointer" v-for="tool in props.tools">
       <div class="flex justify-center">
           <Render class="w-[60px]" :name="tool.svg"/>
         </div>
