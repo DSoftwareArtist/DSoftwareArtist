@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
   app: {
-    baseURL: '/DSoftwareArtist/', // Change this to your repo name
+    baseURL: '/DSoftwareArtist/',
   },
   devtools: { enabled: true },
 
@@ -11,8 +11,7 @@ export default defineNuxtConfig({
     '@nuxt/fonts',
     '@nuxt/ui',
     '@nuxt/scripts',
-    '@nuxt/test-utils',
-    '@nuxt/image'
+    '@nuxt/test-utils'
   ],
   css: ['~/assets/css/main.css']
 

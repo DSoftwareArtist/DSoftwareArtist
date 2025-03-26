@@ -24,7 +24,8 @@ const { data: devops } = await useAsyncData('tools-devops', () => {
     .where('category', 'LIKE', '%devops%')
     .all()
 })
-
+const { getPngs } = useUtils()
+const pngs = getPngs()
 useAnimatedGrid()
 </script>
 
@@ -45,7 +46,7 @@ useAnimatedGrid()
           <div class="bg-primary-600 backdrop-blur-2xl w-full h-[610px] mr-20 border-1 border-secondary-200/20 rounded-tr-2xl rounded-br-2xl p-20 text-white">
             <div class="flex items-center h-full">
               <div class=" w-3/4"></div>
-              <NuxtImg class="w-60 opacity-60" src="/img/user5.png" loading="lazy"/>
+              <img alt="" :src="pngs['user5']" class="w-60" decoding="async" data-nimg="1" loading="lazy"/>
             </div>
           </div>
         </div>
