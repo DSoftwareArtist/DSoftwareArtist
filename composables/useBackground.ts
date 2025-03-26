@@ -51,7 +51,6 @@ export function useAnimatedGrid() {
   let gridCellSize = { width: 30, height: 30, radius: 2 };
   let animatedLines = [];
   let firstRender = true;
-
   function createAnimatedLines() {
     animatedLines = [];
     for (let x = gridCellSize.width; x <= gridSize.width; x += gridCellSize.width) {
@@ -125,15 +124,17 @@ export function useAnimatedGrid() {
     drawGrid();
   }
 
-  onMounted(() => {
+  onMounted(async() => {
+    console.log('a')
     gridWrapperElement = document.getElementById(GridWrapperElementId);
     cellsCanvasElement = document.getElementById(CellsCanvasContextId);
     linesCanvasElement = document.getElementById(LinesCanvasContextId);
+    console.log(document)
     if (!gridWrapperElement || !cellsCanvasElement || !linesCanvasElement) return;
-
+    console.log('b')
     cellsCanvasContext = cellsCanvasElement.getContext("2d");
     linesCanvasContext = linesCanvasElement.getContext("2d");
-
+    console.log('c')
     window.addEventListener("resize", onResize);
     showAnimated();
     setTimeout(onAnimationFrame, 1500);

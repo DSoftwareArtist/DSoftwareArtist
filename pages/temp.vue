@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { onMounted } from 'vue';
 // SEO
 const { data: home } = await useAsyncData(() => queryCollection('content').path('/').first())
   useSeoMeta({
@@ -18,13 +19,15 @@ const { data: backend } = await useAsyncData('tools-backend', () => {
     .where('category', 'LIKE', '%backend%')
     .all()
 })
-
 const { data: devops } = await useAsyncData('tools-devops', () => {
   return queryCollection('tools')
     .where('category', 'LIKE', '%devops%')
     .all()
 })
 useAnimatedGrid()
+// onMounted(async() => {
+//   await nextTick(); // Wait for the DOM to be fully rendered
+// })
 </script>
 
 <template>
@@ -44,7 +47,7 @@ useAnimatedGrid()
           <div class="bg-primary-600 backdrop-blur-2xl w-full h-[610px] mr-20 border-1 border-secondary-200/20 rounded-tr-2xl rounded-br-2xl p-20 text-white">
             <div class="flex items-center h-full">
               <div class=" w-3/4"></div>
-              <img alt="" :src="'/img/user5.png'" class="w-60" decoding="async" data-nimg="1" loading="lazy"/>
+              <img src="/img/user5.png" class="w-60" alt="Discover Nuxt 3" />
             </div>
           </div>
         </div>

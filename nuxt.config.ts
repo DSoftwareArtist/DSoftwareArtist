@@ -5,14 +5,17 @@ export default defineNuxtConfig({
     baseURL: '/DSoftwareArtist/',
   },
   devtools: { enabled: true },
-
   modules: [
     '@nuxt/content',
     '@nuxt/fonts',
     '@nuxt/ui',
     '@nuxt/scripts',
-    '@nuxt/test-utils'
+    '@nuxt/test-utils',
+    '@nuxt/image'
   ],
-  css: ['~/assets/css/main.css']
+  css: ['~/assets/css/main.css'],
+  image: {
+    dir: 'public'
+  }
 
 })
