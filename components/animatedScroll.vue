@@ -1,5 +1,5 @@
 <template>
-    <div class="flex max-w-2xl h-2xl justify-start overflow-auto no-scrollbar group">
+    <div class="flex w-7xl h-2xl justify-start overflow-auto no-scrollbar group">
         <div class="flex gap-5 group-hover:[animation-play-state:paused]" :class="direction === 'left' ? 'animate-left-scroll': 'animate-right-scroll'">
             <slot></slot>
         </div>
