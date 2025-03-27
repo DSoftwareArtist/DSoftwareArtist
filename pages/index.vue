@@ -6,19 +6,19 @@
         <AnimatedScroll :direction="'left'"> <ToolCards :tools="devops ?? []"/></AnimatedScroll>
       </div>
       <div class="flex absolute h-[500px]">
-        <Card>
-
+        <CustomCard>
           <UCarousel v-slot="{ item }" dots :items="users" class="w-[600px]">
             <div class="flex items-center h-full p-5">
-              <img :src="`/DSoftwareArtist/img/${item}`" class="w-60" alt="Discover Nuxt 3" />
+              <img :src="`/DSoftwareArtist/img/${item}`" class="w-60" alt="Reamon" />
               <div class="flex flex-col gap-2">
                 <h4 class=" text-[32px]">{{  home?.title }}</h4>
                 <p class=" text-justify font-light text-[16px]" v-html="home?.description"/>
               </div>
             </div>
           </UCarousel>
+
           
-        </Card>
+        </CustomCard>
       </div>
       <StarsBg class=" z-0"></StarsBg>
     </div>
