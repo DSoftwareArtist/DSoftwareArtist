@@ -1,9 +1,10 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  ssr: true, // Ensure SSR is enabled (if using dynamic content)
+  ssr: true,
   compatibilityDate: '2024-11-01',
   app: {
-    baseURL: '/'
+    baseURL: '/DSoftwareArtist/',
+    buildAssetsDir: '/assets/',
   },
   devtools: { enabled: true },
   modules: [
