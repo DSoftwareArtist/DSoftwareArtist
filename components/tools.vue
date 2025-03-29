@@ -59,6 +59,7 @@
         <SvgPhantomjs v-if="tool.svg=='phantomjs'"></SvgPhantomjs>
         <SvgPillow v-if="tool.svg=='pillow'"></SvgPillow>
         <SvgPyinvoke v-if="tool.svg=='pyinvoke'"></SvgPyinvoke>
+        <SvgSupervisord v-if="tool.svg=='supervisord'"></SvgSupervisord>
       </div>
       <div class=" min-w-[100px]">
           <p v-if="tool.svg=='html'" class="transition-colors duration-600 ease-in-out text-[var(--color-primary-500)] group-hover/html:text-[#ffffff] text-center pt-2 text-sm">{{ tool.title }}</p>
