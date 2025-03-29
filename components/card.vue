@@ -1,12 +1,11 @@
 <script setup>
 import { ref, computed } from 'vue'
 
-const spotlight = ref({ x: 0, y: 0, opacity: 0 })
+const spotlight = ref({ x: 50, y: 100, intensity: 0.3 })
 
 const spotlightStyle = computed(() => {
   return {
-    background: `radial-gradient(circle at ${spotlight.value.x}% ${spotlight.value.y}%, rgba(59, 130, 246, 0.3), transparent)`,
-    opacity: spotlight.value.opacity
+    background: `radial-gradient(circle at ${spotlight.value.x}% ${spotlight.value.y}%, rgba(59, 130, 246, ${spotlight.value.intensity}), transparent)`
   }
 })
 
@@ -16,23 +15,23 @@ const handleMouseMove = (event) => {
   spotlight.value = {
     x: ((clientX - left) / width) * 100,
     y: ((clientY - top) / height) * 100,
-    opacity: 1
+    intensity: 0.2
   }
 }
 
 const handleMouseLeave = () => {
-  spotlight.value.opacity = 0
+  spotlight.value.intensity = 0.2
 }
 </script>
 
 <template>
   <div
-    class="relative group overflow-hidden rounded-xl border-1 border-secondary-100 bg-primary-900 p-6 shadow-sm transition-all duration-300 h hover:shadow-lg shadow-primary-100 min-h-[200px]"
+    class="relative group overflow-hidden rounded-xl border border-secondary-100 bg-primary-900 p-6 shadow-sm transition-all duration-300 min-h-[200px]"
     @mousemove="handleMouseMove"
     @mouseleave="handleMouseLeave"
   >
     <div
-      class="absolute inset-0 bg-gradient-to-r from-primary-500/30 via-transparent to-secondary-500/30 opacity-0 transition-opacity duration-300 z-0"
+      class="absolute inset-0 transition-opacity duration-300 z-0"
       :style="spotlightStyle"
     ></div>
     <div>
