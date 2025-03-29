@@ -1,7 +1,7 @@
 ---
 title: Django RQ
 link: https://github.com/rq/django-rq
-svg: django-rq
+svg: djangorq
 alt: category
 description: Django RQ Experience
 category: 

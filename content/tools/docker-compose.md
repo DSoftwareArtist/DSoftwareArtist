@@ -1,7 +1,7 @@
 ---
 title: Docker-Compose
 link: https://github.com/docker/compose/releases
-svg: docker-compose
+svg: dockercompose
 alt: category
 description: Docker-compose Experience
 category: 

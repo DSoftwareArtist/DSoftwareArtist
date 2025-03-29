@@ -13,6 +13,3 @@
         <path fill="url(#flutter-original-a)" d="M61.6 113.1l30.8-8.4-10.8-10.8z"/>
     </svg>
 </template>
-<script setup>
-defineProps(['name'])
-</script>

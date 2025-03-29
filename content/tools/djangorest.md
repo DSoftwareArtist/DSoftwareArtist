@@ -1,7 +1,7 @@
 ---
 title: Django Rest Framework
 link: https://www.django-rest-framework.org/
-svg: django-rest
+svg: djangorest
 alt: category
 description: django-rest Experience
 category: 

@@ -1,10 +1,7 @@
 <template>
     <svg viewBox="0 0 128 128">
-        <path :fill="active ? '#343741' : 'var(--color-primary-700)'" d="M4 64c0 5.535.777 10.879 2.098 16H84c8.836 0 16-7.164 16-16s-7.164-16-16-16H6.098A63.738 63.738 0 0 0 4 64"/>
-        <path :fill="active ? '#fec514' : 'var(--color-primary-500)'" d="M111.695 30.648A61.485 61.485 0 0 0 117.922 24C106.188 9.379 88.199 0 68 0 42.715 0 20.957 14.71 10.574 36H98.04a20.123 20.123 0 0 0 13.652-5.352"/>
-        <path :fill="active ? '#00bfb3' : 'var(--color-primary-600)'" d="M98.04 92H10.577C20.961 113.29 42.715 128 68 128c20.2 0 38.188-9.383 49.922-24a61.1 61.1 0 0 0-6.227-6.648A20.133 20.133 0 0 0 98.04 92"/>
+        <path class="fill-[var(--color-primary-700)] group-hover/elasticsearch:fill-[#343741] transition-colors duration-300 ease-in-out" d="M4 64c0 5.535.777 10.879 2.098 16H84c8.836 0 16-7.164 16-16s-7.164-16-16-16H6.098A63.738 63.738 0 0 0 4 64"/>
+        <path class="fill-[var(--color-primary-500)] group-hover/elasticsearch:fill-[#fec514] transition-colors duration-300 ease-in-out" d="M111.695 30.648A61.485 61.485 0 0 0 117.922 24C106.188 9.379 88.199 0 68 0 42.715 0 20.957 14.71 10.574 36H98.04a20.123 20.123 0 0 0 13.652-5.352"/>
+        <path class="fill-[var(--color-primary-600)] group-hover/elasticsearch:fill-[#00bfb3] transition-colors duration-300 ease-in-out" d="M98.04 92H10.577C20.961 113.29 42.715 128 68 128c20.2 0 38.188-9.383 49.922-24a61.1 61.1 0 0 0-6.227-6.648A20.133 20.133 0 0 0 98.04 92"/>
     </svg>
 </template>
-<script setup>
-defineProps(['name'])
-</script>

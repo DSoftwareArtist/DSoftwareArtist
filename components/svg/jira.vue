@@ -13,6 +13,3 @@
         <path fill="url(#jira-original-b)" d="M62.219 62.078H16c0 11.524 9.324 20.848 20.848 20.848h8.5v8.23c0 11.52 9.328 20.844 20.847 20.844V66.059a3.984 3.984 0 00-3.976-3.98zm0 0"/>
     </svg>
 </template>
-<script setup>
-defineProps(['name'])
-</script>

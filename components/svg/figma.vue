@@ -7,6 +7,3 @@
         <path fill="#1abcfe" d="M110 64.5c0 11.9-9.6 21.5-21.5 21.5S67 76.4 67 64.5 76.6 43 88.5 43 110 52.6 110 64.5zm0 0"/>
     </svg>
 </template>
-<script setup>
-defineProps(['name'])
-</script>

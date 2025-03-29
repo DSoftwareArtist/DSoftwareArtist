@@ -5,6 +5,3 @@
         </svg>
     </div>
 </template>
-<script setup>
-defineProps(['name'])
-</script>
