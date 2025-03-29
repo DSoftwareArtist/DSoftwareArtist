@@ -1,7 +1,14 @@
 <script setup>
-import { ref } from 'vue'
+import { ref, computed } from 'vue'
 
 const spotlight = ref({ x: 0, y: 0, opacity: 0 })
+
+const spotlightStyle = computed(() => {
+  return {
+    background: `radial-gradient(circle at ${spotlight.value.x}% ${spotlight.value.y}%, rgba(59, 130, 246, 0.3), transparent)`,
+    opacity: spotlight.value.opacity
+  }
+})
 
 const handleMouseMove = (event) => {
   const { clientX, clientY, currentTarget } = event
@@ -26,10 +33,7 @@ const handleMouseLeave = () => {
   >
     <div
       class="absolute inset-0 bg-gradient-to-r from-primary-500/30 via-transparent to-secondary-500/30 opacity-0 transition-opacity duration-300 z-0"
-      :style="{
-        background: `radial-gradient(circle at ${spotlight.x}% ${spotlight.y}%, rgba(59, 130, 246, 0.3), transparent)`,
-        opacity: spotlight.opacity
-      }"
+      :style="spotlightStyle"
     ></div>
     <div>
       <slot></slot>

@@ -1,58 +1,58 @@
 <template>
     <div>
-        <SvgAdobeillustrator v-if="props.name=='adobeillustrator'"></SvgAdobeillustrator>
-        <SvgAdobephotoshop v-if="props.name=='adobephotoshop'"></SvgAdobephotoshop>
-        <SvgAndroid v-if="props.name == 'android'"></SvgAndroid>
-        <SvgAndroidstudio v-if="props.name == 'androidstudio'"></SvgAndroidstudio>
-        <SvgAngularjs v-if="props.name == 'angularjs'"></SvgAngularjs>
-        <SvgAws v-if="props.name == 'aws'"></SvgAws>
-        <SvgAwss3 v-if="props.name=='aws-s3'"></SvgAwss3>
-        <SvgAwsses v-if="props.name=='aws-ses'"></SvgAwsses>
-        <SvgBitbucket v-if="props.name=='bitbucket'"></SvgBitbucket>
-        <SvgBitcoincash v-if="props.name=='bitcoincash'"></SvgBitcoincash>
-        <SvgBootstrap v-if="props.name=='bootstrap'"></SvgBootstrap>
-        <SvgCapacitor v-if="props.name=='capacitor'"></SvgCapacitor>
-        <SvgCelery v-if="props.name=='celery'"></SvgCelery>
-        <SvgCss v-if="props.name=='css'"></SvgCss>
-        <SvgDjangorest v-if="props.name=='django-rest'"></SvgDjangorest>
-        <SvgDjango v-if="props.name=='django'"></SvgDjango>
-        <SvgDocker v-if="props.name=='docker-compose'"></SvgDocker>
-        <SvgDocker v-if="props.name=='docker'"></SvgDocker>
-        <SvgElasticsearch v-if="props.name=='elasticsearch'"></SvgElasticsearch>
-        <SvgFirebase v-if="props.name=='firebase'"></SvgFirebase>
-        <SvgGithubactions v-if="props.name=='github-actions'"></SvgGithubactions>
-        <SvgGithub v-if="props.name=='github'"></SvgGithub>
-        <SvgHeroku v-if="props.name=='heroku'"></SvgHeroku>
-        <SvgHtml v-if="props.name=='html'"></SvgHtml>
-        <SvgJava v-if="props.name=='java'"></SvgJava>
-        <SvgJavascript v-if="props.name=='javascript'"></SvgJavascript>
-        <SvgJavascript v-if="props.name=='geolocation'"></SvgJavascript>
-        <SvgJavascript v-if="props.name=='store'"></SvgJavascript>
-        <SvgJavascript v-if="props.name=='transcrypt'"></SvgJavascript>
-        <SvgJquery v-if="props.name=='jquery'"></SvgJquery>
-        <SvgLeaflet v-if="props.name=='leaflet'"></SvgLeaflet>
-        <SvgMapbox v-if="props.name=='mapbox'"></SvgMapbox>
-        <SvgMjml v-if="props.name=='mjml'"></SvgMjml>
-        <SvgNginx v-if="props.name=='nginx'"></SvgNginx>
-        <SvgNuxt v-if="props.name=='nuxt'"></SvgNuxt>
-        <SvgOpenai v-if="props.name=='openai'"></SvgOpenai>
-        <SvgPandas v-if="props.name=='pandas'"></SvgPandas>
-        <SvgPostresql v-if="props.name=='postresql'"></SvgPostresql>
-        <SvgPython v-if="props.name=='python'"></SvgPython>
-        <SvgQuasar v-if="props.name=='quasar'"></SvgQuasar>
-        <SvgReactjs v-if="props.name=='reactjs'"></SvgReactjs>
-        <SvgRedis v-if="props.name=='redis'"></SvgRedis>
-        <SvgSelenium v-if="props.name=='selenium'"></SvgSelenium>
-        <SvgTailwindcss v-if="props.name=='tailwindcss'"></SvgTailwindcss>
-        <SvgTelegram v-if="props.name=='telegrambot'"></SvgTelegram>
-        <SvgVue v-if="props.name=='vue'"></SvgVue>
-        <SvgPyscript v-if="props.name=='beautiful-soup'"></SvgPyscript>
-        <SvgPyscript v-if="props.name=='requests'"></SvgPyscript>
-        <SvgPyscript v-if="props.name=='fabric'"></SvgPyscript>
-        <SvgPyscript v-if="props.name=='django-rq'"></SvgPyscript>
+        <SvgAdobeillustrator :name="name" v-if="name=='adobeillustrator'"></SvgAdobeillustrator>
+        <SvgAdobephotoshop :name="name" v-if="name=='adobephotoshop'"></SvgAdobephotoshop>
+        <SvgAndroid :name="name" v-if="name == 'android'"></SvgAndroid>
+        <SvgAndroidstudio :name="name" v-if="name == 'androidstudio'"></SvgAndroidstudio>
+        <SvgAngularjs :name="name" v-if="name == 'angularjs'"></SvgAngularjs>
+        <SvgAws :name="name" v-if="name == 'aws'"></SvgAws>
+        <SvgAwss3 :name="name" v-if="name=='aws-s3'"></SvgAwss3>
+        <SvgAwsses :name="name" v-if="name=='aws-ses'"></SvgAwsses>
+        <SvgBitbucket :name="name" v-if="name=='bitbucket'"></SvgBitbucket>
+        <SvgBitcoincash :name="name" v-if="name=='bitcoincash'"></SvgBitcoincash>
+        <SvgBootstrap :name="name" v-if="name=='bootstrap'"></SvgBootstrap>
+        <SvgCapacitor :name="name" v-if="name=='capacitor'"></SvgCapacitor>
+        <SvgCelery :name="name" v-if="name=='celery'"></SvgCelery>
+        <SvgCss :name="name" v-if="name=='css'"></SvgCss>
+        <SvgDjangorest :name="name" v-if="name=='django-rest'"></SvgDjangorest>
+        <SvgDjango :name="name" v-if="name=='django'"></SvgDjango>
+        <SvgDocker :name="name" v-if="name=='docker-compose'"></SvgDocker>
+        <SvgDocker :name="name" v-if="name=='docker'"></SvgDocker> 
+        <SvgElasticsearch :name="name" v-if="name=='elasticsearch'"></SvgElasticsearch>
+        <SvgFirebase :name="name" v-if="name=='firebase'"></SvgFirebase>
+        <SvgGithubactions :name="name" v-if="name=='github-actions'"></SvgGithubactions>
+        <SvgGithub :name="name" v-if="name=='github'"></SvgGithub>
+        <SvgHeroku :name="name" v-if="name=='heroku'"></SvgHeroku>
+        <SvgHtml :name="name" v-if="name=='html'"></SvgHtml>
+        <SvgJava :name="name" v-if="name=='java'"></SvgJava>
+        <SvgJavascript :name="name" v-if="name=='javascript'"></SvgJavascript>
+        <SvgJavascript :name="name" v-if="name=='geolocation'"></SvgJavascript>
+        <SvgJavascript :name="name" v-if="name=='store'"></SvgJavascript>
+        <SvgJavascript :name="name" v-if="name=='transcrypt'"></SvgJavascript>
+        <SvgJquery :name="name" v-if="name=='jquery'"></SvgJquery>
+        <SvgLeaflet :name="name" v-if="name=='leaflet'"></SvgLeaflet>
+        <SvgMapbox :name="name" v-if="name=='mapbox'"></SvgMapbox>
+        <SvgMjml :name="name" v-if="name=='mjml'"></SvgMjml>
+        <SvgNginx :name="name" v-if="name=='nginx'"></SvgNginx>
+        <SvgNuxt :name="name" v-if="name=='nuxt'"></SvgNuxt>
+        <SvgOpenai :name="name" v-if="name=='openai'"></SvgOpenai>
+        <SvgPandas :name="name" v-if="name=='pandas'"></SvgPandas>
+        <SvgPostresql :name="name" v-if="name=='postresql'"></SvgPostresql>
+        <SvgPython :name="name" v-if="name=='python'"></SvgPython>
+        <SvgQuasar :name="name" v-if="name=='quasar'"></SvgQuasar>
+        <SvgReactjs :name="name" v-if="name=='reactjs'"></SvgReactjs>
+        <SvgRedis :name="name" v-if="name=='redis'"></SvgRedis>
+        <SvgSelenium :name="name" v-if="name=='selenium'"></SvgSelenium>
+        <SvgTailwindcss :name="name" v-if="name=='tailwindcss'"></SvgTailwindcss>
+        <SvgTelegram :name="name" v-if="name=='telegrambot'"></SvgTelegram>
+        <SvgVue :name="name" v-if="name=='vue'"></SvgVue>
+        <SvgPyscript :name="name" v-if="name=='beautifulsoup'"></SvgPyscript>
+        <SvgPyscript :name="name" v-if="name=='requests'"></SvgPyscript>
+        <SvgPyscript :name="name" v-if="name=='fabric'"></SvgPyscript>
+        <SvgPyscript :name="name" v-if="name=='django-rq'"></SvgPyscript>
         
     </div>
 </template>
 <script setup>
-const props = defineProps(['name'])
+defineProps(['name'])
 </script>

@@ -7,10 +7,5 @@
         <path :fill="active ? '#0074BD' : 'var(--color-primary-300)'" d="M52.214 126.021c22.476 1.437 57-.8 57.817-11.436 0 0-1.571 4.032-18.577 7.231-19.186 3.612-42.854 3.191-56.887.874 0 .001 2.875 2.381 17.647 3.331z"/></svg>
 </template>
 <script setup>
-const props = defineProps({
-    active: {
-        type: Boolean,
-        default: false
-    }
-})
+defineProps(['name'])
 </script>

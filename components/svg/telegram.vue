@@ -4,10 +4,5 @@
 </template>
 <style>.st0{fill:url(#path2995-1-0_1_)}.st1{fill:#c8daea}.st2{fill:#a9c9dd}.st3{fill:url(#path2991_1_)}</style>
 <script setup>
-const props = defineProps({
-    active: {
-        type: Boolean,
-        default: false
-    }
-})
+defineProps(['name'])
 </script>

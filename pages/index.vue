@@ -1,14 +1,16 @@
 <template>
+
     <div class="flex w-screen h-screen justify-center items-center">
-      <div class="flex flex-col gap-5 justify-center items-center rounded-2xl h-fit">
+      <div class="absolute rounded-full bg-(--color-secondary-100) blur-[300px] size-60 sm:size-80 transform -translate-x-1/2 left-1/2 translate-y-0" />
+      <div class="flex flex-col gap-2 justify-center items-center rounded-2xl h-fit">
         <AnimatedScroll :direction="'left'"> <ToolCards :tools="frontend ?? []"/></AnimatedScroll>
         <AnimatedScroll :direction="'right'"> <ToolCards :tools="backend ?? []"/></AnimatedScroll>
         <AnimatedScroll :direction="'left'"> <ToolCards :tools="devops ?? []"/></AnimatedScroll>
       </div>
-      <div class="flex absolute h-[500px]">
+      <div class="flex absolute h-[500px] transition ease-in-out">
         <CustomCard>
           <UCarousel v-slot="{ item }" dots :items="users" class="w-[600px]">
-            <div class="flex items-center h-full p-5">
+            <div class="flex items-center h-full p-5 z-0">
               <img :src="`/DSoftwareArtist/img/${item}`" class="w-60" alt="Reamon" />
               <div class="flex flex-col gap-2">
                 <h4 class=" text-[32px]">{{  home?.title }}</h4>
@@ -16,11 +18,10 @@
               </div>
             </div>
           </UCarousel>
-
-          
         </CustomCard>
       </div>
       <StarsBg class=" z-0"></StarsBg>
+      
     </div>
 </template>
 <script setup lang="ts">
@@ -30,6 +31,7 @@ const { data: home } = await useAsyncData(() => queryCollection('content').path(
     title: home.value?.title,
     description: home.value?.description
   })
+
 
 // Queries
 const { data: frontend } = await useAsyncData('tools-frontend', () => {
