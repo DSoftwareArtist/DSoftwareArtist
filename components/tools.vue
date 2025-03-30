@@ -1,6 +1,6 @@
 <template>
-  <div class="p-5 cursor-pointer" v-for="tool in props.tools">
-    <div class="flex flex-col items-center justify-center" :class="`group/${tool?.svg}`">
+  <div class="p-5 cursor-pointer" v-for="tool in props.tools" @mouseover="() => $emit('mouseover', tool)" @mouseleave="$emit('mouseleave', tool)" :class="`group/${tool?.svg}`">
+    <div class="flex flex-col items-center justify-center">
       <div class="flex w-[60px]">
         <SvgAdobeillustrator v-if="tool.svg=='adobeillustrator'"></SvgAdobeillustrator>
         <SvgAdobephotoshop v-if="tool.svg=='adobephotoshop'"></SvgAdobephotoshop>
@@ -126,4 +126,5 @@
 
 <script setup>
 const props = defineProps({tools: { type: Array }})
+defineEmits('mouseover', 'mouseleave')
 </script>
