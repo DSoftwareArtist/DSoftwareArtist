@@ -44,14 +44,20 @@ await callOnce(async () => {
     <Card class="absolute w-fit h-screen md:h-full md:top-0 md:left-0 px-2 pb-0 mb-0">
         <UCarousel arrows v-slot="{ item, index }" dots :items="projects" class="w-screen mx-10 md:w-[600px] md:mx-20">
           <div  class="flex flex-col justify-center md:items-start h-screen md:h-full p-5 z-0">
-            <div class="flex items-center mb-[10px]" :class="`group/project`">
-              <img :src="`/DSoftwareArtist/img/user${item?.meta?.icon}.png`" class="hidden md:block w-40" alt="Reamon" />
+            <div class="flex items-center mt-[20px] mb-[10px]" :class="`group/project`">
               <div class="flex flex-col gap-2">
-                <div class="flex justify-between transition-colors ease-in-out">
-                  <NuxtLink target="_blank" :to="item?.meta?.link">
-                    <span class=" text-[32px] font-extrabold" :class="item?.meta?.link ? `group-hover/project:text-secondary-200` : ''">{{  item?.title }}</span>
+                <div class="relative flex transition-colors ease-in-out">
+                  <NuxtLink class="flex" target="_blank" :to="item?.meta?.link">
+                    <div class="basis-1/4">
+                      <img :src="`/DSoftwareArtist/img/user${item?.meta?.icon}.png`" class="hidden md:block w-40" alt="Reamon" />
+                    </div>
+                    <div class="basis-3/4">
+                      <span class=" text-[32px] font-extrabold" :class="item?.meta?.link ? `group-hover/project:text-secondary-200` : ''">{{  item?.title }}</span>
+                      <ContentRenderer class="text-justify font-light text-[16px] transition-colors ease-in-out" :class="item?.meta?.link ? `group-hover/project:text-secondary-200` : ''" :value="item" v-if="item"></ContentRenderer>
+                    </div>
                   </NuxtLink>
-                  <div class="flex" v-if="item?.meta?.docs || item?.meta?.api">
+
+                  <div class="absolute flex right-0" v-if="item?.meta?.docs || item?.meta?.api">
                     <NuxtLink v-if="item?.meta?.docs" target="_blank" :to="item?.meta?.docs">
                       <SvgBook class="w-10 group/book hover:-translate-y-2 transition-all ease-in-out duration-300 delay-100"></SvgBook>
                     </NuxtLink>
@@ -61,9 +67,6 @@ await callOnce(async () => {
                   </div>
                   <div v-else></div>
                 </div>
-                <a :href="`${item?.meta?.link}`" target="_blank" class=" text-justify font-light text-[16px] transition-colors ease-in-out">
-                  <ContentRenderer :class="item?.meta?.link ? `group-hover/project:text-secondary-200` : ''" :value="item" v-if="item"></ContentRenderer>
-                </a>
               </div>
             </div>
             <div class="flex gap-2 flex-wrap items-start justify-center -bottom-10 text-xs">
