@@ -3,6 +3,7 @@
 node_modules_quasar
 node_modules_nuxt
 node_modules
+.data
 
 # Quasar core related directories
 .quasar
