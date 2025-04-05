@@ -12,3 +12,6 @@
         <path class="fill-[var(--color-primary-900)] group-hover/redis:fill-[#AD2115] transition-colors duration-400 ease-in-out" d="M74.3 35.3l19-7.6v13.6l-1.9.8z"/>
     </svg>
 </template>
+<script setup>
+defineProps({ hoverable: { default: true}})
+</script>

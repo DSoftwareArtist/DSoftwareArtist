@@ -5,3 +5,6 @@
         <path class="fill-[var(--color-primary-400)] group-hover/nuxt:fill-[#108775] transition-colors duration-500 ease-in-out" d="M106.51 108.97v-.284l.284-.567c.283-1.135.567-2.27.283-3.405l-1.134-3.404-28.938-50.501-4.256-7.66h-.284l-4.256 7.66-28.938 50.5-1.134 3.405a6.81 6.81 0 00.567 4.256c1.135 1.702 2.837 3.405 6.809 3.405h53.906c.851 0 5.107-.284 7.093-3.405zM72.464 58.469l26.386 46.245H46.079z"/>
     </svg>
 </template>
+<script setup>
+defineProps({ hoverable: { default: true}})
+</script>

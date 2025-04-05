@@ -6,3 +6,6 @@
         <path class="fill-[var(--color-primary-400)] group-hover/java:fill-[#EA2D2E] transition-colors duration-300 ease-in-out" d="M76.491 1.587S89.459 14.563 64.188 34.51c-20.266 16.006-4.621 25.13-.007 35.559-11.831-10.673-20.509-20.07-14.688-28.815C58.041 28.42 81.722 22.195 76.491 1.587z"/>
         <path class="fill-[var(--color-primary-300)] group-hover/java:fill-[#0074BD] transition-colors duration-300 ease-in-out" d="M52.214 126.021c22.476 1.437 57-.8 57.817-11.436 0 0-1.571 4.032-18.577 7.231-19.186 3.612-42.854 3.191-56.887.874 0 .001 2.875 2.381 17.647 3.331z"/></svg>
 </template>
+<script setup>
+defineProps({ hoverable: { default: true}})
+</script>

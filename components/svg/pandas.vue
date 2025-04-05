@@ -7,3 +7,6 @@
         <path color="#000" class="fill-[var(--color-primary-700)] group-hover/pandas:fill-[#130754] transition-colors duration-300 ease-in-out" d="M87.238 8.55h12.25v84.552h-12.25z"/>
     </svg>
 </template>
+<script setup>
+defineProps({ hoverable: { default: true}})
+</script>

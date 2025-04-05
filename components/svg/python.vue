@@ -6,3 +6,6 @@
         <use xlink:href="#p" class="fill-[var(--color-primary-500)] group-hover/python:fill-[#ffd43b] transition-colors duration-300 ease-in-out" transform="rotate(180,256,255)"/>
     </svg>
 </template>
+<script setup>
+defineProps({ hoverable: { default: true}})
+</script>

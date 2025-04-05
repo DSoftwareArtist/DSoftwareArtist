@@ -5,3 +5,6 @@
         <path class="fill-[var(--color-primary-600)] group-hover/elasticsearch:fill-[#00bfb3] transition-colors duration-300 ease-in-out" d="M98.04 92H10.577C20.961 113.29 42.715 128 68 128c20.2 0 38.188-9.383 49.922-24a61.1 61.1 0 0 0-6.227-6.648A20.133 20.133 0 0 0 98.04 92"/>
     </svg>
 </template>
+<script setup>
+defineProps({ hoverable: { default: true}})
+</script>

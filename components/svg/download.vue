@@ -6,3 +6,6 @@
         </svg>
     </div>
 </template>
+<script setup>
+defineProps({ hoverable: { default: true}})
+</script>

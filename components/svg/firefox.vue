@@ -389,4 +389,7 @@
     <path fill="url(#firefox-original-aj)" d="M43.775 108.414s-11.667-9.037-16.928-21.429c-4.421-1.536-10.298-5.046-10.414-5.648 1.867 9.629 11.699 20.871 27.342 27.077z"/>
 </svg>
 </template>
+<script setup>
+defineProps({ hoverable: { default: true}})
+</script>
 

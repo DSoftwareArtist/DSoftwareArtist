@@ -8,3 +8,6 @@
         <path :fill-opacity=".2" d="m57.68 50.492 19.828-19.8-7.633-7.594Zm0 0"/>
     </svg>
 </template>
+<script setup>
+defineProps({ hoverable: { default: true}})
+</script>

@@ -9,3 +9,6 @@
         <path class="fill-[var(--color-primary-900)] group-hover/mjml:fill-[#f93748] transition-colors duration-300 ease-in-out" d="M11.769,19.456a2.507,2.507,0,1,1-.508.221A2.495,2.495,0,0,1,11.769,19.456Z"/>
     </svg>
 </template>
+<script setup>
+defineProps({ hoverable: { default: true}})
+</script>

@@ -6,3 +6,6 @@
     <polygon transform="matrix(.24805 0 0 .24805 .5 5.6287)" points="512 422.74 512 422.74 395.64 422.74 395.64 250.12 347.44 250.12 347.44 469.65 512 469.65"/>
     </svg>
 </template>
+<script setup>
+defineProps({ hoverable: { default: true}})
+</script>

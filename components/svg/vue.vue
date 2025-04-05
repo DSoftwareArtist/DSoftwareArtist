@@ -4,4 +4,7 @@
         <path class="fill-[var(--color-primary-500)] group-hover/vue:fill-[#35495e] transition-colors duration-700 ease-in-out" d="M25.997 9.393l23.002.009L64.035 34.36 79.018 9.404 102 9.398 64.15 75.053z"/>
         <path class="fill-[var(--color-primary-500)] group-hover/vue:fill-[#41b883] transition-colors duration-500 ease-in-out" d="M.91 9.569l25.067-.172 38.15 65.659L101.98 9.401l25.11.026-62.966 108.06z"/></svg>
 </template>
+<script setup>
+defineProps({ hoverable: { default: true}})
+</script>
 

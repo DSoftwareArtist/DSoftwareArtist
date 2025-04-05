@@ -9,3 +9,6 @@
         <polygon class="fill-[var(--color-primary-500)] group-hover/highcharts:fill-[#8087E8] transition-colors duration-300 ease-in-out" points="41.53900146484375,0 30.315000534057617,26.209999084472656 47.25799560546875,31.730998992919922 " id="svg_8" stroke-width="0" stroke="#f0f0f0" fill-opacity="1" stroke-linejoin="round"></polygon>
     </svg>
 </template>
+<script setup>
+defineProps({ hoverable: { default: true}})
+</script>

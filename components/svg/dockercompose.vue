@@ -18,3 +18,6 @@
         <path class="fill-[var(--color-primary-500)] group-hover/dockercompose:fill-[#D4EEF1] transition-colors duration-300 ease-in-out" d="M46.1 89.9c-.9-1.3-1.8-2.8-2.5-4.3-2.5.7-5.5 1.2-8.9 1.4 2.3 1.2 5.7 2.4 11.4 2.9z"/>
     </svg>
 </template>
+<script setup>
+defineProps({ hoverable: { default: true}})
+</script>

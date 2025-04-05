@@ -7,3 +7,6 @@
         </g>
     </svg>
 </template>
+<script setup>
+defineProps({ hoverable: { default: true}})
+</script>

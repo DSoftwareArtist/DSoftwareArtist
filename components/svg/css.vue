@@ -7,3 +7,6 @@
         <path class="fill-[var(--color-primary-900)] group-hover/css:fill-[#fff] transition-colors duration-300 ease-in-out" d="M81.127 64.675l-1.666 18.522-15.426 4.164v14.39l28.354-7.858.208-2.337 2.406-26.881H81.127z"/>
         <path class="fill-[var(--color-primary-800)] group-hover/css:fill-[#EBEBEB] transition-colors duration-300 ease-in-out" d="M64.048 23.435v13.831H30.64l-.277-3.108-.63-7.012-.331-3.711h34.646zm-.047 27.996v13.831H48.792l-.277-3.108-.631-7.012-.33-3.711h16.447z"/></svg>
 </template>
+<script setup>
+defineProps({ hoverable: { default: true}})
+</script>
