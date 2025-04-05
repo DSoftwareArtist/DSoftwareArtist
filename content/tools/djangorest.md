@@ -8,8 +8,6 @@ category:
   - backend
 ---
 
-# Django-Rest Framework
-
 I’ve worked extensively with Django REST Framework (DRF) to build scalable and secure APIs. Using serializers, viewsets, and authentication mechanisms like JWT and OAuth, I’ve created efficient backend systems for web and mobile applications. I’ve also optimized API performance with pagination, caching, and database query optimizations, ensuring smooth data retrieval and processing.
 
 

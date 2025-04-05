@@ -9,8 +9,6 @@ category:
   - webdesign
 ---
 
-# Leaflet
-
 I’ve integrated Leaflet to build lightweight and highly interactive map applications. By leveraging custom layers, markers, and popups, I’ve implemented real-time geospatial visualizations and location-based services. I’ve optimized Leaflet’s rendering performance for handling large datasets efficiently, ensuring seamless user interactions across devices.
 
 
