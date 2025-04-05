@@ -31,7 +31,7 @@ const handleMouseLeave = () => {
 
 <template>
   <div
-    class="relative group overflow-hidden rounded-xl border border-primary-800 bg-primary-600/60 p-6 shadow-sm transition-all duration-300 min-h-[200px]"
+    class="relative group overflow-hidden rounded-xl border border-primary-800 bg-primary-600/20 p-6 shadow-sm transition-all duration-300 min-h-[200px] backdrop-blur-[4px]"
     @mousemove="handleMouseMove"
     @mouseleave="handleMouseLeave"
   >
