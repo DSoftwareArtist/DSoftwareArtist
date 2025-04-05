@@ -57,12 +57,15 @@ await callOnce(async () => {
                     </div>
                   </NuxtLink>
 
-                  <div class="absolute flex right-0" v-if="item?.meta?.docs || item?.meta?.api">
+                  <div class="absolute flex right-0" v-if="item?.meta?.docs || item?.meta?.api || item?.meta?.apk">
                     <NuxtLink v-if="item?.meta?.docs" target="_blank" :to="item?.meta?.docs">
                       <SvgBook class="w-10 group/book hover:-translate-y-2 transition-all ease-in-out duration-300 delay-100"></SvgBook>
                     </NuxtLink>
                     <NuxtLink v-if="item?.meta?.api" target="_blank" :to="item?.meta?.api">
                       <SvgApi class=" -translate-y-1 w-12 group/api hover:-translate-y-2 transition-all ease-in-out duration-300 delay-100"></SvgApi>
+                    </NuxtLink>
+                    <NuxtLink v-if="item?.meta?.apk" :to="`/apk/${item?.meta?.apk}`">
+                      <SvgDownload class=" w-10 group/download hover:-translate-y-2 transition-all ease-in-out duration-300 delay-100"></SvgDownload>
                     </NuxtLink>
                   </div>
                   <div v-else></div>
