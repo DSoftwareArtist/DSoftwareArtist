@@ -1,11 +1,11 @@
 <template>
-	<svg viewBox="-27 0 310 310">
+	<svg class=" transition-transform duration-300 ease-in-out group-hover/aws-s3:scale-110"viewBox="-27 0 310 310">
 		<g>
 			<path class="fill-[var(--color-primary-500)] group-hover/aws-s3:fill-[#8C3123] transition-colors duration-300 ease-in-out" d="M20.624,53.686 L0,64 L0,245.02 L20.624,255.274 L20.748,255.125 L20.748,53.828 L20.624,53.686"></path>
 			<path class="fill-[var(--color-primary-600)] group-hover/aws-s3:fill-[#E05243] transition-colors duration-300 ease-in-out" d="M131,229 L20.624,255.274 L20.624,53.686 L131,79.387 L131,229"></path>
 			<path class="fill-[var(--color-primary-700)] group-hover/aws-s3:fill-[#8C3123] transition-colors duration-300 ease-in-out" d="M81.178,187.866 L127.996,193.826 L128.29,193.148 L128.553,116.378 L127.996,115.778 L81.178,121.652 L81.178,187.866"></path>
 			<path class="fill-[var(--color-primary-800)] group-hover/aws-s3:fill-[#8C3123] transition-colors duration-300 ease-in-out" d="M127.996,229.295 L235.367,255.33 L235.536,255.061 L235.533,53.866 L235.363,53.686 L127.996,79.682 L127.996,229.295"></path>
-			<path class="fill-[var(--color-primary-800)] group-hover/aws-s3:fill-[#E05243] transition-colors duration-300 ease-in-out" d="M174.827,187.866 L127.996,193.826 L127.996,115.778 L174.827,121.652 L174.827,187.866"></path>
+			<path class="fill-[var(--color-primary-800)] group-hover/aws-s3:fill-[rgb(224,82,67)] transition-colors duration-300 ease-in-out" d="M174.827,187.866 L127.996,193.826 L127.996,115.778 L174.827,121.652 L174.827,187.866"></path>
 			<path class="fill-[var(--color-primary-800)] group-hover/aws-s3:fill-[#5E1F18] transition-colors duration-300 ease-in-out" d="M174.827,89.631 L127.996,98.166 L81.178,89.631 L127.937,77.375 L174.827,89.631"></path>
 			<path class="fill-[var(--color-primary-700)] group-hover/aws-s3:fill-[#F2B0A9] transition-colors duration-300 ease-in-out" d="M174.827,219.801 L127.996,211.21 L81.178,219.801 L127.939,232.854 L174.827,219.801"></path>
 			<path class="fill-[var(--color-primary-600)] group-hover/aws-s3:fill-[#8C3123] transition-colors duration-300 ease-in-out" d="M81.178,89.631 L127.996,78.045 L128.375,77.928 L128.375,0.313 L127.996,0 L81.178,23.413 L81.178,89.631"></path>

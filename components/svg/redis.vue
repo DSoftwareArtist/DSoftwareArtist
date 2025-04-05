@@ -1,5 +1,5 @@
 <template>
-    <svg viewBox="0 0 128 128">
+    <svg class=" transition-transform duration-300 ease-in-out group-hover/android:scale-110"viewBox="0 0 128 128">
         <path class="fill-[var(--color-primary-900)] group-hover/redis:fill-[#A41E11] transition-colors duration-500 ease-in-out" d="M121.8 93.1c-6.7 3.5-41.4 17.7-48.8 21.6-7.4 3.9-11.5 3.8-17.3 1S13 98.1 6.3 94.9c-3.3-1.6-5-2.9-5-4.2V78s48-10.5 55.8-13.2c7.8-2.8 10.4-2.9 17-.5s46.1 9.5 52.6 11.9v12.5c0 1.3-1.5 2.7-4.9 4.4z"/>
         <path class="fill-[var(--color-primary-900)] group-hover/redis:fill-[#D82C20] transition-colors duration-500 ease-in-out" d="M121.8 80.5C115.1 84 80.4 98.2 73 102.1c-7.4 3.9-11.5 3.8-17.3 1-5.8-2.8-42.7-17.7-49.4-20.9C-.3 79-.5 76.8 6 74.3c6.5-2.6 43.2-17 51-19.7 7.8-2.8 10.4-2.9 17-.5s41.1 16.1 47.6 18.5c6.7 2.4 6.9 4.4.2 7.9z"/>
         <path class="fill-[var(--color-primary-900)] group-hover/redis:fill-[#A41E11] transition-colors duration-700 ease-in-out" d="M121.8 72.5C115.1 76 80.4 90.2 73 94.1c-7.4 3.8-11.5 3.8-17.3 1C49.9 92.3 13 77.4 6.3 74.2c-3.3-1.6-5-2.9-5-4.2V57.3s48-10.5 55.8-13.2c7.8-2.8 10.4-2.9 17-.5s46.1 9.5 52.6 11.9V68c0 1.3-1.5 2.7-4.9 4.5z"/>

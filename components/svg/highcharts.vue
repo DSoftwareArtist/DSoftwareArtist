@@ -1,5 +1,5 @@
 <template>
-    <svg viewBox="-10 -10 100 100">
+    <svg class=" transition-transform duration-300 ease-in-out group-hover/android:scale-110"viewBox="-10 -10 100 100">
         <polygon class="fill-[var(--color-primary-500)] group-hover/highcharts:fill-[#8087E8] transition-colors duration-300 ease-in-out" points="41.53900146484375,0 30.315000534057617,26.209999084472656 15.566999435424805,60.650997161865234 49.85900115966797,46.16499710083008 68.02299499511719,38.49300003051758 " id="svg_2" stroke-width="0" stroke="#f0f0f0" fill-opacity="1" stroke-linejoin="round"></polygon>
         <polygon class="fill-[var(--color-primary-600)] group-hover/highcharts:fill-[#30426B] transition-colors duration-300 ease-in-out" points="47.25799560546875,31.729999542236328 49.86000061035156,46.16499710083008 68.02400207519531,38.49300003051758 " id="svg_3" stroke-width="0" stroke="#f0f0f0" fill-opacity="1" stroke-linejoin="round"> </polygon>
         <polygon class="fill-[var(--color-primary-700)] group-hover/highcharts:fill-[#6699A1] transition-colors duration-300 ease-in-out" points="41.53900146484375,0 47.25799560546875,31.730998992919922 68.02299499511719,38.49300003051758 " id="svg_4" stroke-width="0" stroke="#f0f0f0" fill-opacity="1" stroke-linejoin="round"></polygon> 

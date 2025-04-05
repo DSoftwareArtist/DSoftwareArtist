@@ -1,5 +1,5 @@
 <template>
-    <svg viewBox="0 0 128 128">
+    <svg class=" transition-transform duration-300 ease-in-out group-hover/angularjs:scale-110"viewBox="0 0 128 128">
         <path class="fill-[var(--color-primary-500)] group-hover/angularjs:fill-[#B3B3B3] transition-colors duration-300 ease-in-out" d="M63.81 1.026L4.553 21.88l9.363 77.637 49.957 27.457 50.214-27.828 9.36-77.635z"/>
         <path class="fill-[var(--color-primary-600)] group-hover/angularjs:fill-[#A6120D] transition-colors duration-300 ease-in-out" d="M117.536 25.998L63.672 7.629v112.785l45.141-24.983z"/>
         <path class="fill-[var(--color-primary-500)] group-hover/angularjs:fill-[#DD1B16] transition-colors duration-300 ease-in-out" d="M11.201 26.329l8.026 69.434 44.444 24.651V7.627z"/>

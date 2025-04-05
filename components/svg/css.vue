@@ -1,5 +1,5 @@
 <template>
-    <svg viewBox="0 0 128 128">
+    <svg class=" transition-transform duration-300 ease-in-out group-hover/android:scale-110"viewBox="0 0 128 128">
         <path class="fill-[var(--color-primary-500)] group-hover/css:fill-[#1572B6] transition-colors duration-300 ease-in-out" d="M18.814 114.123L8.76 1.352h110.48l-10.064 112.754-45.243 12.543-45.119-12.526z"/>
         <path class="fill-[var(--color-primary-600)] group-hover/css:fill-[#33A9DC] transition-colors duration-300 ease-in-out" d="M64.001 117.062l36.559-10.136 8.601-96.354h-45.16v106.49z"/>
         <path class="fill-[var(--color-primary-900)] group-hover/css:fill-[#fff] transition-colors duration-300 ease-in-out" d="M64.001 51.429h18.302l1.264-14.163H64.001V23.435h34.682l-.332 3.711-3.4 38.114h-30.95V51.429z"/>

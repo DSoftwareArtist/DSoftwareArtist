@@ -1,6 +1,6 @@
 <template>
     <div>
-        <svg viewBox="0 0 20 20" >
+        <svg class=" transition-transform duration-300 ease-in-out group-hover/android:scale-110"viewBox="0 0 20 20" >
             <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                 <g class="fill-[var(--color-primary-500)] group-hover/github:fill-[#000000] transition-colors duration-300 ease-in-out" transform="translate(-140.000000, -7559.000000)">
                     <g id="icons" transform="translate(56.000000, 160.000000)">

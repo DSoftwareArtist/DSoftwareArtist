@@ -1,5 +1,5 @@
 <template>
-    <svg viewBox="0 0 66.145832 66.145835">
+    <svg class=" transition-transform duration-300 ease-in-out group-hover/android:scale-110"viewBox="0 0 66.145832 66.145835">
         <g transform="translate(0,-230.85415)">
             <g transform="matrix(7.218137,0,0,7.218137,737.87653,1482.3405)">
                 <g transform="matrix(0.36807926,0,0,0.36807926,-36.510506,-111.70966)">

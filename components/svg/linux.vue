@@ -1,5 +1,5 @@
 <template>
-<svg viewBox="0 0 128 128">
+<svg class=" transition-transform duration-300 ease-in-out group-hover/android:scale-110"viewBox="0 0 128 128">
     <radialGradient id="linux-original-a" cx="-992.915" cy="-952.952" r="43.267" gradientTransform="matrix(.7 0 0 .35 782.303 444.575)" gradientUnits="userSpaceOnUse">
     <stop offset="0" stop-opacity=".502"/>
     <stop offset="1" stop-opacity="0"/>
