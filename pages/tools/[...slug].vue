@@ -21,8 +21,15 @@ await callOnce(async () => {
                         <img :src="`/DSoftwareArtist/img/user.png`" class="hidden md:block w-60 float-left z-10 -translate-x-4 -translate-y-8 " alt="Reamon" />
                     </div>
                     <div class="flex flex-col w-full h-full self-start gap-2">
-                        <div class="flex w-full text-2xl capitalize font-extrabold">{{ tool.title }}</div>
-                        <ContentRenderer :value="tool" class="text-[14px]"></ContentRenderer>
+                        <div class="flex gap-2 w-full text-2xl capitalize font-extrabold justify-between">
+                            <div class="flex gap-2">
+                                <div class="w-7">
+                                    <Svg :tool="tool" :hoverable="false"></Svg>
+                                </div>
+                                {{ tool.title }}
+                            </div>
+                        </div>
+                        <ContentRenderer :value="tool" class="text-[14px] font-light"></ContentRenderer>
                     </div>
 
                 </div>
@@ -32,7 +39,7 @@ await callOnce(async () => {
     <template v-else>
         <Container class="flex items-center justify-center">
             <div class="w-screen h-full flex flex-col justify-center items-center gap-5">
-                <div class="text-[24px] font-extrabold">
+                <div class="text-[32px] font-extrabold">
                     This page is in the works
                 </div>
                 <div @click="$router.go(-1)" class="flex gap-2 group/left hover:text-secondary-300 z-20 hover:cursor-pointer">
