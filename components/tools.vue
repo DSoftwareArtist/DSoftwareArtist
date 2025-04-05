@@ -1,5 +1,5 @@
 <template>
-  <div class="p-5 cursor-pointer" v-for="tool in props.tools" @mouseover="() => $emit('mouseover', tool)" @mouseleave="$emit('mouseleave', tool)" :class="`group/${tool?.svg}`">
+  <NuxtLink :to="`/tools/${tool.svg}`" :id="`tool-${tool.svg}`" class=" bg-transparent hover:bg-transparent p-5 cursor-pointer" v-for="tool in props.tools" @mouseleave="$emit('mouseleave', tool)" :class="`group/${tool?.svg}`">
     <div class="flex flex-col items-center justify-center">
       <div class="flex w-[60px]">
         <SvgAdobeillustrator v-if="tool.svg=='adobeillustrator'"></SvgAdobeillustrator>
@@ -120,11 +120,12 @@
           <p v-if="tool.svg=='supervisord'" class="transition-colors duration-600 ease-in-out text-[var(--color-primary-500)] group-hover/supervisord:text-[#ffffff] text-center pt-2 text-sm">{{ tool.title }}</p>
           <p v-if="tool.svg=='transcrypt'" class="transition-colors duration-600 ease-in-out text-[var(--color-primary-500)] group-hover/transcrypt:text-[#ffffff] text-center pt-2 text-sm">{{ tool.title }}</p>
       </div>
-    </div>
   </div>
+  </NuxtLink>
 </template>
 
 <script setup>
-const props = defineProps({tools: { type: Array }})
-defineEmits('mouseover', 'mouseleave')
+const props = defineProps({tools: { type: undefined }, test: {type: Function}})
+const emit = defineEmits(['click', 'mouseleave'])
+
 </script>
