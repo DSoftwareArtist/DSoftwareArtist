@@ -37,14 +37,14 @@
             transform: translateX(0px);
         }
         50% {
-            transform: translateX(-1000px);
+            transform: translateX(-600px);
         }
     }
 
     @keyframes right-scroll {
         0%,
         100% {
-            transform: translateX(-1000px);
+            transform: translateX(-600px);
         }
         50% {
             transform: translateX(0px);
@@ -61,4 +61,14 @@
       -ms-overflow-style: none;  /* IE and Edge */
       scrollbar-width: none;  /* Firefox */
     }
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.highlighted {
+    padding: 3px 5px;
+    font-weight: 600;
+    font-style: italic;
+    
 }
