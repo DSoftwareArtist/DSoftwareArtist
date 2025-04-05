@@ -13,7 +13,8 @@ export default defineNuxtConfig({
     '@nuxt/ui',
     '@nuxt/scripts',
     '@nuxt/test-utils',
-    '@nuxt/image'
+    '@nuxt/image',
+    '@vueuse/nuxt'
   ],
   css: ['~/assets/css/main.css'],
   nitro: {
@@ -23,6 +24,6 @@ export default defineNuxtConfig({
   },
   image: {
     dir: 'public'
-  }
+}
 
 })
