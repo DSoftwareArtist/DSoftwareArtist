@@ -1,48 +1,15 @@
-<template>
 
-    <div class="flex w-screen h-screen justify-center items-center">
-      <div class="absolute rounded-full bg-(--color-secondary-100) blur-[300px] size-60 sm:size-80 transform -translate-x-1/2 left-1/2 translate-y-0" />
-      <div class="flex flex-col justify-center items-center rounded-2xl h-fit">
-        <Scroll :direction="'left'"> <Tools v-on:mouseleave="mouseleave" v-on:mouseover="mouseover" :tools="frontend ?? []"/></Scroll>
-        <Scroll :direction="'right'"> <Tools v-on:mouseleave="mouseleave" v-on:mouseover="mouseover" :tools="backend ?? []"/></Scroll>
-        <Scroll :direction="'left'"> <Tools v-on:mouseleave="mouseleave" v-on:mouseover="mouseover" :tools="devops ?? []"/></Scroll>
-      </div>
-      <div class="flex absolute h-[500px] transition ease-in-out">
-        <Card>
-          <Transition 
-            enter-active-class="transition-opacity duration-1500 ease-in-out"
-            enter-from-class="opacity-0"
-            enter-to-class="opacity-100">
-            <UCarousel v-if="!page" arrows v-slot="{ item }" dots :items="users" class="w-[600px] mx-10">
-              <div  class="flex items-center h-full p-5 z-0">
-                <img :src="`/DSoftwareArtist/img/${item}`" class="w-60" alt="Reamon" />
-                <div class="flex flex-col gap-2">
-                  <h4 class=" text-[32px]">{{  home?.title }}</h4>
-                  <p class=" text-justify font-light text-[16px]" v-html="home?.description"/>
-                </div>
-              </div>
-            </UCarousel>
-          </Transition>
-          
-          <Transition 
-            enter-active-class="transition-opacity duration-1500 ease-in-out"
-            enter-from-class="opacity-0"
-            enter-to-class="opacity-100">
-            <ContentRenderer v-show="page" :value="page ?? []" class="w-[600px] mx-10"/>
-          </Transition>
-        </Card>
-      </div>
-      <Bg class="z-0"></Bg>
-    </div>
-</template>
 <script setup lang="ts">
+import { breakpointsTailwind } from "@vueuse/core";
+const breakpoints = useBreakpoints(breakpointsTailwind);
+const isMobile = breakpoints.smaller("md");
+
 // SEO
 const { data: home } = await useAsyncData(() => queryCollection('content').path('/').first())
   useSeoMeta({
     title: home.value?.title,
     description: home.value?.description
-  })
-let page = ref(null)
+})
 // Queries
 const { data: frontend } = await useAsyncData('tools-frontend', () => {
   return queryCollection('tools')
@@ -50,32 +17,58 @@ const { data: frontend } = await useAsyncData('tools-frontend', () => {
     .all()
 })
 
-console.log(frontend)
-
 const { data: backend } = await useAsyncData('tools-backend', () => {
   return queryCollection('tools')
   .where('category', 'LIKE', '%backend%')
   .all()
-  })
+})
+
 const { data: devops } = await useAsyncData('tools-devops', () => {
   return queryCollection('tools')
   .where('category', 'LIKE', '%devops%')
   .all()
+})
+
+let projects = useState()
+await callOnce(async () => {
+  const { data } = await useAsyncData('projects-all', () => {
+    return queryCollection('projects').all()
   })
+  projects.value = data
+})
 
-const mouseover = (a:any) => {
-  page.value = a
-}
 
-const mouseleave = (a:any) => {
-  page.value = null
-}
-const users = [
-  'user1.png',
-  'user2.png',
-  'user3.png',
-  'user4.png',
-  'user5.png',
-  'user6.png'
-]
 </script>
+<template>
+  <Container :frontend="frontend ?? []" :backend="backend ?? []" :devops="devops ?? []">
+    <Card class="absolute w-fit h-screen md:h-full md:top-0 md:left-0 px-2 pb-0 mb-0">
+        <UCarousel arrows v-slot="{ item, index }" dots :items="projects" class="w-screen mx-10 md:w-[600px] md:mx-20">
+          <div  class="flex flex-col justify-center md:items-start h-screen md:h-full p-5 z-0">
+            <div class="flex items-center mb-[10px]">
+              <img :src="`/DSoftwareArtist/img/user${item?.meta?.icon}.png`" class="hidden md:block w-40" alt="Reamon" />
+              <div class="flex flex-col gap-2">
+                <div class="flex justify-between">
+                  <NuxtLink target="_blank" :to="item?.meta?.link">
+                    <span class=" text-[32px] font-extrabold hover:text-secondary-200">{{  item?.title }}</span>
+                  </NuxtLink>
+                  <div class="flex" v-if="item?.meta?.docs || item?.meta?.api">
+                    <NuxtLink v-if="item?.meta?.docs" target="_blank" :to="item?.meta?.docs">
+                      <SvgBook class="w-10 group/book hover:-translate-y-2 transition-all ease-in-out"></SvgBook>
+                    </NuxtLink>
+                    <NuxtLink v-if="item?.meta?.api" target="_blank" :to="item?.meta?.api">
+                      <SvgApi class=" -translate-y-1 w-12 group/api hover:-translate-y-2 transition-all ease-in-out"></SvgApi>
+                    </NuxtLink>
+                  </div>
+                  <div v-else></div>
+                </div>
+                <ContentRenderer class=" text-justify font-light text-[16px]" :value="item" v-if="item"></ContentRenderer>
+              </div>
+            </div>
+            <div class="flex gap-2 flex-wrap items-start justify-center -bottom-10 text-xs">
+              <a :href="`/DSoftwareArtist/tools/${tool.code}`" class=" capitalize bg-secondary-300/9 px-5 py-1 border-1 font-thin text-secondary-200 border-secondary-200/9 rounded-4xl hover:bg-secondary-100/8 hover:cursor-pointer" v-for="tool in item.meta.tools">{{  tool.name }}</a>
+            </div>
+          </div>
+        </UCarousel>
+    </Card>
+  </Container>
+</template>
