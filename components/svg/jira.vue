@@ -1,5 +1,5 @@
 <template>
-    <svg class=" transition-transform duration-300 ease-in-out group-hover/android:scale-110"viewBox="0 0 128 128">
+    <svg class=" transition-transform duration-300 ease-in-out group-hover/jira:scale-110" viewBox="0 0 128 128">
         <defs>
             <linearGradient id="jira-original-a" gradientUnits="userSpaceOnUse" x1="22.034" y1="9.773" x2="17.118" y2="14.842" gradientTransform="scale(4)">
                 <stop offset=".176" stop-color="#0052cc"/>

@@ -1,5 +1,5 @@
 <template>
-<svg class=" transition-transform duration-300 ease-in-out group-hover/android:scale-110"viewBox="0 0 128 128">
+<svg class=" transition-transform duration-300 ease-in-out group-hover/firefox:scale-110" viewBox="0 0 128 128">
     <ellipse fill="#110070" cx="63.833" cy="63.79" rx="59.102" ry="59.14"/>
     <radialGradient id="firefox-original-a" cx="-407.857" cy="945.153" r="103.81" gradientTransform="matrix(1 0 0 -1 472.5 957)" gradientUnits="userSpaceOnUse">
         <stop offset="0" stop-color="#67C5D5"/>

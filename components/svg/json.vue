@@ -1,5 +1,5 @@
 <template>
-    <svg class=" transition-transform duration-300 ease-in-out group-hover/android:scale-110"viewBox="0 0 128 128">
+    <svg class=" transition-transform duration-300 ease-in-out group-hover/json:scale-110" viewBox="0 0 128 128">
         <linearGradient id="a" x1="-670.564" x2="-583.105" y1="-280.831" y2="-368.306" gradientTransform="matrix(.9988 0 0 -.9987 689.011 -259.008)" gradientUnits="userSpaceOnUse">
             <stop offset="0"/>
             <stop offset="1" stop-color="#fff"/>

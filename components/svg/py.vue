@@ -1,5 +1,5 @@
 <template>
-	<svg class=" transition-transform duration-300 ease-in-out group-hover/android:scale-110"viewBox="0 0 303.188 303.188">
+	<svg class=" transition-transform duration-300 ease-in-out group-hover/py:scale-110" viewBox="0 0 303.188 303.188">
 	<g>
 		<polygon style="fill:#E8E8E8;" points="219.821,0 32.842,0 32.842,303.188 270.346,303.188 270.346,50.525 	"/>
 		<g>

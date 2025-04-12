@@ -1,5 +1,5 @@
 <template>
-	<svg class=" transition-transform duration-300 ease-in-out group-hover/aws-s3:scale-110"viewBox="-27 0 310 310">
+	<svg class=" transition-transform duration-300 ease-in-out group-hover/aws-s3:scale-110" viewBox="-27 0 310 310">
 		<g>
 			<path :class="hoverable ? `fill-[var(--color-primary-500)] group-hover/aws-s3:fill-[#8C3123] transition-colors duration-300 ease-in-out` : 'fill-[#8C3123]'" d="M20.624,53.686 L0,64 L0,245.02 L20.624,255.274 L20.748,255.125 L20.748,53.828 L20.624,53.686"></path>
 			<path :class="hoverable ? `fill-[var(--color-primary-600)] group-hover/aws-s3:fill-[#E05243] transition-colors duration-300 ease-in-out` : 'fill-[#E05243]'" d="M131,229 L20.624,255.274 L20.624,53.686 L131,79.387 L131,229"></path>

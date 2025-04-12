@@ -1,5 +1,5 @@
 <template>
-    <svg class=" transition-transform duration-300 ease-in-out group-hover/android:scale-110"viewBox="0 0 128 128">
+    <svg class=" transition-transform duration-300 ease-in-out group-hover/flutter:scale-110" viewBox="0 0 128 128">
         <g fill="#3FB6D3">
             <path d="M12.3 64.2L76.3 0h39.4L32.1 83.6zM76.3 128h39.4L81.6 93.9l34.1-34.8H76.3L42.2 93.5z"/>
         </g>
