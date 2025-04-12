@@ -8,7 +8,7 @@
                 <Scroll :direction="'left'"> <Tools :tools="devops"/></Scroll>
             </div>
 
-            <div class="flex absolute h-[500px] transition ease-in-out">
+            <div class="flex absolute h-full transition ease-in-out">
                 <slot></slot>
             </div>
         </div>

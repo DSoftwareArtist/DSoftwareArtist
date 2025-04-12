@@ -11,29 +11,31 @@ await callOnce(async () => {
 <template>
     <template v-if="tool">
         <Container>
-            <Card class="absolute w-sceen h-full top-0 left-0">
-                <div class="flex p-14 items-center text-justify w-[730px]">
-                    <div class="flex flex-col w-full">
-                        <div @click="$router.go(-1)" class="flex gap-2 group/left hover:text-secondary-300 z-20 hover:cursor-pointer">
-                            <SvgLeft class="w-5 group-hover/left:-translate-x-2 transition-all ease-in-out"></SvgLeft>
-                            <span>Check out more</span>
-                        </div>
-                        <img :src="`/DSoftwareArtist/img/user.png`" class="hidden md:block w-60 float-left z-10 -translate-x-4 -translate-y-8 " alt="Reamon" />
-                    </div>
-                    <div class="flex flex-col w-full h-full self-start gap-2">
-                        <div class="flex gap-2 w-full text-2xl capitalize font-extrabold justify-between">
-                            <div class="flex gap-2">
-                                <div class="w-7">
-                                    <Svg :tool="tool" :hoverable="false"></Svg>
-                                </div>
-                                {{ tool.title }}
+            <div class="flex flex-col items-center justify-center">
+                <Card class="absolute w-sceen h-[500px] top-0 left-0">
+                    <div class="flex p-14 items-center text-justify w-[730px]">
+                        <div class="flex flex-col w-full">
+                            <div @click="$router.go(-1)" class="flex gap-2 group/left hover:text-secondary-300 z-20 hover:cursor-pointer">
+                                <SvgLeft class="w-5 group-hover/left:-translate-x-2 transition-all ease-in-out"></SvgLeft>
+                                <span>Check out more</span>
                             </div>
+                            <img :src="`/DSoftwareArtist/img/user.png`" class="hidden md:block w-60 float-left z-10 -translate-x-4 -translate-y-8 " alt="Reamon" />
                         </div>
-                        <ContentRenderer :value="tool" class="text-[14px] font-light"></ContentRenderer>
+                        <div class="flex flex-col w-full h-full self-start gap-2">
+                            <div class="flex gap-2 w-full text-2xl capitalize font-extrabold justify-between">
+                                <div class="flex gap-2">
+                                    <div class="w-7">
+                                        <Svg :tool="tool" :hoverable="false"></Svg>
+                                    </div>
+                                    {{ tool.title }}
+                                </div>
+                            </div>
+                            <ContentRenderer :value="tool" class="text-[14px] font-light"></ContentRenderer>
+                        </div>
+    
                     </div>
-
-                </div>
-            </Card>
+                </Card>
+            </div>
         </Container>
     </template>
     <template v-else>
