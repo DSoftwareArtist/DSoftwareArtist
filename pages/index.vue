@@ -39,67 +39,115 @@ await callOnce(async () => {
 
 
 </script>
+<style>
+.home-container {
+  @media (max-width: 1279px) {
+    width: 100vw;
+    padding: 20px;
+  }
+}
+</style>
 <template>
   <Container :frontend="frontend ?? []" :backend="backend ?? []" :devops="devops ?? []">
-    <div class="flex flex-col mx-5 md:mx-0 w-fit lg:flex-row relative">
-      <div class="flex flex-col justify-center items-center lg:items-end w-full mt-5 md:mt-none">
-        <div class="w-fit h-fit md:h-[500px] backdrop-opacity-5 text-white flex flex-col gap-2">
-          <div class="w-fit text-4xl font-extrabold ">Reamon Sumapig</div>
-          <div class="w-fit text-lg font-bold ">Full-Stack Developer</div>
-          <div class=" hidden md:block w-fit text-white/90 text-[12px] md:text-[16px] md:max-w-[500px] text-justify font-thin backdrop-opacity-5 bg-primary-900/20 backdrop-blur-[500px]">
-            <div>I'm a developer who’s all about building clean, accessible interfaces that look great and work even better. I really enjoy working at the sweet spot between design and code—bringing ideas to life in a way that feels good to use and performs smoothly.</div>
-            <div>Right now, I'm a Software Developer at Scibiz Informatics, working on the PurelyPeer mobile app. I help build and maintain the UI components, making sure everything looks good, works well, and stays accessible for everyone.</div>
-            <div class=" font-medium">Here are a few highlights from my recent work</div>
-          </div>
-  
-          <div class="flex h-full w-fit items-end">
-            <div class="w-fit mb-5 flex gap-5">
-              <SvgGithubLight class="w-10"></SvgGithubLight>
-              <SvgLinkedin class="w-10"></SvgLinkedin>
-              <SvgCodepen class="w-10"></SvgCodepen>
-              
+    <div class="flex flex-col xl:w-7xl xl:flex-row home-container">
+      <div class=" basis-2/5 mb-2 md:mb-0">
+        <div class="flex items-center justify-center w-full h-full">
+
+          <div class="w-full h-full xl:h-[450px] backdrop-opacity-5 text-white flex flex-col gap-2">
+            <div class="w-fit text-3xl font-extrabold ">Reamon Sumapig</div>
+            <div class="w-fit text-lg font-medium ">Full-Stack Developer <span class=" text-md font-normal">( DSoftwareArtist )</span></div>
+            <div class=" w-full text-white/90 text-[16px] text-justify font-thin backdrop-opacity-5 bg-primary-900/20 backdrop-blur-[500px]">
+              <p>I'm a developer who’s all about building clean, accessible interfaces that look great and work even better. I really enjoy working at the sweet spot between design and code—bringing ideas to life in a way that feels good to use and performs smoothly.</p>
+              <p>Right now, I'm a Software Developer at <a target="_blank" href="https://scibizinformatics.com/#/about" class="highlighted hover:cursor-pointer hover:text-secondary-400">Scibiz Informatics</a>, working on the PurelyPeer mobile app. I help build and maintain the UI components, making sure everything looks good, works well, and stays accessible for everyone.</p>
+              <div class="flex items-center gap-5 font-medium">Here are a few highlights from my recent work <SvgRight class="w-10 hidden xl:block"></SvgRight></div>
+            </div>
+    
+            <div class="flex h-full w-fit items-end">
+              <div class="w-fit mb-5 flex gap-5">
+                <NuxtLink target="_blank" to="https://github.com/DSoftwareArtist">
+                  <SvgGithubLight class="w-5 xl:w-10 group/github-light hover:cursor-pointer"></SvgGithubLight>
+                </NuxtLink>
+
+                <NuxtLink target="_blank" to="https://www.linkedin.com/in/reamon-sumapig-a34200310/">
+                  <SvgLinkedin class="w-5 xl:w-10 group/linkedin hover:cursor-pointer"></SvgLinkedin>
+                </NuxtLink>
+
+                <NuxtLink target="_blank" to="https://www.upwork.com/freelancers/reamons2">
+                  <SvgUpwork class="w-5 xl:w-10 group/upwork hover:cursor-pointer"></SvgUpwork>
+                </NuxtLink>
+
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="flex w-2xl md:w-4xl md:ml-5  h-full md:px-5 flex-col justify-center  basis-1 md:basis-1/2 lg:basis-2/3">
-        <Card class="absolute md:w-fit h-screen md:h-[500px] md:top-0 md:left-0 pb-0 mb-0">
-            <UCarousel arrows v-slot="{ item, index }" dots :items="projects" class="w-screen mx-10 md:w-[600px] md:mx-20">
-              <div  class="flex flex-col justify-center md:items-start h-screen md:h-full p-5 z-0">
-                <div class="flex items-center mt-[20px] mb-[10px]" :class="`group/project`">
-                  <div class="flex flex-col gap-2">
-                    <div class="relative flex transition-colors ease-in-out">
-                      <NuxtLink class="flex" target="_blank" :to="item?.meta?.link">
-                        <div class="basis-1/4">
-                          <img :src="`/DSoftwareArtist/img/user${item?.meta?.icon}.png`" class="hidden md:block w-40" alt="Reamon" />
+      <div class="basis-3/5 flex items-center justify-center">
+        <ClientOnly>
+          <Transition appear
+            enter-active-class="transition-opacity duration-600"
+            enter-from-class="opacity-0"
+            enter-to-class="opacity-100">
+          
+            <Card class="mb-5 w-full xl:w-2xl h-2xl">
+              <UCarousel arrows v-slot="{ item, index }" dots :items="projects" class="mx-18 sm:mx-15 md:mx-20 md:mb-20">
+                  <div  class="flex flex-col justify-center w-full h-full gap-2">
+                    <div class="flex flex-col">
+                      
+                      <NuxtLink class="flex flex-col sm:flex-row group/project mt-18" target="_blank" :to="item?.meta?.link">
+                        <div class=" basis-1/2 flex justify-center mb-2 sm:mb-0 sm:p-5">
+                          <div class="
+                            bg-primary-700/80
+                            rounded-2xl
+                            w-[200px]
+                            h-[160px]
+                            bg-cover
+                            bg-center
+                            group-hover/project:scale-105
+                            transition-all
+                            ease-in-out
+                            duration-300
+                            delay-100"
+                            :style="`background-image: url('/DSoftwareArtist/img/${item?.meta?.icon}.png')`">
+                            <div class="
+                              bg-secondary-800/50
+                              backdrop-hue-rotate-10
+                              group-hover/project:backdrop-hue-rotate-0
+                              group-hover/project:bg-secondary-800/0
+                              w-full h-full
+                              rounded-2xl"></div>
+                          </div>
                         </div>
-                        <div class="basis-3/4">
-                          <span class=" text-[24px] font-light" :class="item?.meta?.link ? `group-hover/project:text-secondary-200` : ''">{{  item?.title }}</span>
-                          <ContentRenderer class="text-justify font-thin text-[16px] transition-colors ease-in-out mt-5" :class="item?.meta?.link ? `group-hover/project:text-secondary-200` : ''" :value="item" v-if="item"></ContentRenderer>
+    
+                        <div class=" basis-1/2 flex flex-col text-wrap">
+                          <div class="flex flex-col gap-2">
+                            <div class="flex gap-2 h-[30px] items-center" :class="item?.meta?.link ? `group-hover/project:text-secondary-200` : ''">
+                              <div>{{  item?.title }}</div>
+                              <div class="flex gap-1 items-center" v-if="item?.meta?.docs || item?.meta?.api || item?.meta?.apk">
+                                <NuxtLink v-if="item?.meta?.docs" target="_blank" :to="item?.meta?.docs">
+                                  <SvgBook class="w-7 group/book hover:-translate-y-2 transition-all ease-in-out duration-300 delay-100"></SvgBook>
+                                </NuxtLink>
+                                <NuxtLink v-if="item?.meta?.api" target="_blank" :to="item?.meta?.api">
+                                  <SvgApi class="mt-2 w-9 -translate-y-1 group/api hover:-translate-y-2 transition-all ease-in-out duration-300 delay-100"></SvgApi>
+                                </NuxtLink>
+                              </div>
+                              <div v-else></div>
+                            </div>
+                            <div class=" flex overflow-auto">
+                              <ContentRenderer class=" text-wrap text-justify font-thin text-[12px] md:text-[14px] transition-colors ease-in-out" :class="item?.meta?.link ? `group-hover/project:text-secondary-200` : ''" :value="item" v-if="item"></ContentRenderer>
+                            </div>
+                          </div>
                         </div>
                       </NuxtLink>
-  
-                      <div class="absolute flex right-0" v-if="item?.meta?.docs || item?.meta?.api || item?.meta?.apk">
-                        <NuxtLink v-if="item?.meta?.docs" target="_blank" :to="item?.meta?.docs">
-                          <SvgBook class="w-10 group/book hover:-translate-y-2 transition-all ease-in-out duration-300 delay-100"></SvgBook>
-                        </NuxtLink>
-                        <NuxtLink v-if="item?.meta?.api" target="_blank" :to="item?.meta?.api">
-                          <SvgApi class=" -translate-y-1 w-12 group/api hover:-translate-y-2 transition-all ease-in-out duration-300 delay-100"></SvgApi>
-                        </NuxtLink>
-                        <NuxtLink v-if="item?.meta?.apk" :to="`/apk/${item?.meta?.apk}`">
-                          <SvgDownload class=" w-10 group/download hover:-translate-y-2 transition-all ease-in-out duration-300 delay-100"></SvgDownload>
-                        </NuxtLink>
-                      </div>
-                      <div v-else></div>
+                    </div>
+    
+                    <div class="flex gap-2 flex-wrap items-start justify-between sm:justify-center -bottom-10 text-xs h-fit sm:mb-5 md:mb-0">
+                      <a :href="`/DSoftwareArtist/tools/${tool.code}`" class=" w-full sm:w-auto capitalize bg-secondary-300/9 px-5 py-1 border-1 font-thin text-secondary-200 border-secondary-300/20 rounded-4xl hover:bg-secondary-100/8 hover:cursor-pointer" v-for="tool in item.meta.tools">{{  tool.name }}</a>
                     </div>
                   </div>
-                </div>
-                <div class="flex gap-2 flex-wrap items-start justify-center -bottom-10 text-xs">
-                  <a :href="`/DSoftwareArtist/tools/${tool.code}`" class=" capitalize bg-secondary-300/9 px-5 py-1 border-1 font-thin text-secondary-200 border-secondary-300/20 rounded-4xl hover:bg-secondary-100/8 hover:cursor-pointer" v-for="tool in item.meta.tools">{{  tool.name }}</a>
-                </div>
-              </div>
-            </UCarousel>
-        </Card>
+                </UCarousel>
+            </Card>
+          </Transition>
+        </ClientOnly>
       </div>
     </div>
   </Container>
