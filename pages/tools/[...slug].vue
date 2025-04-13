@@ -11,15 +11,14 @@ await callOnce(async () => {
 <template>
     <template v-if="tool">
         <Container>
-            <div class="flex flex-col items-center justify-center">
-                <Card class="absolute w-sceen h-[500px] top-0 left-0">
-                    <div class="flex p-14 items-center text-justify w-[730px]">
+            <div class="flex flex-col items-center justify-center p-8  md:p-0">
+                <Card class="absolute w-full md:w-2xl h-full md:h-[500px] top-0 left-0">
+                    <div class="flex flex-col gap-5 p-14 items-center text-justify">
                         <div class="flex flex-col w-full">
                             <div @click="$router.go(-1)" class="flex gap-2 group/left hover:text-secondary-300 z-20 hover:cursor-pointer">
                                 <SvgLeft class="w-5 group-hover/left:-translate-x-2 transition-all ease-in-out"></SvgLeft>
                                 <span>Check out more</span>
                             </div>
-                            <img :src="`/DSoftwareArtist/img/user.png`" class="hidden md:block w-60 float-left z-10 -translate-x-4 -translate-y-8 " alt="Reamon" />
                         </div>
                         <div class="flex flex-col w-full h-full self-start gap-2">
                             <div class="flex gap-2 w-full text-2xl capitalize font-extrabold justify-between">
