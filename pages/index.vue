@@ -122,12 +122,15 @@ await callOnce(async () => {
                           <div class="flex flex-col gap-2">
                             <div class="flex gap-2 h-[30px] items-center" :class="item?.meta?.link ? `group-hover/project:text-secondary-200` : ''">
                               <div>{{  item?.title }}</div>
-                              <div class="flex gap-1 items-center" v-if="item?.meta?.docs || item?.meta?.api || item?.meta?.apk">
+                              <div class="flex gap-1 items-center justify-end w-full" v-if="item?.meta?.docs || item?.meta?.api || item?.meta?.download">
                                 <NuxtLink v-if="item?.meta?.docs" target="_blank" :to="item?.meta?.docs">
                                   <SvgBook class="w-7 group/book hover:-translate-y-2 transition-all ease-in-out duration-300 delay-100"></SvgBook>
                                 </NuxtLink>
                                 <NuxtLink v-if="item?.meta?.api" target="_blank" :to="item?.meta?.api">
                                   <SvgApi class="mt-2 w-9 -translate-y-1 group/api hover:-translate-y-2 transition-all ease-in-out duration-300 delay-100"></SvgApi>
+                                </NuxtLink>
+                                <NuxtLink v-if="item?.meta?.download" target="_blank" :to="`/download/${item?.meta?.download}`">
+                                  <SvgDownload class="mt-2 w-7 -translate-y-1 group/download hover:-translate-y-2 transition-all ease-in-out duration-300 delay-100"></SvgDownload>
                                 </NuxtLink>
                               </div>
                               <div v-else></div>
