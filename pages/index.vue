@@ -72,8 +72,8 @@ await callOnce(async () => {
                   <SvgLinkedin class="w-5 xl:w-10 group/linkedin hover:cursor-pointer"></SvgLinkedin>
                 </NuxtLink>
 
-                <NuxtLink target="_blank" to="https://www.upwork.com/freelancers/reamons2">
-                  <SvgUpwork class="w-5 xl:w-10 group/upwork hover:cursor-pointer"></SvgUpwork>
+                <NuxtLink target="_blank" to="https://stackoverflow.com/users/5531941/reamon-s">
+                  <SvgStackoverflow class="w-5 xl:w-10 group/stackoverflow hover:cursor-pointer"></SvgStackoverflow>
                 </NuxtLink>
 
               </div>
