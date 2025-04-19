@@ -11,10 +11,6 @@ past_experiences:
   - ["Software Developer", "Scibiz Informatics", "Tacloban", "Phil", "2015-present"]
   - ["Fronted Developer", "PurelyPeer", "Tacloban", "Phil", "2020-present"]
   - ["Software Specialist", "IBS Worldwide", "Makati", "Phil", "2013-2015"]
-
-fields_of_interests: ["Path Planning", "Trajectory Planning", "Path Following",
-                      "Behaviour Planning", "Localization", "Sensor Fusion",
-                      "Embedded Systems"]
 technical_background: ["Backend Developer", "Frontend Developer", 
                        "Digital Artist", "Data Analytics", "Scraping", "DevOps"]
 currently_learning: ["Advanced CSS", "Animations", "SVG"]
