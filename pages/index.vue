@@ -88,7 +88,7 @@ await callOnce(async () => {
             enter-from-class="opacity-0"
             enter-to-class="opacity-100">
           
-            <Card class="mb-5 w-full xl:w-2xl h-2xl">
+            <Card class="mb-5 w-full xl:w-2xl h-2xl transform scale-110">
               <UCarousel arrows v-slot="{ item, index }" dots :items="projects" class="mx-18 sm:mx-15 md:mx-20 md:mb-20">
                   <div  class="flex flex-col justify-center w-full h-full gap-2">
                     <div class="flex flex-col">
@@ -143,8 +143,15 @@ await callOnce(async () => {
                       </NuxtLink>
                     </div>
     
-                    <div class="flex gap-2 flex-wrap items-start justify-between sm:justify-center -bottom-10 text-xs h-fit sm:mb-5 md:mb-0">
-                      <a :href="`/DSoftwareArtist/tools/${tool.code}`" class=" w-full sm:w-auto capitalize bg-secondary-300/9 px-5 py-1 border-1 font-thin text-secondary-200 border-secondary-300/20 rounded-4xl hover:bg-secondary-100/8 hover:cursor-pointer" v-for="tool in item.meta.tools">{{  tool.name }}</a>
+                    <div class="flex gap-1 flex-wrap items-start justify-between sm:justify-center -bottom-10 text-xs h-fit sm:mb-5 md:mb-0">
+                      <div class="flex gap-2 w-full sm:w-auto capitalize bg-primary-900/30 px-5 py-1 border-[1px] font-thin text-white border-secondary-300/50 rounded-4xl" v-for="tool in item.meta.tools">
+                        <div class="w-5 opacity-90">
+                          <Svg :tool="tool" :hoverable="false"></Svg>
+                        </div>
+                        <div>
+                          {{  tool.name }}
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </UCarousel>
