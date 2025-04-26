@@ -2,6 +2,8 @@
 @import "@nuxt/ui";
 
 @theme {
+    --container-7xl: 90rem;
+
     --font-sans: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
@@ -51,6 +53,10 @@
         }
     }
 
+}
+
+:root {
+    --ui-container: var(--container-7xl);
 }
 
 @layer utilities {
