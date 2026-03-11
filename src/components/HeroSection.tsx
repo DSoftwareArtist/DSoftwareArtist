@@ -91,10 +91,6 @@ const HeroSection = () => {
             transition={{ delay: 1, duration: 0.5 }}
             className="flex flex-col sm:flex-row gap-4 justify-center"
           >
-            {/* <Button variant="hero" size="lg" onClick={() => scrollTo("contact")} className="animate-pulse-glow">
-              <Rocket className="w-4 h-4" />
-              Hire Me
-            </Button> */}
             <Button variant="heroOutline" size="lg" onClick={() => scrollTo("projects")}>
               <Map className="w-4 h-4" />
               Explore My Portfolio
