@@ -3,9 +3,9 @@ import { Globe, MapPin, Bot } from "lucide-react";
 import SectionHeader from "./SectionHeader";
 
 const services = [
-  { icon: Globe, title: "Web App Development", rate: "$50–$100/hr", desc: "Full-stack solutions, backend & frontend.", highlight: false },
-  { icon: MapPin, title: "Geospatial & Mapping", rate: "$60–$120/hr", desc: "Leaflet, GeoDjango, GIS analysis.", highlight: true },
-  { icon: Bot, title: "Automation & Data Tools", rate: "$40–$80/hr", desc: "Python bots, dashboards, data processing.", highlight: false },
+  { icon: Globe, title: "Web App Development", rate: "$25–$50/hr", desc: "Full-stack solutions, backend & frontend.", highlight: false },
+  { icon: MapPin, title: "Geospatial & Mapping", rate: "$30–$60/hr", desc: "Leaflet, GeoDjango, GIS analysis.", highlight: true },
+  { icon: Bot, title: "Automation & Data Tools", rate: "$30–$80/hr", desc: "Python bots, dashboards, data processing.", highlight: false },
 ];
 
 const RatesSection = () => (

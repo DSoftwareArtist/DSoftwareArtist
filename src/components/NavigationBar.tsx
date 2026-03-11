@@ -58,9 +58,9 @@ const NavigationBar = () => {
         className={`fixed top-0.5 left-0 right-0 z-40 transition-all duration-300 ${isScrolled ? "bg-background/80 backdrop-blur-lg border-b border-border/50" : ""}`}
       >
         <div className="container px-4 flex items-center justify-between h-14">
-          <button onClick={() => scrollTo("hero")} className="font-heading text-sm font-bold text-primary text-glow-blue">
-            RS<span className="text-neon-green">.</span>DEV
-          </button>
+          <a href="https://github.com/DSoftwareArtist" target="_blank" className="font-heading text-sm font-bold text-primary text-glow-blue">
+            D<span className="text-foreground">SOFTWARE</span><span className="text-neon-green"></span>ARTIST
+          </a>
 
           {/* Desktop */}
           <div className="hidden md:flex items-center gap-1">
