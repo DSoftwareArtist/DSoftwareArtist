@@ -1,46 +1,7 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
 import SectionHeader from "./SectionHeader";
-
-const skillCategories = [
-  {
-    name: "Programming Languages | Frameworks & Libraries", // Combined category to match your title
-    skills: [
-      { name: "Python", level: 95 },
-      { name: "JavaScript", level: 80 },
-      { name: "TypeScript", level: 75 },
-      { name: "Django", level: 95 },
-      { name: "React / Vue", level: 85 },
-    ],
-  },
-  {
-    name: "AI & LLM Integration", // New category to match your title
-    skills: [
-      { name: "OpenAI Assistant API", level: 92 },
-      { name: "RAG Systems", level: 90 },
-      { name: "LangChain / LlamaIndex", level: 85 },
-      { name: "Prompt Engineering", level: 88 },
-    ],
-  },
-  {
-    name: "Database & Data Tools",
-    skills: [
-      { name: "PostgreSQL / PostGIS", level: 90 },
-      { name: "Vector Databases (Pinecone/Chroma)", level: 85 }, // Essential for RAG
-      { name: "Pandas", level: 80 },
-      { name: "GeoDjango", level: 82 },
-    ],
-  },
-  {
-    name: "Specialties",
-    skills: [
-      { name: "AI Engineer", level: 95 },
-      { name: "Full-Stack Architecture", level: 92 },
-      { name: "Geospatial Analysis", level: 88 },
-      { name: "Math & Algorithmic Logic", level: 90 },
-    ],
-  },
-];
+import { skillCategories } from "@/lib/constants";
 
 const SkillsSection = () => {
   const [hoveredSkill, setHoveredSkill] = useState<string | null>(null);

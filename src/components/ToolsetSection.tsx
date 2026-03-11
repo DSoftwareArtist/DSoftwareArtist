@@ -1,29 +1,6 @@
-import { motion } from "framer-motion";
 import { useState } from "react";
 import SectionHeader from "./SectionHeader";
-
-const tools = [
-  // --- AI & DATA CORE ---
-  { name: "OpenCode", desc: "Leveraging agentic TUI for autonomous coding & refactoring",  level: "Master"},
-  { name: "OpenAI API", desc: "Assistant API, GPT-4o, & Function Calling", level: "Master" },
-  { name: "RAG Systems", desc: "Vector embeddings & semantic search logic", level: "Master" },
-  { name: "Python", desc: "Core AI/Backend development — 10+ years", level: "Master" },
-  { name: "LangChain", desc: "Orchestrating LLM workflows and chains", level: "Expert" },
-  { name: "BeautifulSoup", desc: "Web scraping for AI training & data mining", level: "Expert" },
-
-  // --- FULL STACK ARCHITECTURE ---
-  { name: "Django", desc: "Scalable backend for AI-driven platforms", level: "Master" },
-  { name: "PostgreSQL", desc: "Relational data & Vector storage (pgvector)", level: "Expert" },
-  { name: "Vue | React", desc: "Building intelligent, reactive AI interfaces", level: "Expert" },
-  { name: "TypeScript", desc: "Type-safe frontend for complex AI states", level: "Expert" },
-  { name: "Tailwind CSS", desc: "Modern, rapid UI styling for AI dashboards", level: "Expert" },
-
-  // --- GEOSPATIAL & SPECIALIZED ---
-  { name: "Leaflet", desc: "Interactive maps & geospatial AI visualization", level: "Expert" },
-  { name: "APIs", desc: "Designing REST & GraphQL for AI integration", level: "Expert" },
-  { name: "Docker", desc: "Containerizing AI models & full-stack apps", level: "Advanced" },
-  { name: "Git", desc: "Collaborative version control & CI/CD", level: "Expert" },
-];
+import { tools } from "@/lib/constants";
 
 const levelColors: Record<string, string> = {
   Master: "text-neon-gold",

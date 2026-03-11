@@ -1,16 +1,7 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { Menu, X } from "lucide-react";
-
-const navItems = [
-  { id: "hero", label: "Home" },
-  { id: "skills", label: "Skills" },
-  { id: "toolset", label: "Toolset" },
-  { id: "experience", label: "Experience" },
-  { id: "projects", label: "Projects" },
-  { id: "testimonials", label: "Testimonials" },
-  { id: "rates", label: "Rates" },
-];
+import { scrollTo, navItems } from "@/lib/constants";
 
 const NavigationBar = () => {
   const [scrollProgress, setScrollProgress] = useState(0);
@@ -37,15 +28,12 @@ const NavigationBar = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const scrollTo = (id: string) => {
-    document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
-    setIsOpen(false);
-  };
+
 
   return (
     <>
       {/* Progress bar */}
-      <div className="fixed top-0 left-0 right-0 z-50 h-0.5">
+      <div className="fixed top-0 left-0 right-0 z-50 h-0.5 bg-background/80 backdrop-blur-lg">
         <div className="h-full bg-gradient-to-r from-primary via-neon-green to-neon-gold transition-all duration-150" style={{ width: `${scrollProgress}%` }} />
       </div>
 

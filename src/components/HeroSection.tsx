@@ -1,10 +1,10 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import { ChevronDown, Rocket, Map } from "lucide-react";
+import { ChevronDown, Map } from "lucide-react";
 import FloatingParticles from "./FloatingParticles";
 
-const tagline = "Crafting Scalable Code and Intelligent Systems";
+import { scrollTo, tagline} from "@/lib/constants";
 
 const HeroSection = () => {
   const [displayedText, setDisplayedText] = useState("");
@@ -23,10 +23,6 @@ const HeroSection = () => {
     }, 50);
     return () => clearInterval(interval);
   }, []);
-
-  const scrollTo = (id: string) => {
-    document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
-  };
 
   return (
     <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden grid-bg">

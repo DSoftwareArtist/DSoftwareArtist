@@ -1,16 +1,11 @@
 import { motion } from "framer-motion";
+import { glowClasses } from "@/lib/constants";
 
 interface SectionHeaderProps {
   title: string;
   subtitle?: string;
   glowColor?: "blue" | "green" | "gold";
 }
-
-const glowClasses = {
-  blue: "text-glow-blue text-primary",
-  green: "text-glow-green text-neon-green",
-  gold: "text-glow-gold text-neon-gold",
-};
 
 const SectionHeader = ({ title, subtitle, glowColor = "blue" }: SectionHeaderProps) => (
   <motion.div

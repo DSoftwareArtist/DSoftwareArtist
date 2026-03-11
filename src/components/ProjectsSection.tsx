@@ -1,39 +1,8 @@
 import { motion } from "framer-motion";
-import { Map, Car, Bot, ExternalLink, Smartphone, Play } from "lucide-react";
+import { ExternalLink, Smartphone, Play } from "lucide-react";
 import SectionHeader from "./SectionHeader";
+import { projects } from "@/lib/constants";
 
-const projects = [
-  {
-    icon: Bot,
-    web: "https://www.loom.com/share/4dcc13cee98c4884a360dd8db94bed96",
-    title: "Web Automation Bots",
-    notes: "There are mutiple projects under this category. Only one demo is provided here. Please message me on upwork for more details.",
-    desc: "Python-based bots automating web interactions for data extraction, form submissions, and task automation across various platforms.",
-    tags: ["Python", "Playwright", "APIs", "BeautifulSoup", "Pandas", "Highcharts", "Requests", "Selenium", "Django", "Crontab", "Multithreading", "Docker", "AWS"],
-    status: "ACTIVE",
-  },
-  {
-    icon: Car,
-    web: "https://autograf.com.au",
-    title: "Autograf AI Assistant",
-    demo: "https://www.loom.com/share/e792eb7239f6453da35df17083345ed4  ",
-    notes: "This is protected with username and password. Please message me on upwork for access.",
-    desc: "Designed and implemented an OpenAI Assistant to streamline customer interactions, enhance lead generation, and optimize sales processes for car dealerships. Integrated advanced NLP techniques to provide personalized recommendations and support.",
-    tags: ["Python", "Django","OpenAI API", "RAG Systems", "OpenCode/MCP", "Pinecone", "ElasticSearch", "Data Mining", "React", "CSS"],
-    status: "COMPLETED",
-  },
-  {
-    icon: Map,
-    web: "https://purelypeer.cash",
-    ios: "https://apps.apple.com/us/app/purelypeer/id6748019098",
-    demo: "https://www.loom.com/share/f8dba7b325b34f06b92cffa3d63a0ea8",
-    notes: "The app is already published on both App Store and Google Play. Please search for 'PurelyPeer' to download and try it out!",
-    title: "PurelyPeer App",
-    desc: "A geolocation-based mobile game inspired by Pokémon Go, built with Quasar and CapacitorJS. Players explore real-world locations to discover virtual treasures, complete quests, and compete on global leaderboards.",
-    tags: ["Leaflet", "PostgreSQL", "Quasar", "CapacitorJs", "Geolocation","GeoDjango", "Geospatial Indexing", "Real-time Tracking"],
-    status: "COMPLETED",
-  },
-];
 
 const ProjectsSection = () => (
   <section id="projects" className="py-20 relative">
