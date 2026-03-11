@@ -5,18 +5,13 @@ name: Reamon Sumapig
 located_in: Philippines
 job: Software Developer
 education: Bachelor of Science in Information Technology
-company: Scibiz Informatics | PurelyPeer
+company: Upwork
 past_experiences:
   - ["Software Developer", "Scibiz Informatics", "Tacloban", "Phil", "2015-present"]
-  - ["Fronted Developer", "PurelyPeer", "Tacloban", "Phil", "2020-present"]
+  - ["Frontend Developer", "PurelyPeer", "Tacloban", "Phil", "2020-present"]
   - ["Software Specialist", "IBS Worldwide", "Makati", "Phil", "2013-2015"]
-technical_background: ["Backend Developer", "Frontend Developer", 
-                       "Digital Artist", "Data Analytics", "Scraping", "DevOps"]
+technical_background: ["AI Engineer", "OpenAI Assistant API", "RAG Systems", "Backend Developer", "Frontend Developer","Full-Stack Developer", "Data Analytics", "Scraping", "DevOps"]
 currently_learning: ["Advanced CSS", "Animations", "SVG"]
 will_learn: ["Playwright", "Java", "Swift"]
 hobbies: ["Chess", "Watching Netflix with my wife", "Reading"]
 ```
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=60&section=footer"/>
-</p>
