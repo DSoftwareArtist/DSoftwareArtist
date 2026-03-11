@@ -3,7 +3,7 @@
 ```yaml
 name: Reamon Sumapig
 located_in: Philippines
-job: Software Developer
+job: AI Engineer
 education: Bachelor of Science in Information Technology
 company: Upwork
 past_experiences:
