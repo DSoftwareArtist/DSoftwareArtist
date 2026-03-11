@@ -3,16 +3,26 @@ import { useState } from "react";
 import SectionHeader from "./SectionHeader";
 
 const tools = [
-  { name: "Python", desc: "Primary language — 10+ years", level: "Master" },
-  { name: "Django", desc: "Backend framework of choice", level: "Master" },
-  { name: "React", desc: "Frontend UI library", level: "Expert" },
-  { name: "TypeScript", desc: "Type-safe JavaScript", level: "Expert" },
-  { name: "Tailwind CSS", desc: "Utility-first styling", level: "Expert" },
-  { name: "PostgreSQL", desc: "Relational database", level: "Expert" },
-  { name: "Leaflet", desc: "Interactive maps", level: "Expert" },
-  { name: "Git", desc: "Version control", level: "Expert" },
-  { name: "Docker", desc: "Containerization", level: "Advanced" },
-  { name: "APIs", desc: "REST & GraphQL", level: "Expert" },
+  // --- AI & DATA CORE ---
+  { name: "OpenCode", desc: "Leveraging agentic TUI for autonomous coding & refactoring",  level: "Master"},
+  { name: "OpenAI API", desc: "Assistant API, GPT-4o, & Function Calling", level: "Master" },
+  { name: "RAG Systems", desc: "Vector embeddings & semantic search logic", level: "Master" },
+  { name: "Python", desc: "Core AI/Backend development — 10+ years", level: "Master" },
+  { name: "LangChain", desc: "Orchestrating LLM workflows and chains", level: "Expert" },
+  { name: "BeautifulSoup", desc: "Web scraping for AI training & data mining", level: "Expert" },
+
+  // --- FULL STACK ARCHITECTURE ---
+  { name: "Django", desc: "Scalable backend for AI-driven platforms", level: "Master" },
+  { name: "PostgreSQL", desc: "Relational data & Vector storage (pgvector)", level: "Expert" },
+  { name: "Vue | React", desc: "Building intelligent, reactive AI interfaces", level: "Expert" },
+  { name: "TypeScript", desc: "Type-safe frontend for complex AI states", level: "Expert" },
+  { name: "Tailwind CSS", desc: "Modern, rapid UI styling for AI dashboards", level: "Expert" },
+
+  // --- GEOSPATIAL & SPECIALIZED ---
+  { name: "Leaflet", desc: "Interactive maps & geospatial AI visualization", level: "Expert" },
+  { name: "APIs", desc: "Designing REST & GraphQL for AI integration", level: "Expert" },
+  { name: "Docker", desc: "Containerizing AI models & full-stack apps", level: "Advanced" },
+  { name: "Git", desc: "Collaborative version control & CI/CD", level: "Expert" },
 ];
 
 const levelColors: Record<string, string> = {
@@ -30,26 +40,20 @@ const ToolsetSection = () => {
         <SectionHeader title="My Tech Arsenal" subtitle="Tools & Technologies" glowColor="gold" />
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4 max-w-5xl mx-auto">
           {tools.map((tool, i) => (
-            <motion.div
+            <div
               key={tool.name}
-              initial={{ opacity: 0, scale: 0.8 }}
-              whileInView={{ opacity: 1, scale: 1 }}
-              viewport={{ once: true }}
-              transition={{ delay: i * 0.05, duration: 0.4 }}
               onMouseEnter={() => setHovered(i)}
               onMouseLeave={() => setHovered(null)}
               className="card-game text-center cursor-pointer py-5"
             >
               <div className="font-heading text-xs font-semibold text-foreground mb-1">{tool.name}</div>
-              <motion.div
-                initial={{ height: 0, opacity: 0 }}
-                animate={hovered === i ? { height: "auto", opacity: 1 } : { height: 0, opacity: 0 }}
+              <div
                 className="overflow-hidden"
               >
                 <p className="text-[10px] text-muted-foreground mt-1">{tool.desc}</p>
                 <span className={`text-[10px] font-accent tracking-wider ${levelColors[tool.level]}`}>{tool.level}</span>
-              </motion.div>
-            </motion.div>
+              </div>
+            </div>
           ))}
         </div>
       </div>

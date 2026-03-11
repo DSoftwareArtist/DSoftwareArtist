@@ -4,14 +4,14 @@ import { Menu, X } from "lucide-react";
 
 const navItems = [
   { id: "hero", label: "Home" },
-  { id: "education", label: "Education" },
+  // { id: "education", label: "Education" },
   { id: "skills", label: "Skills" },
   { id: "toolset", label: "Toolset" },
   { id: "experience", label: "Experience" },
   { id: "projects", label: "Projects" },
   { id: "testimonials", label: "Testimonials" },
   { id: "rates", label: "Rates" },
-  { id: "contact", label: "Contact" },
+  // { id: "contact", label: "Contact" },
 ];
 
 const NavigationBar = () => {

@@ -1,6 +1,6 @@
 import NavigationBar from "@/components/NavigationBar";
 import HeroSection from "@/components/HeroSection";
-import EducationSection from "@/components/EducationSection";
+// import EducationSection from "@/components/EducationSection";
 import SkillsSection from "@/components/SkillsSection";
 import ToolsetSection from "@/components/ToolsetSection";
 import ExperienceSection from "@/components/ExperienceSection";
@@ -14,17 +14,17 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       <NavigationBar />
       <HeroSection />
-      <EducationSection />
+      {/* <EducationSection /> */}
       <SkillsSection />
       <ToolsetSection />
       <ExperienceSection />
       <ProjectsSection />
       <TestimonialsSection />
       <RatesSection />
-      <ContactSection />
+      {/* <ContactSection /> */}
       <footer className="py-8 border-t border-border text-center">
         <p className="text-xs text-muted-foreground font-accent tracking-wider">
-          © 2025 Reamon Sumapig. All missions reserved.
+          © 2026 Reamon Sumapig. All missions reserved.
         </p>
       </footer>
     </div>

@@ -1,26 +1,38 @@
 import { motion } from "framer-motion";
-import { Briefcase, MapPin, Bot } from "lucide-react";
+import { BrainCircuit, Map, Terminal, Car, Bot } from "lucide-react";
 import SectionHeader from "./SectionHeader";
 
 const experiences = [
   {
-    icon: Briefcase,
-    title: "Freelance Python Full-Stack Developer",
+    icon: BrainCircuit, // Updated icon for AI focus
+    title: "AI Engineer & Python Full-Stack Architect",
     period: "2015–Present",
-    desc: "Delivered scalable web apps, geolocation solutions, and automation tools for clients worldwide.",
+    desc: "Architecting end-to-end RAG systems and OpenAI Assistant integrations within scalable Python ecosystems. Transforming complex business logic into intelligent, autonomous applications.",
   },
   {
-    icon: MapPin,
-    title: "Geo-Location Game App Project",
-    period: "Featured Project",
-    desc: "Designed an interactive mobile game using Leaflet maps, geospatial logic, and real-time updates.",
-  },
-  {
-    icon: Bot,
-    title: "Web & Data Automation Projects",
+    icon: Terminal, // Matches your OpenCode/TUI expertise
+    title: "Agentic Automation & RAG Pipelines",
     period: "Ongoing",
-    desc: "Built tools to streamline workflows, analyze datasets, and visualize insights with interactive dashboards.",
+    desc: "Developing custom RAG pipelines using Pinecone and OpenAI. Leveraging agentic workflows (OpenCode/MCP) to automate data mining, semantic search, and complex math-heavy visualizations.",
   },
+  {
+    icon: Car,
+    title: "AI Assistant for Car Dealerships",
+    period: "Autograf | Featured Project",
+    desc: "Designed and implemented an OpenAI Assistant to streamline customer interactions, enhance lead generation, and optimize sales processes for car dealerships. Integrated advanced NLP techniques to provide personalized recommendations and support.",
+  },
+  {
+    icon: Map,
+    title: "Mobile App Development",
+    period: "PurelyPeer | Featured Project",
+    desc: "Architected a high-performance cross-platform geospatial engine, integrating GeoDjango and Leaflet to handle complex coordinate logic and real-time location tracking for iOS and Android.",
+  },
+  // {
+  //   icon: Bot,
+  //   title: "Web Scraping & Data Visualization",
+  //   period: "Featured Project",
+  //   desc: "Built a robust web scraper using Python and BeautifulSoup to extract data from complex websites. Developed interactive visualizations with highcharts and Pandas to present insights in an engaging and user-friendly manner.",
+  // },
 ];
 
 const ExperienceSection = () => (

@@ -81,9 +81,7 @@ const HeroSection = () => {
             transition={{ delay: 0.8, duration: 0.6 }}
             className="text-muted-foreground text-base sm:text-lg max-w-2xl mx-auto mb-10 leading-relaxed"
           >
-            Python Full-Stack Developer with a passion for turning complex problems into elegant, 
-            interactive solutions. From geolocation-driven apps to scalable web platforms — blending 
-            technology, math, and architecture.
+            AI Engineer & Full Stack Developer dedicated to building intelligent, production-ready applications.
           </motion.p>
 
           {/* CTA Buttons */}
@@ -93,10 +91,10 @@ const HeroSection = () => {
             transition={{ delay: 1, duration: 0.5 }}
             className="flex flex-col sm:flex-row gap-4 justify-center"
           >
-            <Button variant="hero" size="lg" onClick={() => scrollTo("contact")} className="animate-pulse-glow">
+            {/* <Button variant="hero" size="lg" onClick={() => scrollTo("contact")} className="animate-pulse-glow">
               <Rocket className="w-4 h-4" />
               Hire Me
-            </Button>
+            </Button> */}
             <Button variant="heroOutline" size="lg" onClick={() => scrollTo("projects")}>
               <Map className="w-4 h-4" />
               Explore My Portfolio
@@ -110,7 +108,7 @@ const HeroSection = () => {
             transition={{ delay: 1.5, duration: 0.5 }}
             className="mt-16"
           >
-            <button onClick={() => scrollTo("education")} className="text-muted-foreground hover:text-primary transition-colors">
+            <button onClick={() => scrollTo("skills")} className="text-muted-foreground hover:text-primary transition-colors">
               <ChevronDown className="w-6 h-6 mx-auto animate-bounce" />
             </button>
           </motion.div>
