@@ -12,6 +12,5 @@ past_experiences:
   - ["Software Specialist", "IBS Worldwide", "Makati", "Phil", "2013-2015"]
 technical_background: ["AI Engineer", "OpenAI Assistant API", "RAG Systems", "Backend Developer", "Frontend Developer","Full-Stack Developer", "Data Analytics", "Scraping", "DevOps"]
 currently_learning: ["Advanced CSS", "Animations", "SVG"]
-will_learn: ["Playwright", "Java", "Swift"]
-hobbies: ["Chess", "Watching Netflix with my wife", "Reading"]
+hobbies: ["Chess", "Reading Books", "Watching Netflix"]
 ```
