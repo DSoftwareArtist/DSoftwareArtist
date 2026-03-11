@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Rajdhani:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 220 20% 6%;
+    --foreground: 210 20% 90%;
+
+    --card: 220 18% 10%;
+    --card-foreground: 210 20% 90%;
+
+    --popover: 220 18% 10%;
+    --popover-foreground: 210 20% 90%;
+
+    --primary: 195 100% 50%;
+    --primary-foreground: 220 20% 6%;
+
+    --secondary: 150 80% 45%;
+    --secondary-foreground: 220 20% 6%;
+
+    --muted: 220 15% 15%;
+    --muted-foreground: 210 10% 55%;
+
+    --accent: 42 90% 55%;
+    --accent-foreground: 220 20% 6%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 220 15% 18%;
+    --input: 220 15% 18%;
+    --ring: 195 100% 50%;
+
+    --radius: 0.75rem;
+
+    --neon-blue: 195 100% 50%;
+    --neon-green: 150 80% 45%;
+    --neon-gold: 42 90% 55%;
+    --neon-purple: 270 80% 60%;
+
+    --sidebar-background: 220 18% 8%;
+    --sidebar-foreground: 210 20% 90%;
+    --sidebar-primary: 195 100% 50%;
+    --sidebar-primary-foreground: 220 20% 6%;
+    --sidebar-accent: 220 15% 15%;
+    --sidebar-accent-foreground: 210 20% 90%;
+    --sidebar-border: 220 15% 18%;
+    --sidebar-ring: 195 100% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-body;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Orbitron', sans-serif;
+  }
+
+  ::selection {
+    background: hsl(195 100% 50% / 0.3);
+    color: hsl(210 20% 98%);
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: hsl(220 20% 6%);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: hsl(195 100% 50% / 0.3);
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: hsl(195 100% 50% / 0.5);
+  }
+}
+
+@layer utilities {
+  .font-heading {
+    font-family: 'Orbitron', sans-serif;
+  }
+  .font-body {
+    font-family: 'Space Grotesk', sans-serif;
+  }
+  .font-accent {
+    font-family: 'Rajdhani', sans-serif;
+  }
+
+  .text-glow-blue {
+    text-shadow: 0 0 10px hsl(195 100% 50% / 0.5), 0 0 30px hsl(195 100% 50% / 0.2);
+  }
+  .text-glow-green {
+    text-shadow: 0 0 10px hsl(150 80% 45% / 0.5), 0 0 30px hsl(150 80% 45% / 0.2);
+  }
+  .text-glow-gold {
+    text-shadow: 0 0 10px hsl(42 90% 55% / 0.5), 0 0 30px hsl(42 90% 55% / 0.2);
+  }
+
+  .glow-border {
+    box-shadow: 0 0 15px hsl(195 100% 50% / 0.15), inset 0 0 15px hsl(195 100% 50% / 0.05);
+  }
+  .glow-border-green {
+    box-shadow: 0 0 15px hsl(150 80% 45% / 0.15), inset 0 0 15px hsl(150 80% 45% / 0.05);
+  }
+  .glow-border-gold {
+    box-shadow: 0 0 15px hsl(42 90% 55% / 0.15), inset 0 0 15px hsl(42 90% 55% / 0.05);
+  }
+
+  .grid-bg {
+    background-image: 
+      linear-gradient(hsl(195 100% 50% / 0.03) 1px, transparent 1px),
+      linear-gradient(90deg, hsl(195 100% 50% / 0.03) 1px, transparent 1px);
+    background-size: 40px 40px;
+  }
+
+  .card-game {
+    @apply bg-card border border-border rounded-lg p-6 relative overflow-hidden;
+    transition: all 0.3s ease;
+  }
+  .card-game::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, hsl(195 100% 50%), transparent);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  .card-game:hover::before {
+    opacity: 1;
+  }
+  .card-game:hover {
+    border-color: hsl(195 100% 50% / 0.3);
+    box-shadow: 0 0 20px hsl(195 100% 50% / 0.1);
+    transform: translateY(-2px);
+  }
+}
