@@ -32,9 +32,14 @@ const TestimonialsSection = () => (
               </div>
             )}  
             <div className="flex items-center gap-2">
+              {t.avatar ? (
+                <img src={t.avatar} alt={`${t.author}'s avatar`} className="w-8 h-8 rounded-full object-cover" />
+              ) : ( 
               <div className="w-8 h-8 rounded-full bg-gradient-to-br from-primary to-neon-green flex items-center justify-center">
                 <span className="text-xs font-heading font-bold text-primary-foreground">{t.author.slice(-1)}</span>
               </div>
+              )
+              }
               <span className="text-sm font-accent text-neon-gold tracking-wider">— {t.author}</span>
             </div>
           </motion.div>
