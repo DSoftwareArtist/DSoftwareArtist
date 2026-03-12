@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { useState } from "react";
 import SectionHeader from "./SectionHeader";
 import { skillCategories } from "@/lib/constants";
+import { scrollTo } from "@/lib/utils";
 
 const SkillsSection = () => {
   const [hoveredSkill, setHoveredSkill] = useState<string | null>(null);
@@ -25,6 +26,7 @@ const SkillsSection = () => {
                 {cat.skills.map((skill) => (
                   <div
                     key={skill.name}
+                    onClick={() => scrollTo('toolset')}
                     onMouseEnter={() => setHoveredSkill(skill.name)}
                     onMouseLeave={() => setHoveredSkill(null)}
                     className="cursor-pointer"

@@ -1,6 +1,7 @@
 import { useState } from "react";
 import SectionHeader from "./SectionHeader";
 import { tools } from "@/lib/constants";
+import { scrollTo } from "@/lib/utils";
 
 const levelColors: Record<string, string> = {
   Master: "text-neon-gold",
@@ -19,6 +20,7 @@ const ToolsetSection = () => {
           {tools.map((tool, i) => (
             <div
               key={tool.name}
+              onClick={() => scrollTo('projects') }
               onMouseEnter={() => setHovered(i)}
               onMouseLeave={() => setHovered(null)}
               className="card-game text-center cursor-pointer py-5"

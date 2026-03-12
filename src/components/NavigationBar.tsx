@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { Menu, X } from "lucide-react";
-import { scrollTo, navItems } from "@/lib/constants";
+import { navItems } from "@/lib/constants";
+import { scrollTo } from "@/lib/utils";
 
 const NavigationBar = () => {
   const [scrollProgress, setScrollProgress] = useState(0);

@@ -16,7 +16,7 @@ const ProjectsSection = () => (
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: i * 0.15, duration: 0.5 }}
-            className="card-game group cursor-pointer"
+            className="card-game group"
           >
 
             {/* Status badge */}
@@ -32,22 +32,17 @@ const ProjectsSection = () => (
               {project.title}
               { project.web && (
                 <a href={project.web} target="_blank" rel="noopener noreferrer">
-                  <ExternalLink className="w-3 h-3 text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity" />
+                  <ExternalLink className="w-3 h-3 text-neon-green opacity-0 group-hover:opacity-100 transition-opacity" />
                 </a>
               )}
               { project.ios && (
                 <a href={project.ios} target="_blank" rel="noopener noreferrer">
-                  <Smartphone className="w-3 h-3 text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity" />
-                </a>
-              )}
-              { project.android && (
-                <a href={project.android} target="_blank" rel="noopener noreferrer">
-                  <Smartphone className="w-3 h-3 text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity" />
+                  <Smartphone className="w-3 h-3 text-neon-green opacity-0 group-hover:opacity-100 transition-opacity" />
                 </a>
               )}
               { project.demo && (
                 <a href={project.demo} target="_blank" rel="noopener noreferrer">
-                  <Play className="w-3 h-3 text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity" />
+                  <Play className="w-3 h-3 text-neon-green opacity-0 group-hover:opacity-100 transition-opacity" />
                 </a>
               )}  
             </h3>

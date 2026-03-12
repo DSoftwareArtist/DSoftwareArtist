@@ -1,9 +1,5 @@
 import { BrainCircuit, Map, Terminal, Car, Bot, Globe, MapPin } from "lucide-react";
 
-export const scrollTo = (id: string) => {
-  document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
-};
-
 export const navItems = [
   { id: "hero", label: "Home" },
   { id: "skills", label: "Skills" },
@@ -31,16 +27,16 @@ export const testimonials = [
     avatar: "https://media.licdn.com/dms/image/v2/C4E03AQFy9HKfFoldfw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1560192122961?e=2147483647&v=beta&t=DoW6N0rPGPF3FGYQqtxsIKR6xjsIGhqCG62w-1Kyfno"
   },
   {
-    href: "https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.upwork.com%2Fab%2Fg%2Fpub%2Fwom%2Fprx%2FeyJwZXJzb25VaWQiOiI1MzI4ODgzNDQ0NDU4MzczMTIiLCJjb250cmFjdFJpZCI6IjE2NzA2OTAxIiwiYmFubmVyVHlwZSI6ImNvbnRyYWN0IiwiYmFubmVyVmFyaWFudCI6ImRlZmF1bHQiLCJ3b20iOiJmbHYyIiwicmVkaXJlY3QiOiJmbF9wcm9maWxlX3Byb21vIn0%3D%3Fnetwork%3Dfacebook%26fbclid%3DIwZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHg9SCDVosUg8Hst1ZfFB30RUaly9Usfz_i090j9z_HFPCikS_cavtW9WiWUO_aem_rqrvAgZRzhAwPqHAr-N5Hg&h=AT5ze_ip-g750iIMk8TqyppJ9iKA87sw_4fy7GowSNBKtJK0s61ay570NmxS-hSToAi0KzLQMbVV5Sx1gP6GFE0Ly4Bfio5OPwjpfmpsxN7Z_jAgOpLIZRirsd42oSIcVzI4IVzaaOVhrtGmiyOm8A&__tn__=H-R&c[0]=AT6deXb_LUPEksQM9sQMdTnsVGRQqntf2NxpcAeoZVnQ_y0k9yJ8zq6YxoTpkH68e0cH_7CklYVKfek7aWe2IpQwVSbSK71gTtbpFPw7XcOfizFy00xwgGrxgnotne59cZir9e99t5SZkO5ycg_ImC3HZYuLe3zWXRnIS_52D-plfqCItYk",
-    image: "https://external.fceb6-4.fna.fbcdn.net/emg1/v/t13/7341591246498200627?url=https%3A%2F%2Fwww.upwork.com%2Fab%2Fg%2Fpub%2Fwom%2Fbnr%2FeyJwZXJzb25VaWQiOiI1MzI4ODgzNDQ0NDU4MzczMTIiLCJjb250cmFjdFJpZCI6IjE2NzA2OTAxIiwiYmFubmVyVHlwZSI6ImNvbnRyYWN0IiwiYmFubmVyVmFyaWFudCI6ImRlZmF1bHQiLCJ3b20iOiJmbHYyIiwicmVkaXJlY3QiOiJmbF9wcm9maWxlX3Byb21vIn0%3D&fb_obo=1&utld=upwork.com&stp=c0.5000x0.5000f_dst-jpg_flffffff_p1000x522_q75_tt6&_nc_gid=3RZl_8jWfUn5OOyqj6lpAA&_nc_eui2=AeFML9Q5boI4N8IlSNV1CNFPvx2Jp1VBgpy_HYmnVUGCnHI2gqG_IoDbp3l4RsyhSF0Ig0S_D726DsAlcSQNwLm9&_nc_oc=Admba5orartF455BGXHTa1SRCp8oynsoMekVFvsbnOewMRbcmSNlA4sRIpKUR1ukr1Q&ccb=13-1&oh=06_Q3-9AWfcrp3KS0o0SSA30vvMvfWrPavWxCCPhcwO8KIE7MAg&oe=69B30DE0&_nc_sid=852c2c",
-    author: "Jon Harsch",
-    avatar: "https://media.licdn.com/dms/image/v2/C5603AQGJ_rFs0-SiGg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1596358752389?e=1775088000&v=beta&t=7wf5LHF4-WJwy4mQlo68VXnbvkoF-C_A8e4DHnsSK6g"
-  },
-  {
     href: "https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.upwork.com%2Fab%2Fg%2Fpub%2Fwom%2Fprx%2FeyJwZXJzb25VaWQiOiI1MzI4ODgzNDQ0NDU4MzczMTIiLCJjb250cmFjdFJpZCI6IjMwNDQzOTIxIiwiYmFubmVyVHlwZSI6ImNvbnRyYWN0IiwiYmFubmVyVmFyaWFudCI6ImRlZmF1bHQiLCJ3b20iOiJmbHYyIiwicmVkaXJlY3QiOiJmbF9wcm9maWxlX3Byb21vIn0%3D%3Fnetwork%3Dfacebook%26fbclid%3DIwZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHvkgmeeKRUlChtVZLLd61hT3SUV5TdQmZdyTbFFgIe6xSeXQqOoJiRztRKfH_aem_Q248yBViNrO3RRBo6gF7cQ&h=AT6QimiGXr-y6SlOON8yMT0mUZESYz7peM6ZLa3Lrvss6ZliUOiTugNUmeGjPxRFgwAj2Jg2fho7Fy7xCy_Jgfwyqulcs-pLTmNZ_30GQ180Tt_AP3kaWGYomRMWqT6BELabC_CdaQFUXrXgiXlCxA&__tn__=H-R&c[0]=AT7oxI7i7h7B9Rk5dg432xkDKjX8sA_lAt_hbMNb3XjwKu5Mt_kr_MFiVYL9g1SdIWdVVt78xCd2oYS4uQakH5PBEqV1nKJa63ItOMzXl97enKnHFPuMANorYfvC-cy4K9J27c-XQshRkr7MVoKCtlaXnlr49vqCZc0wmIgXLlmQJtT5h7g",
     image: "https://external.fceb6-4.fna.fbcdn.net/emg1/v/t13/7116287193279720456?url=https%3A%2F%2Fwww.upwork.com%2Fab%2Fg%2Fpub%2Fwom%2Fbnr%2FeyJwZXJzb25VaWQiOiI1MzI4ODgzNDQ0NDU4MzczMTIiLCJjb250cmFjdFJpZCI6IjMwNDQzOTIxIiwiYmFubmVyVHlwZSI6ImNvbnRyYWN0IiwiYmFubmVyVmFyaWFudCI6ImRlZmF1bHQiLCJ3b20iOiJmbHYyIiwicmVkaXJlY3QiOiJmbF9wcm9maWxlX3Byb21vIn0%3D&fb_obo=1&utld=upwork.com&stp=c0.5000x0.5000f_dst-jpg_flffffff_p1000x522_q75_tt6&_nc_gid=lrhZO-IItVaWYXyeQid22g&_nc_eui2=AeFASdV0tF7XKPoyjgybpktrd5FvQZlfNTl3kW9BmV81OckgUce3AezXk6Mk7rWb1l5A0orRXIcH4uuNFWwfmMC8&_nc_oc=AdnwACr9nVCLoz_y-jRUo9_AR6rcK7VQ1Ia2iAwD0cFOJY7r4b2TTbv7wwsL-ae_Pic&ccb=13-1&oh=06_Q3-9AY_NoSoB-yWBTO7bnWc_dizaKij-bGRKXqNLQIwdajOV&oe=69B2FD48&_nc_sid=c97757",
     author: "Morten Punnerud",
     avatar: "https://media.licdn.com/dms/image/v2/D4D03AQHHpnZKR5iIPA/profile-displayphoto-scale_400_400/B4DZqMzWqVJAAg-/0/1763298864969?e=1775088000&v=beta&t=TnSuOksipTo9EPfo1m1tfNmz7lAfHxiMug9LViqiqUg"
+  },
+  {
+    href: "https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.upwork.com%2Fab%2Fg%2Fpub%2Fwom%2Fprx%2FeyJwZXJzb25VaWQiOiI1MzI4ODgzNDQ0NDU4MzczMTIiLCJjb250cmFjdFJpZCI6IjE2NzA2OTAxIiwiYmFubmVyVHlwZSI6ImNvbnRyYWN0IiwiYmFubmVyVmFyaWFudCI6ImRlZmF1bHQiLCJ3b20iOiJmbHYyIiwicmVkaXJlY3QiOiJmbF9wcm9maWxlX3Byb21vIn0%3D%3Fnetwork%3Dfacebook%26fbclid%3DIwZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHg9SCDVosUg8Hst1ZfFB30RUaly9Usfz_i090j9z_HFPCikS_cavtW9WiWUO_aem_rqrvAgZRzhAwPqHAr-N5Hg&h=AT5ze_ip-g750iIMk8TqyppJ9iKA87sw_4fy7GowSNBKtJK0s61ay570NmxS-hSToAi0KzLQMbVV5Sx1gP6GFE0Ly4Bfio5OPwjpfmpsxN7Z_jAgOpLIZRirsd42oSIcVzI4IVzaaOVhrtGmiyOm8A&__tn__=H-R&c[0]=AT6deXb_LUPEksQM9sQMdTnsVGRQqntf2NxpcAeoZVnQ_y0k9yJ8zq6YxoTpkH68e0cH_7CklYVKfek7aWe2IpQwVSbSK71gTtbpFPw7XcOfizFy00xwgGrxgnotne59cZir9e99t5SZkO5ycg_ImC3HZYuLe3zWXRnIS_52D-plfqCItYk",
+    image: "https://external.fceb6-4.fna.fbcdn.net/emg1/v/t13/7341591246498200627?url=https%3A%2F%2Fwww.upwork.com%2Fab%2Fg%2Fpub%2Fwom%2Fbnr%2FeyJwZXJzb25VaWQiOiI1MzI4ODgzNDQ0NDU4MzczMTIiLCJjb250cmFjdFJpZCI6IjE2NzA2OTAxIiwiYmFubmVyVHlwZSI6ImNvbnRyYWN0IiwiYmFubmVyVmFyaWFudCI6ImRlZmF1bHQiLCJ3b20iOiJmbHYyIiwicmVkaXJlY3QiOiJmbF9wcm9maWxlX3Byb21vIn0%3D&fb_obo=1&utld=upwork.com&stp=c0.5000x0.5000f_dst-jpg_flffffff_p1000x522_q75_tt6&_nc_gid=3RZl_8jWfUn5OOyqj6lpAA&_nc_eui2=AeFML9Q5boI4N8IlSNV1CNFPvx2Jp1VBgpy_HYmnVUGCnHI2gqG_IoDbp3l4RsyhSF0Ig0S_D726DsAlcSQNwLm9&_nc_oc=Admba5orartF455BGXHTa1SRCp8oynsoMekVFvsbnOewMRbcmSNlA4sRIpKUR1ukr1Q&ccb=13-1&oh=06_Q3-9AWfcrp3KS0o0SSA30vvMvfWrPavWxCCPhcwO8KIE7MAg&oe=69B30DE0&_nc_sid=852c2c",
+    author: "Jon Harsch",
+    avatar: "https://media.licdn.com/dms/image/v2/C5603AQGJ_rFs0-SiGg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1596358752389?e=1775088000&v=beta&t=7wf5LHF4-WJwy4mQlo68VXnbvkoF-C_A8e4DHnsSK6g"
   },
   {
     href: "https://www.upwork.com/ab/g/pub/wom/prx/eyJwZXJzb25VaWQiOiI1MzI4ODgzNDQ0NDU4MzczMTIiLCJjb250cmFjdFJpZCI6IjE4NTYyMzcwIiwiYmFubmVyVHlwZSI6ImNvbnRyYWN0IiwiYmFubmVyVmFyaWFudCI6ImRlZmF1bHQiLCJ3b20iOiJmbHYyIiwicmVkaXJlY3QiOiJmbF9wcm9maWxlX3Byb21vIn0=?network=facebook&fbclid=IwZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHp-14zMp9WkRfFC26iprMz6IhTeA6l9oYhDnsRDZwSo0LuRFbdv9Cz2eRHAN_aem_BWoLGLmOfYZCQBHR47UnOg",
@@ -106,7 +102,7 @@ export const projects = [
     notes: "The app is already published on both App Store and Google Play. Please search for 'PurelyPeer' to download and try it out!",
     title: "PurelyPeer App",
     desc: "A geolocation-based mobile game inspired by Pokémon Go, built with Quasar and CapacitorJS. Players explore real-world locations to discover virtual treasures, complete quests, and compete on global leaderboards.",
-    tags: ["Leaflet", "PostgreSQL", "Quasar", "CapacitorJs", "Geolocation","GeoDjango", "Geospatial Indexing", "Real-time Tracking"],
+    tags: ["Leaflet", "PostgreSQL", "Quasar", "CapacitorJs", "Geolocation","GeoDjango", "Geospatial Indexing", "Real-time Tracking", "BitcoinCash", "Blockchain"],
     status: "COMPLETED",
   },
 ];

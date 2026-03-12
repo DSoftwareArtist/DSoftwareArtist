@@ -4,7 +4,9 @@ import { Button } from "@/components/ui/button";
 import { ChevronDown, Map } from "lucide-react";
 import FloatingParticles from "./FloatingParticles";
 
-import { scrollTo, tagline} from "@/lib/constants";
+import {tagline} from "@/lib/constants";
+import { scrollTo } from "@/lib/utils";
+
 
 const HeroSection = () => {
   const [displayedText, setDisplayedText] = useState("");
