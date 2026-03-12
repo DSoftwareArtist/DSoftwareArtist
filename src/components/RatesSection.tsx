@@ -2,7 +2,6 @@ import { motion } from "framer-motion";
 import SectionHeader from "./SectionHeader";
 import { services } from "@/lib/constants";
 
-
 const RatesSection = () => (
   <section id="rates" className="py-20 relative">
     <div className="container px-4">
@@ -15,7 +14,8 @@ const RatesSection = () => (
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: i * 0.15, duration: 0.5 }}
-            className={`card-game text-center ${s.highlight ? "border-primary/40 glow-border" : ""}`}
+            onClick={() => window.open(s.link, "_blank")}
+            className={`card-game text-center cursor-pointer ${s.highlight ? "border-primary/40 glow-border" : ""}`}
           >
             {s.highlight && (
               <div className="absolute -top-3 left-1/2 -translate-x-1/2 text-[10px] font-accent tracking-wider px-3 py-0.5 rounded-full bg-primary text-primary-foreground">
