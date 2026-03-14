@@ -87,7 +87,7 @@ export const projects = [
   {
     icon: Car,
     web: "https://autograf.com.au",
-    title: "Autograf AI Assistant",
+    title: "Full-Stack + AI Assistant App",
     demo: "https://www.loom.com/share/e792eb7239f6453da35df17083345ed4  ",
     notes: "This is protected with username and password. Please message me on upwork for access.",
     desc: "Designed and implemented an OpenAI Assistant to streamline customer interactions, enhance lead generation, and optimize sales processes for car dealerships. Integrated advanced NLP techniques to provide personalized recommendations and support.",
@@ -100,7 +100,7 @@ export const projects = [
     ios: "https://apps.apple.com/us/app/purelypeer/id6748019098",
     demo: "https://www.loom.com/share/f8dba7b325b34f06b92cffa3d63a0ea8",
     notes: "The app is already published on both App Store and Google Play. Please search for 'PurelyPeer' to download and try it out!",
-    title: "PurelyPeer App",
+    title: "Geospatial Mobile App",
     desc: "A geolocation-based mobile game inspired by Pokémon Go, built with Quasar and CapacitorJS. Players explore real-world locations to discover virtual treasures, complete quests, and compete on global leaderboards.",
     tags: ["Leaflet", "PostgreSQL", "Quasar", "CapacitorJs", "Geolocation","GeoDjango", "Geospatial Indexing", "Real-time Tracking", "BitcoinCash", "Blockchain"],
     status: "COMPLETED",
@@ -156,10 +156,10 @@ export const skillCategories = [
   {
     name: "Database & Data Tools",
     skills: [
-      { name: "PostgreSQL / PostGIS", level: 90 },
-      { name: "Vector Databases (Pinecone/Chroma)", level: 85 },
+      { name: "PostgreSQL", level: 90 },
+      { name: "Vector Databases (FAISS/Pinecone/Chroma)", level: 70 },
       { name: "Pandas", level: 80 },
-      { name: "GeoDjango", level: 82 },
+      { name: "GeoDjango", level: 85 },
     ],
   },
   {
