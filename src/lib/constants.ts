@@ -135,7 +135,7 @@ export const services = [
 
 export const skillCategories = [
   {
-    name: "Programming Languages | Frameworks & Libraries", // Combined category to match your title
+    name: "Programming Languages | Frameworks & Libraries",
     skills: [
       { name: "Python", level: 95 },
       { name: "JavaScript", level: 80 },
@@ -145,7 +145,7 @@ export const skillCategories = [
     ],
   },
   {
-    name: "AI & LLM Integration", // New category to match your title
+    name: "AI & LLM Integration",
     skills: [
       { name: "OpenAI Assistant API", level: 82 },
       { name: "RAG Systems", level: 73 },
@@ -157,7 +157,7 @@ export const skillCategories = [
     name: "Database & Data Tools",
     skills: [
       { name: "PostgreSQL / PostGIS", level: 90 },
-      { name: "Vector Databases (Pinecone/Chroma)", level: 85 }, // Essential for RAG
+      { name: "Vector Databases (Pinecone/Chroma)", level: 85 },
       { name: "Pandas", level: 80 },
       { name: "GeoDjango", level: 82 },
     ],
@@ -165,9 +165,9 @@ export const skillCategories = [
   {
     name: "Specialties",
     skills: [
-      { name: "AI Engineer", level: 95 },
+      { name: "AI Engineer", level: 80 },
       { name: "Full-Stack Architecture", level: 92 },
-      { name: "Geospatial Analysis", level: 88 },
+      { name: "Geospatial Analysis", level: 85 },
       { name: "Math & Algorithmic Logic", level: 90 },
     ],
   },
