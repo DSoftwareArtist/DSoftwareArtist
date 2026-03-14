@@ -147,10 +147,10 @@ export const skillCategories = [
   {
     name: "AI & LLM Integration", // New category to match your title
     skills: [
-      { name: "OpenAI Assistant API", level: 92 },
-      { name: "RAG Systems", level: 90 },
-      { name: "LangChain / LlamaIndex", level: 85 },
-      { name: "Prompt Engineering", level: 88 },
+      { name: "OpenAI Assistant API", level: 82 },
+      { name: "RAG Systems", level: 73 },
+      { name: "LangChain / LlamaIndex", level: 70 },
+      { name: "Prompt Engineering", level: 80 },
     ],
   },
   {
