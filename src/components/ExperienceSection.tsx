@@ -20,7 +20,7 @@ const ExperienceSection = () => (
             className={`relative mb-12 md:w-1/2 ${i % 2 === 0 ? "md:pr-12 md:ml-0" : "md:pl-12 md:ml-auto"} pl-14 md:pl-0`}
           >
             {/* Dot */}
-            <div className={`absolute left-4 md:${i % 2 === 0 ? "right-[-8px]" : "left-[-8px]"} top-2 w-4 h-4 rounded-full bg-primary border-2 border-background z-10`} />
+            <div className={`absolute left-4 right-auto ${i % 2 === 0 ? "md:-right-2 md:left-auto" : "md:-left-2 md:right-auto"} top-2 w-4 h-4 rounded-full bg-primary border-2 border-background z-10`} />
             
             <div className="card-game">
               <div className="flex items-center gap-3 mb-2">
