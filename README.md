@@ -7,10 +7,9 @@ job: AI Engineer
 education: Bachelor of Science in Information Technology
 company: Upwork
 past_experiences:
-  - ["Software Developer", "Scibiz Informatics", "Tacloban", "Phil", "2015-2026"]
-  - ["Frontend Developer", "PurelyPeer", "Tacloban", "Phil", "2020-present"]
+  - ["Senior Software Developer", "Scibiz Informatics", "Tacloban", "Phil", "2015-2026"]
   - ["Software Specialist", "IBS Worldwide", "Makati", "Phil", "2013-2015"]
-technical_background: ["AI Engineer", "OpenAI Assistant API", "RAG Systems", "Backend Developer", "Frontend Developer","Full-Stack Developer", "Data Analytics", "Scraping", "DevOps"]
+technical_background: ["AI Engineer", "LLM", "Langchain", "OpenAI Assistant API", "RAG Systems", "Backend Developer", "Frontend Developer","Full-Stack Developer", "Data Analytics", "Scraping", "DevOps"]
 currently_learning: ["Advanced CSS", "Animations", "SVG"]
 hobbies: ["Chess", "Reading Books", "Watching Netflix"]
 ```
