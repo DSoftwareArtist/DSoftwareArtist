@@ -9,7 +9,9 @@ company: Upwork
 past_experiences:
   - ["Senior Software Developer", "Scibiz Informatics", "Tacloban", "Phil", "2015-2026"]
   - ["Software Specialist", "IBS Worldwide", "Makati", "Phil", "2013-2015"]
-technical_background: ["AI Engineer", "LLM", "Langchain", "OpenAI Assistant API", "RAG Systems", "Backend Developer", "Frontend Developer","Full-Stack Developer", "Data Analytics", "Scraping", "DevOps"]
-currently_learning: ["Advanced CSS", "Animations", "SVG"]
+technical_background:
+  - ["AI Engineer", "LLM", "Langchain", "OpenAI Assistant API", "RAG Systems", "Django", "PostgreSQL]
+  - ["Vue", "React.js", "Quasar", "Leaflet", "Web", "Android", "iOS"]
+  - ["Data Analytics", "Scraping", "Multi-threading", "Redis", "Docker", "DevOps"]
 hobbies: ["Chess", "Reading Books", "Watching Netflix"]
 ```
