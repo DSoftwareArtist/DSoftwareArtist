@@ -6,7 +6,7 @@ export const navItems = [
   { id: "toolset", label: "Toolset" },
   { id: "experience", label: "Experience" },
   { id: "projects", label: "Projects" },
-  { id: "testimonials", label: "Testimonials" },
+  // { id: "testimonials", label: "Testimonials" },
   { id: "rates", label: "Rates" },
 ];
 
@@ -111,7 +111,7 @@ export const services = [
   {
     icon: Globe,
     title: "Web App Development",
-    rate: "$25–$50/hr", desc: "Full-stack solutions, backend & frontend.",
+    rate: "$20–$50/hr", desc: "Full-stack solutions, backend & frontend.",
     highlight: false,
     link: "https://www.upwork.com/freelancers/reamonsumapig"
   },
