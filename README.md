@@ -3,7 +3,7 @@
 ```yaml
 name: Reamon Sumapig
 located_in: Philippines
-job: AI Engineer
+job: AI Full-Stack Web Developer
 education: Bachelor of Science in Information Technology
 company: Upwork
 past_experiences:
