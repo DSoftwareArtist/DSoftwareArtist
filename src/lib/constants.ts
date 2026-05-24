@@ -57,8 +57,8 @@ export const tools = [
   { name: "OpenAI API", desc: "Assistant API, GPT-4o, & Function Calling", level: "Master" },
   { name: "RAG Systems", desc: "Vector embeddings & semantic search logic", level: "Master" },
   { name: "Python", desc: "Core AI/Backend development — 10+ years", level: "Master" },
-  { name: "LangChain", desc: "Orchestrating LLM workflows and chains", level: "Expert" },
-  { name: "BeautifulSoup", desc: "Web scraping for AI training & data mining", level: "Expert" },
+  { name: "LangChain", desc: "Orchestrating LLM workflows and chains", level: "Master" },
+  { name: "LangGraph", desc: "Graph-based orchestration for LLM applications", level: "Master" },
 
   // --- FULL STACK ARCHITECTURE ---
   { name: "Django", desc: "Scalable backend for AI-driven platforms", level: "Master" },
