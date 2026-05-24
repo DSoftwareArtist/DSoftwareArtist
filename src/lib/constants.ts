@@ -1,4 +1,4 @@
-import { BrainCircuit, Map, Terminal, Car, Bot, Globe, MapPin } from "lucide-react";
+import { BrainCircuit, Map, Terminal, Car, Bot, Globe, MapPin, Rocket, Smartphone } from "lucide-react";
 
 export const navItems = [
   { id: "hero", label: "Home" },
@@ -77,26 +77,23 @@ export const tools = [
 export const projects = [
   {
     icon: Bot,
-    web: "https://www.loom.com/share/4dcc13cee98c4884a360dd8db94bed96",
+    demo: "https://www.loom.com/share/4dcc13cee98c4884a360dd8db94bed96",
     title: "Web Automation Bots",
     notes: "There are mutiple projects under this category. Only one demo is provided here. Please message me on upwork for more details.",
     desc: "Python-based bots automating web interactions for data extraction, form submissions, and task automation across various platforms.",
     tags: ["Python", "Playwright", "APIs", "BeautifulSoup", "Pandas", "Highcharts", "Requests", "Selenium", "Django", "Crontab", "Multithreading", "Docker", "AWS"],
-    status: "ACTIVE",
-  },
-  {
-    icon: Car,
-    web: "https://autograf.com.au",
-    title: "Full-Stack + AI Assistant App",
-    demo: "https://www.loom.com/share/e792eb7239f6453da35df17083345ed4  ",
-    notes: "This is protected with username and password. Please message me on upwork for access.",
-    desc: "Designed and implemented an OpenAI Assistant to streamline customer interactions, enhance lead generation, and optimize sales processes for car dealerships. Integrated advanced NLP techniques to provide personalized recommendations and support.",
-    tags: ["Python", "Django","OpenAI API", "RAG Systems", "OpenCode/MCP", "Pinecone", "ElasticSearch", "Data Mining", "React", "CSS"],
     status: "COMPLETED",
   },
   {
-    icon: Map,
-    web: "https://purelypeer.cash",
+    icon: Rocket,
+    title: "Full-Stack + AI Assistant App",
+    demo: "https://www.loom.com/share/08e4eec1870044c0801aba68b95b2f7f",
+    desc: "Helped develop an AI-Assisted tax-related platform focused in Australian taxation. It was design to have 17 “gurus” specialize in different categories. Users can upload documents and ask any tax-related question through a chatbox interface.",
+    tags: ["Python", "FastAPI","OpenAI API", "RAG Systems", "Supabase", "Pinecone", "Next.js", "TypeScript", "React", "CSS"],
+    status: "COMPLETED",
+  },
+  {
+    icon: Smartphone,
     ios: "https://apps.apple.com/us/app/purelypeer/id6748019098",
     demo: "https://www.loom.com/share/f8dba7b325b34f06b92cffa3d63a0ea8",
     notes: "The app is already published on both App Store and Google Play. Please search for 'PurelyPeer' to download and try it out!",
@@ -111,14 +108,14 @@ export const services = [
   {
     icon: Globe,
     title: "Web App Development",
-    rate: "$20–$50/hr", desc: "Full-stack solutions, backend & frontend.",
+    rate: "$20–30/hr", desc: "Full-stack solutions, backend & frontend.",
     highlight: false,
     link: "https://www.upwork.com/freelancers/reamonsumapig"
   },
   {
     icon: MapPin,
     title: "Geospatial & Mapping",
-    rate: "$30–$60/hr",
+    rate: "$25–$30/hr",
     desc: "Leaflet, GeoDjango, GIS analysis.",
     highlight: true,
     link: "https://www.upwork.com/freelancers/reamonsumapig"
@@ -126,7 +123,7 @@ export const services = [
   {
     icon: Bot,
     title: "Automation & Data Tools",
-    rate: "$30–$80/hr",
+    rate: "$20–$30/hr",
     desc: "Python bots, dashboards, data processing.",
     highlight: false,
     link: "https://www.upwork.com/freelancers/reamonsumapig"

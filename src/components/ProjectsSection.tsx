@@ -16,7 +16,10 @@ const ProjectsSection = () => (
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: i * 0.15, duration: 0.5 }}
-            className="card-game group"
+            className="card-game group cursor-pointer relative"
+            onClick={() => {
+              window.open(project.demo, "_blank", "noopener,noreferrer");
+            }}
           >
 
             {/* Status badge */}
@@ -30,21 +33,6 @@ const ProjectsSection = () => (
             
             <h3 className="font-heading text-sm font-semibold text-foreground mb-2 flex items-center gap-2">
               {project.title}
-              { project.web && (
-                <a href={project.web} target="_blank" rel="noopener noreferrer">
-                  <ExternalLink className="w-3 h-3 text-neon-green opacity-0 group-hover:opacity-100 transition-opacity" />
-                </a>
-              )}
-              { project.ios && (
-                <a href={project.ios} target="_blank" rel="noopener noreferrer">
-                  <Smartphone className="w-3 h-3 text-neon-green opacity-0 group-hover:opacity-100 transition-opacity" />
-                </a>
-              )}
-              { project.demo && (
-                <a href={project.demo} target="_blank" rel="noopener noreferrer">
-                  <Play className="w-3 h-3 text-neon-green opacity-0 group-hover:opacity-100 transition-opacity" />
-                </a>
-              )}  
             </h3>
             
             <p className="text-muted-foreground text-sm leading-relaxed mb-4">{project.desc}</p>
