@@ -3,15 +3,84 @@
 ```yaml
 name: Reamon Sumapig
 located_in: Philippines
-job: AI Full-Stack Web Developer
-education: Bachelor of Science in Information Technology
+job: AI Engineer | Senior Full-Stack Developer
+education:
+  degree: Bachelor of Science in Information Technology
+
 company: Upwork
+
 past_experiences:
-  - ["Senior Software Developer", "Scibiz Informatics", "Tacloban", "Phil", "2015-2026"]
-  - ["Software Specialist", "IBS Worldwide", "Makati", "Phil", "2013-2015"]
+  - ["Senior Software Developer", "Scibiz Informatics", "Tacloban, Philippines", "2015-2026"]
+  - ["Software Specialist", "IBS Worldwide", "Makati, Philippines", "2013-2015"]
+
 technical_background:
-  - ["AI Engineer", "LLM", "Langchain", "OpenAI Assistant API", "RAG Systems", "Django", "PostgreSQL]
-  - ["Vue", "React.js", "Quasar", "Leaflet", "Web", "Android", "iOS"]
-  - ["Data Analytics", "Scraping", "Multi-threading", "Redis", "Docker", "DevOps"]
-hobbies: ["Chess", "Reading Books", "Watching Netflix"]
+  - [
+      "AI Engineering",
+      "OpenAI",
+      "LangChain",
+      "LangGraph",
+      "RAG",
+      "AI Agents",
+      "Prompt Engineering",
+      "Function Calling",
+      "Embeddings",
+      "Vector Databases"
+    ]
+
+  - [
+      "Python",
+      "FastAPI",
+      "Django",
+      "TypeScript",
+      "Next.js",
+      "React",
+      "Vue.js",
+      "Node.js"
+    ]
+
+  - [
+      "PostgreSQL",
+      "Supabase",
+      "pgvector",
+      "Pinecone",
+      "Redis",
+      "REST APIs",
+      "GraphQL"
+    ]
+
+  - [
+      "Docker",
+      "AWS",
+      "Railway",
+      "Vercel",
+      "GitHub Actions",
+      "CI/CD",
+      "DevOps"
+    ]
+
+  - [
+      "Authentication",
+      "OAuth",
+      "Supabase Auth",
+      "RBAC",
+      "MFA",
+      "Security",
+      "Multi-tenant SaaS"
+    ]
+
+  - [
+      "Web Scraping",
+      "Playwright",
+      "Scrapy",
+      "Data Pipelines",
+      "Automation",
+      "Analytics"
+    ]
+
+hobbies:
+  - Chess
+  - Reading Books
+  - Watching Movies
+  - Learning AI
+  - Building Side Projects
 ```
