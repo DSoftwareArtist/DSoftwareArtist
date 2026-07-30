@@ -14,68 +14,12 @@ past_experiences:
   - ["Software Specialist", "IBS Worldwide", "Makati, Philippines", "2013-2015"]
 
 technical_background:
-  - [
-      "AI Engineering",
-      "OpenAI",
-      "LangChain",
-      "LangGraph",
-      "RAG",
-      "AI Agents",
-      "Prompt Engineering",
-      "Function Calling",
-      "Embeddings",
-      "Vector Databases"
-    ]
-
-  - [
-      "Python",
-      "FastAPI",
-      "Django",
-      "TypeScript",
-      "Next.js",
-      "React",
-      "Vue.js",
-      "Node.js"
-    ]
-
-  - [
-      "PostgreSQL",
-      "Supabase",
-      "pgvector",
-      "Pinecone",
-      "Redis",
-      "REST APIs",
-      "GraphQL"
-    ]
-
-  - [
-      "Docker",
-      "AWS",
-      "Railway",
-      "Vercel",
-      "GitHub Actions",
-      "CI/CD",
-      "DevOps"
-    ]
-
-  - [
-      "Authentication",
-      "OAuth",
-      "Supabase Auth",
-      "RBAC",
-      "MFA",
-      "Security",
-      "Multi-tenant SaaS"
-    ]
-
-  - [
-      "Web Scraping",
-      "Playwright",
-      "Scrapy",
-      "Data Pipelines",
-      "Automation",
-      "Analytics"
-    ]
+  - [ "AI Engineering","OpenAI","LangChain","LangGraph","RAG","AI Agents","Prompt Engineering","Function Calling","Embeddings","Vector Databases"]
+  - ["Python","FastAPI","Django","TypeScript","Next.js","React","Vue.js","Node.js"]
+  - ["PostgreSQL","Supabase","pgvector","Pinecone","Redis","REST APIs","GraphQL"]
+  - ["Docker","AWS","Railway","Vercel","GitHub Actions","CI/CD","DevOps"]
+  - ["Authentication","OAuth","Supabase Auth","RBAC","MFA","Security","Multi-tenant SaaS"]
+  - ["Web Scraping","Playwright","Scrapy","Data Pipelines","Automation","Analytics"]
 
 hobbies:
   - Chess
